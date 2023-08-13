@@ -27,8 +27,11 @@ void runcmd(char * cmd[],int * redir,int dir){
                 close(redir[0]);
     }
     n = execvp(cmd[0],cmd);
+    
     if (n < 0){
         perror(cmd[0]);
+        
+        
     }
 }
 
@@ -70,9 +73,7 @@ void run(char * toks[],int * redir,int dir){
         childpid = fork();
         if (childpid == 0){
             runcmd(toks,redir,dir);
-            exit(0);
-        }else if (childpid < 0){
-            perror("fork");
+            exit(1);
         }else{
             wait(NULL);
         }
