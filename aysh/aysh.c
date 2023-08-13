@@ -13,15 +13,21 @@ Purpose: contains additional functions used to manage the shell
 #include <sys/stat.h>
 #include <fcntl.h>
 
-void runcmd(char * cmd[],int redir,int dir){
+void runcmd(char * cmd[],int * redir,int dir){
     /* FUNCTION THAT RUNS ANY COMMAND THAT IS NOT THE CD COMMAND*/
     int n;
-    if (redir > 0 && dir > -1 ){
-                dup2(redir,dir);
-                close(redir);
-        }
-    
+    if (redir[0] > 0 && dir > -1  && dir < 2){
+                dup2(redir[0],dir);
+                close(redir[0]);
+    } else if (redir[0] > 0 &&  redir[1] > 0 && dir > -1  && dir == 2){
+                printf("here\n");
+                dup2(redir[1],dir-1);
+                dup2(redir[0],dir-2);
+                close(redir[1]);
+                close(redir[0]);
+    }
     n = execvp(cmd[0],cmd);
+    printf("n: %d\n",n);
     if (n < 0){
         perror(cmd[0]);
     }
@@ -44,7 +50,7 @@ int tokenize(char * s,char * tok[],char* sep){
     return i;
 }
 
-void run(char * toks[],int redir,int dir){
+void run(char * toks[],int * redir,int dir){
     /*deal with each different style of line in the parsed input and set*/
     int childpid;
     int n;

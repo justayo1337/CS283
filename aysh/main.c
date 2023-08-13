@@ -13,6 +13,7 @@ Purpose: contains the main base functions for the shell and includes the builtin
 #include "aysh.h"
 #include <sys/stat.h>
 #include <fcntl.h>
+#include <sys/file.h>
 
 
 int main(int argc, char** argv){
@@ -46,30 +47,112 @@ void parseLine(char* buf,char* toks[]){
     char * p;
     //to be used as a buffer for individual chunks
     char* toks2[MAXTOKS];
-    int fd = -1;
+    int fd[2];
+    fd[0]= -1;
+    fd[1]= -1;
+
     if (strchr(buf,'|') ){
         n = tokenize(buf,toks,"|");
         for (int i = 0; i < n; i++ ){
             tokenize(toks[i],toks2," \t\n");
             run(toks2,fd,-1);
         }
-    }else if (strstr(buf,">>")){
+    }else if (strchr(buf,'<') && strstr(buf,">>")){
+        char* toks3[MAXTOKS];
+        int fd2;
+        
+        if (strchr(buf,'<') > strstr(buf,">>")) {
+            n = tokenize(buf,toks,"><");
+            tokenize(toks[0],toks2," \t\n");
+            toks[1] = cleanStr(toks[1]);
+            toks[2] = cleanStr(toks[2]);
+            fd[0] = open(toks[2],O_RDONLY) ;
+            flock(fd[0], LOCK_SH);
+            fd[1] = open(toks[1],O_APPEND | O_WRONLY);
+            flock(fd[1], LOCK_EX);
+            if (fd[0] < 0){
+                perror(toks[1]);
+            }
+            if (fd[1] < 0){
+                perror(toks[2]);
+            }
+            run(toks2,fd,2);
+            flock(fd[0], LOCK_UN);
+            flock(fd[1], LOCK_UN);
+        }
+
+        if (strchr(buf,'<') < strstr(buf,">>")) {
+            n = tokenize(buf,toks,"><");
+            tokenize(toks[0],toks2," \t\n");
+            toks[1] = cleanStr(toks[1]);
+            toks[2] = cleanStr(toks[2]);
+            fd[0] = open(toks[1],O_RDONLY);
+            flock(fd[0], LOCK_SH);
+            fd[1] = open(toks[2],O_APPEND | O_WRONLY) ;
+            flock(fd[1], LOCK_EX);
+            if (fd[0] < 0){
+                perror(toks[1]);
+            }
+            if (fd[1] < 0){
+                perror(toks[2]);
+            }
+            run(toks2,fd,2);
+            flock(fd[0], LOCK_UN);
+            flock(fd[1], LOCK_UN);
+
+        }
+        } else if (strstr(buf,">>")){
         n = tokenize(buf,toks,">");
         tokenize(toks[0],toks2," \t\n");
         toks[1] = cleanStr(toks[1]);
-        fd = open(toks[1], O_APPEND | O_WRONLY);
-        if (fd < 0){
+        fd[0] = open(toks[1], O_APPEND | O_WRONLY);
+        if (fd[0] < 0){
             perror(toks[1]);
         }
         run(toks2,fd,1);
 
     }else if (strchr(buf,'<') && strchr(buf,'>') ){
-        char* toks3[MAXTOKS];;
-        n = tokenize(buf,toks,"><");
-
+        char* toks3[MAXTOKS];
+        int fd2;
+        
         if (strchr(buf,'<') > strchr(buf,'>')) {
-            //parseline(toks[0], toks2);
-            
+            n = tokenize(buf,toks,"><");
+            tokenize(toks[0],toks2," \t\n");
+            toks[1] = cleanStr(toks[1]);
+            toks[2] = cleanStr(toks[2]);
+            fd[0] = open(toks[2],O_RDONLY) ;
+            flock(fd[0], LOCK_SH);
+            fd[1] = open(toks[1],O_WRONLY | O_TRUNC | O_CREAT,00664);
+            flock(fd[1], LOCK_EX);
+            if (fd[0] < 0){
+                perror(toks[1]);
+            }
+            if (fd[1] < 0){
+                perror(toks[2]);
+            }
+            run(toks2,fd,2);
+            flock(fd[0], LOCK_UN);
+            flock(fd[1], LOCK_UN);
+        }
+
+        if (strchr(buf,'<') < strchr(buf,'>')) {
+            n = tokenize(buf,toks,"><");
+            tokenize(toks[0],toks2," \t\n");
+            toks[1] = cleanStr(toks[1]);
+            toks[2] = cleanStr(toks[2]);
+            fd[0] = open(toks[1],O_RDONLY);
+            flock(fd[0], LOCK_SH);
+            fd[1] = open(toks[2],O_WRONLY | O_TRUNC | O_CREAT,00664) ;
+            flock(fd[1], LOCK_EX);
+            if (fd[0] < 0){
+                perror(toks[1]);
+            }
+            if (fd[1] < 0){
+                perror(toks[2]);
+            }
+            run(toks2,fd,2);
+            flock(fd[0], LOCK_UN);
+            flock(fd[1], LOCK_UN);
         }
 
     } else if (strchr(buf,'<') ){
@@ -77,7 +160,7 @@ void parseLine(char* buf,char* toks[]){
         tokenize(toks[0],toks2," \t\n");
         toks[1] = cleanStr(toks[1]);
         //printf("%s\n", toks[1]);
-        fd = open(toks[1],O_RDONLY);
+        fd[0] = open(toks[1],O_RDONLY);
         if (fd < 0){
             perror(toks[1]);
         }
@@ -88,8 +171,8 @@ void parseLine(char* buf,char* toks[]){
         n = tokenize(buf,toks,">");
         tokenize(toks[0],toks2," \t\n");
         toks[1] = cleanStr(toks[1]);
-        fd = open(toks[1],O_WRONLY | O_TRUNC | O_CREAT,00664);
-        if (fd < 0){
+        fd[0] = open(toks[1],O_WRONLY | O_TRUNC | O_CREAT,00664);
+        if (fd[0] < 0){
             perror(toks[1]);
         }
         run(toks2,fd,1);

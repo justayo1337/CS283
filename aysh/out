@@ -1,17 +1,2 @@
-aysh
-aysh.c
-aysh.h
-main.c
-Makefile
-out
-test.txt
-total 30
-drwxrwxr-x 2 aa4449 aa4449     7 Aug 12 22:24 .
-drwxrwxr-x 9 aa4449 aa4449     8 Aug  2 13:33 ..
--rwxrwxr-x 1 aa4449 aa4449 22576 Aug 12 22:24 aysh
--rw-rw-r-- 1 aa4449 aa4449  1684 Aug 12 19:44 aysh.c
--rw-rw-r-- 1 aa4449 aa4449   290 Aug 12 18:25 aysh.h
--rw-rw-r-- 1 aa4449 aa4449  2915 Aug 12 22:24 main.c
--rw-rw-r-- 1 aa4449 aa4449    69 Aug 12 17:33 Makefile
--rw-rw-r-- 1 aa4449 aa4449    48 Aug 12 22:24 out
--rw-rw-r-- 1 aa4449 aa4449     2 Aug 12 19:17 test.txt
+ 2  5 20
+ 2  5 20
