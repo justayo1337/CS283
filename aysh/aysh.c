@@ -9,9 +9,9 @@ Purpose: contains additional functions used to manage the shell
 #include <unistd.h>
 #include <sys/types.h>
 #include <sys/wait.h>
-#include "aysh.h"
 #include <sys/stat.h>
 #include <fcntl.h>
+#include "aysh.h"
 
 void runcmd(char * cmd[],int * redir,int dir){
     /* FUNCTION THAT RUNS ANY COMMAND THAT IS NOT THE CD COMMAND*/
@@ -20,14 +20,13 @@ void runcmd(char * cmd[],int * redir,int dir){
                 dup2(redir[0],dir);
                 close(redir[0]);
     } else if (redir[0] > 0 &&  redir[1] > 0 && dir > -1  && dir == 2){
-                printf("here\n");
+        /*for situations where stdin and stdout need to be changes for redirection*/
                 dup2(redir[1],dir-1);
                 dup2(redir[0],dir-2);
                 close(redir[1]);
                 close(redir[0]);
     }
     n = execvp(cmd[0],cmd);
-    printf("n: %d\n",n);
     if (n < 0){
         perror(cmd[0]);
     }
@@ -78,4 +77,28 @@ void run(char * toks[],int * redir,int dir){
             wait(NULL);
         }
     }
+}
+
+char *  cleanStr(char* str){
+    /*function to remove spaces from start and end of filename before creating or using in append/redirection*/
+    char final[BUFSIZE];
+    char * p;
+    int n;
+    p = strchr(str,'\n');
+    if (p != NULL){
+        *p = '\0';
+    }
+    while (*str == ' '){
+        str++;
+    }
+    n = strlen(str)-1;
+    while (str[n] == ' '){
+        str[n] = '\0';
+        --n;
+    }
+    return str;
+}
+
+void handle_signals(){
+    
 }
