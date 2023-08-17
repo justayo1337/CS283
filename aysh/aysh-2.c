@@ -13,22 +13,25 @@ Purpose: contains additional functions used to manage the shell
 #include <fcntl.h>
 #include "aysh.h"
 
-void runcmd(char * cmd[],int * redir){
+void runcmd(char * cmd[],int * redir,int dir){
     /* FUNCTION THAT RUNS ANY COMMAND THAT IS NOT THE CD COMMAND*/
     int n;
-    if (redir[0] >= 0){
-                dup2(redir[0],0);
+    if (redir[0] > 0 && dir > -1  && dir < 2){
+                dup2(redir[0],dir);
                 close(redir[0]);
-    }
-    if (redir[1] >=0){
+    } else if (redir[0] > 0 &&  redir[1] > 0 && dir > -1  && dir == 2){
         /*for situations where stdin and stdout need to be changes for redirection*/
-                dup2(redir[1],1);
+                dup2(redir[1],dir-1);
+                dup2(redir[0],dir-2);
                 close(redir[1]);
+                close(redir[0]);
     }
     n = execvp(cmd[0],cmd);
     
     if (n < 0){
         perror(cmd[0]);
+        
+        
     }
 }
 
@@ -49,7 +52,7 @@ int tokenize(char * s,char * tok[],char* sep){
     return i;
 }
 
-void run(char * toks[],int * redir){
+void run(char * toks[],int * redir,int dir){
     /*deal with each different style of line in the parsed input and set*/
     int childpid;
     int n;
@@ -69,7 +72,7 @@ void run(char * toks[],int * redir){
     }else{
         childpid = fork();
         if (childpid == 0){
-            runcmd(toks,redir);
+            runcmd(toks,redir,dir);
             exit(1);
         }else{
             wait(NULL);

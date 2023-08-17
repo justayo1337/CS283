@@ -14,13 +14,17 @@ Purpose: contains the main base functions for the shell and includes the builtin
 #include <sys/stat.h>
 #include <fcntl.h>
 #include <sys/file.h>
+#include <signal.h>
+#include <setjmp.h>
 
+jmp_buf env;
 
 int main(int argc, char** argv){
     char buf[BUFSIZE];
     char* toks[MAXTOKS];
-
+    signal(SIGINT, handle_signals);
     while(1){
+        setjmp(env);
         printf("aysh >>> ");
         if (fgets(buf,BUFSIZE,stdin) == NULL){
             printf("\n");
@@ -40,4 +44,9 @@ int runcd(char * dir){
     int n;
     n = chdir(dir);
     return n;
+}
+
+void handle_signals(){
+    printf("\n");
+    longjmp(env,1);
 }
