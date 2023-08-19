@@ -7,7 +7,7 @@
 #include "aysh.h"
 #include <sys/wait.h>
 
-int fd[2];
+
 void redirection(char* buf){
     /* function to catch and open all redirections in the cmdline and returns nothing*/
     char * tmp = malloc(BUFSIZE);
@@ -79,30 +79,31 @@ void redirection(char* buf){
     free(s);
 }
 
-void parseLine(char* buf,char* toks[]){
+void parseLine(char* buf,char* toks[],int* toclose,int ccnt){
     /* function that parses any input line and returns nothing*/
     int n ;
     char * p;
 
     //to be used as a buffer for individual chunks
     char* toks2[MAXTOKS];
-    fd[0]= -1;
-    fd[1]= -1;
     // for all the redirection funtions
-    if (strstr(buf,">>") || strchr(buf,'>') || strchr(buf,'<')){
+    if (strchr(buf,'|')){
+        pipeline(buf, toks);
+    }
+    else if (strstr(buf,">>") || strchr(buf,'>') || strchr(buf,'<')){
         redirection(buf);
         tokenize(buf,toks,"><");
         tokenize(toks[0],toks2," \t\n");
-        run(toks2,fd);
+        run(toks2,fd,toclose,ccnt);
     }else if (strchr(buf,';') ){
         n = tokenize(buf,toks,";");
         for (int i = 0; i < n; i++){
             tokenize(toks[i],toks2," \t\n");
-            run(toks2,fd);
+            run(toks2,fd,toclose,ccnt);
         }
     }else{
         n = tokenize(buf,toks," \t\n");
-        run(toks,fd);
+        run(toks,fd,toclose,ccnt);
     }
 
     close_fd(fd);
@@ -115,5 +116,66 @@ void close_fd(int * fd){
     }
     if (fd[1] != -1){
         close(fd[1]);
+    }
+}
+
+void pipeline(char* buf,char* toks[] ){
+    int n,i,a;
+    int fds[2];
+    char* toks2[MAXTOKS];
+    int cpid;
+
+    n = tokenize(buf,toks,"|");
+    //printf("%d\n",n);
+    int fd1[n][2];
+    int toclose[n*2];
+    
+    for (i = 0; i<n-1; i++){
+        if (pipe(fd1[i]) <0){
+            printf("err....\n");
+            exit(1);
+        }
+        //printf("in: %d out:%d\n",fd1[i][0],fd1[i][1]);
+    }
+    for (i = 0; i < n ; i++){
+        int cnt;
+        cnt = 0;
+        
+
+        if (i != 0 && i!=n-1){
+            fd[0] = fd1[i-1][0];
+            fd[1] = fd1[i][1];
+            
+            for (a = 0;a < n-1; a++){
+                if (a != i && a != i-1){
+                    toclose[cnt++] = fd1[a][0];
+                    toclose[cnt++] = fd1[a][1];
+                }
+            }
+            toclose[cnt++] = fd1[i-1][1];
+            toclose[cnt++] = fd1[i][0];
+            close(fd1[i-1][1]);
+        }else if (i == n-1){
+            fd[0] = fd1[i-1][0];
+            fd[1] = -1;
+            for (a = 0;a < n-1; a++){
+                if (a != i && a != i-1){
+                    toclose[cnt++] = fd1[a][0];
+                    toclose[cnt++] = fd1[a][1];
+                }
+            }
+            toclose[cnt++] = fd1[i-1][1];
+        }else{
+            fd[1] = fd1[i][1];
+            fd[0] = -1;
+            for (a = 0;a < n-1; a++){
+                if (a != i){
+                    toclose[cnt++] = fd1[a][0];
+                    toclose[cnt++] = fd1[a][1];
+                }
+            }
+            toclose[cnt++] = fd1[i][0];
+        }
+        parseLine(toks[i],toks2,toclose,cnt);
     }
 }

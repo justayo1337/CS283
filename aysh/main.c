@@ -18,13 +18,17 @@ Purpose: contains the main base functions for the shell and includes the builtin
 #include <setjmp.h>
 
 jmp_buf env;
-
+int fd[2];
 int main(int argc, char** argv){
     char buf[BUFSIZE];
     char* toks[MAXTOKS];
     signal(SIGINT, handle_signals);
+    
+
     while(1){
         setjmp(env);
+        fd[0] = -1;
+        fd[1] = -1;
         printf("aysh >>> ");
         if (fgets(buf,BUFSIZE,stdin) == NULL){
             printf("\n");
@@ -34,7 +38,7 @@ int main(int argc, char** argv){
         if (buf[0] == '\n'){
             continue;
         }
-        parseLine(buf,toks);
+        parseLine(buf,toks,NULL,0);
     }
     return 0;
 }

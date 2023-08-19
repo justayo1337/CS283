@@ -16,12 +16,15 @@ Purpose: contains additional functions used to manage the shell
 void runcmd(char * cmd[],int * redir){
     /* FUNCTION THAT RUNS ANY COMMAND THAT IS NOT THE CD COMMAND*/
     int n;
+    
     if (redir[0] >= 0){
+                //printf("dir: in:%d out:%d\n",redir[0],redir[1]);
                 dup2(redir[0],0);
                 close(redir[0]);
     }
     if (redir[1] >=0){
         /*for situations where stdin and stdout need to be changes for redirection*/
+                //printf("dir: in:%d out:%d\n",redir[0],redir[1]);
                 dup2(redir[1],1);
                 close(redir[1]);
     }
@@ -49,10 +52,10 @@ int tokenize(char * s,char * tok[],char* sep){
     return i;
 }
 
-void run(char * toks[],int * redir){
+void run(char * toks[],int * redir,int* toclose,int ccnt){
     /*deal with each different style of line in the parsed input and set*/
     int childpid;
-    int n;
+    int n,i,a ;
     if (toks[0] == NULL){
         return;
     }
@@ -69,9 +72,19 @@ void run(char * toks[],int * redir){
     }else{
         childpid = fork();
         if (childpid == 0){
+            if (toclose != NULL){
+                for( i = 0; i< ccnt; i++){
+                    a = close(toclose[i]);
+                    //perror("close");
+                    //printf("tok: %s, %d; closing: %d\n",toks[0],a,toclose[i]);
+                    
+                    
+                }
+            }
             runcmd(toks,redir);
-            exit(1);
+            exit(0);
         }else{
+
             wait(NULL);
         }
     }

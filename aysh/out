@@ -11,3 +11,19 @@ out3
 parseLine-2.c
 parseLine.c
 text
+total 51
+drwxrwxr-x 2 aa4449 aa4449    13 Aug 19 16:29 .
+drwxrwxr-x 9 aa4449 aa4449     8 Aug  2 13:33 ..
+-rwxrwxr-x 1 aa4449 aa4449 30136 Aug 19 16:29 aysh
+-rw-rw-r-- 1 aa4449 aa4449  2378 Aug 16 15:45 aysh-2.c
+-rw-rw-r-- 1 aa4449 aa4449  2406 Aug 19 16:29 aysh.c
+-rw-rw-r-- 1 aa4449 aa4449   467 Aug 19 16:20 aysh.h
+-rw-rw-r-- 1 aa4449 aa4449  1121 Aug 19 16:06 main.c
+-rw-rw-r-- 1 aa4449 aa4449    93 Aug 16 22:19 Makefile
+-rw-rw-r-- 1 aa4449 aa4449    94 Aug 19 16:30 out
+-rw-rw-r-- 1 aa4449 aa4449    12 Aug 17 20:11 out1
+-rw-rw-r-- 1 aa4449 aa4449     9 Aug 16 23:46 out2
+-rw-rw-r-- 1 aa4449 aa4449    94 Aug 16 23:45 out3
+-rw-rw-r-- 1 aa4449 aa4449  6448 Aug 16 19:00 parseLine-2.c
+-rw-rw-r-- 1 aa4449 aa4449  5088 Aug 19 16:28 parseLine.c
+-rw-rw-r-- 1 aa4449 aa4449     9 Aug 16 23:45 text
