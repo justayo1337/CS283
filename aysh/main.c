@@ -22,10 +22,11 @@ int fd[2];
 int main(int argc, char** argv){
     char buf[BUFSIZE];
     char* toks[MAXTOKS];
+    //to catch when CTRL-C is run
     signal(SIGINT, handle_signals);
     
-
     while(1){
+        
         setjmp(env);
         fd[0] = -1;
         fd[1] = -1;

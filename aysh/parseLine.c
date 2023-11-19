@@ -13,6 +13,7 @@ void redirection(char* buf){
     char * tmp = malloc(BUFSIZE);
     int cnt = 0;
     char * s = tmp;
+    char * tail;
     strcpy(tmp,buf);
     
     while (1){
@@ -21,10 +22,11 @@ void redirection(char* buf){
             //had to malloc in order to use cleanStr function
             char * file  = malloc(BUFSIZE);
             //starting from the second character after
-            char * tail = tmp +2;
+            tail = tmp +2;
             cnt = 0;
+            
             //run untill we hit the end of the line of input or we hit another flag
-            while (*tail != '>' && *tail != '<' && *tail != '\n'){
+            while (*tail != '>' && *tail != '<' && *tail != '\n' && (strcmp(tail,"") != 0)){
                 ++tail;
                 ++cnt;
             }
@@ -33,16 +35,16 @@ void redirection(char* buf){
             fd[1] = open(file,O_APPEND | O_WRONLY | O_CREAT,00664) ;
             if (fd[1] < 0){
                 perror(file);
-                exit(1);
+                close_fd(fd);
+                longjmp(env,1);
             }
             //change the positon for the next iteration of the loop
             tmp = --tail;
-            //free(file);
         }else if (*tmp == '>'){
             char * file  = malloc(BUFSIZE);
-            char * tail = tmp +1;
+            tail = tmp +1;
             cnt = 0;
-            while (*tail != '>' && *tail != '<' && *tail != '\n'){
+            while (*tail != '>' && *tail != '<' && *tail != '\n' && (strcmp(tail,"") != 0)){
                 ++tail;
                 ++cnt;
             }
@@ -51,15 +53,15 @@ void redirection(char* buf){
             fd[1] = open(file,O_WRONLY | O_TRUNC | O_CREAT,00664);
             if (fd[1] < 0){
                 perror(file);
-                exit(1);
+                close_fd(fd);
+                longjmp(env,1);
             }
             tmp = --tail;
-            //free(file);
         } else if (*tmp == '<'){
             char * file  = malloc(BUFSIZE);
-            char * tail = tmp +1;
+            tail = tmp +1;
             cnt = 0;
-            while (*tail != '>' && *tail != '<' && *tail != '\n'){
+            while (*tail != '>' && *tail != '<' && *tail != '\n' && (strcmp(tail,"") != 0)){
                 ++tail;
                 ++cnt;
             }
@@ -68,20 +70,20 @@ void redirection(char* buf){
             fd[0] = open(file,O_RDONLY);
             if (fd[0] < 0){
                 perror(file);
-                exit(1);
+                close_fd(fd);
+                longjmp(env,1);
             }
             tmp = --tail;
-            //free(file);
-        }else if (*tmp == '\n'){
+        }else if (*tmp == '\n' || (strcmp(tmp,"") == 0)){
             break;
         }       
     }
     free(s);
 }
 
-void parseLine(char* buf,char* toks[],int* toclose,int ccnt){
+void parseLine(char* buf,char* toks[],int toclose[][2],int ccnt){
     /* function that parses any input line and returns nothing*/
-    int n ;
+    int n ,i;
     char * p;
 
     //to be used as a buffer for individual chunks
@@ -89,18 +91,16 @@ void parseLine(char* buf,char* toks[],int* toclose,int ccnt){
     // for all the redirection funtions
     if (strchr(buf,'|')){
         pipeline(buf, toks);
-    }
-    else if (strstr(buf,">>") || strchr(buf,'>') || strchr(buf,'<')){
+    }else if (strchr(buf,';') ){
+        n = tokenize(buf,toks,";");
+        for (i = 0; i < n; i++){
+            parseLine(toks[i],toks2,NULL,-1);
+        }
+    }else if (strstr(buf,">>") || strchr(buf,'>') || strchr(buf,'<')){
         redirection(buf);
         tokenize(buf,toks,"><");
         tokenize(toks[0],toks2," \t\n");
         run(toks2,fd,toclose,ccnt);
-    }else if (strchr(buf,';') ){
-        n = tokenize(buf,toks,";");
-        for (int i = 0; i < n; i++){
-            tokenize(toks[i],toks2," \t\n");
-            run(toks2,fd,toclose,ccnt);
-        }
     }else{
         n = tokenize(buf,toks," \t\n");
         run(toks,fd,toclose,ccnt);
@@ -121,13 +121,12 @@ void close_fd(int * fd){
 
 void pipeline(char* buf,char* toks[] ){
     int n,i,a;
-    int fds[2];
+    //int fds[2];
     char* toks2[MAXTOKS];
     int cpid;
 
     n = tokenize(buf,toks,"|");
-    //printf("%d\n",n);
-    int fd1[n][2];
+    int fd1[n-1][2];
     int toclose[n*2];
     
     for (i = 0; i<n-1; i++){
@@ -135,47 +134,25 @@ void pipeline(char* buf,char* toks[] ){
             printf("err....\n");
             exit(1);
         }
-        //printf("in: %d out:%d\n",fd1[i][0],fd1[i][1]);
     }
     for (i = 0; i < n ; i++){
         int cnt;
         cnt = 0;
-        
-
+    
         if (i != 0 && i!=n-1){
             fd[0] = fd1[i-1][0];
             fd[1] = fd1[i][1];
-            
-            for (a = 0;a < n-1; a++){
-                if (a != i && a != i-1){
-                    toclose[cnt++] = fd1[a][0];
-                    toclose[cnt++] = fd1[a][1];
-                }
-            }
-            toclose[cnt++] = fd1[i-1][1];
-            toclose[cnt++] = fd1[i][0];
-            close(fd1[i-1][1]);
         }else if (i == n-1){
             fd[0] = fd1[i-1][0];
             fd[1] = -1;
-            for (a = 0;a < n-1; a++){
-                if (a != i && a != i-1){
-                    toclose[cnt++] = fd1[a][0];
-                    toclose[cnt++] = fd1[a][1];
-                }
-            }
-            toclose[cnt++] = fd1[i-1][1];
         }else{
             fd[1] = fd1[i][1];
             fd[0] = -1;
-            for (a = 0;a < n-1; a++){
-                if (a != i){
-                    toclose[cnt++] = fd1[a][0];
-                    toclose[cnt++] = fd1[a][1];
-                }
-            }
-            toclose[cnt++] = fd1[i][0];
         }
-        parseLine(toks[i],toks2,toclose,cnt);
+        parseLine(toks[i],toks2,fd1,n-1);
+    }
+    //CLOSE All pipes in the parent process since not needed
+	for (i = 0; i<n-1; i++){
+        close_fd(fd1[i]);
     }
 }

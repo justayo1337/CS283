@@ -1,0 +1,12 @@
+out
+out1
+out2
+out4
+-rw-rw-r-- 1 aa4449 aa4449   164 Aug 21 18:05 out
+-rw-rw-r-- 1 aa4449 aa4449    24 Aug 21 15:47 out1
+-rw-rw-r-- 1 aa4449 aa4449    24 Aug 21 18:03 out2
+-rw-rw-r-- 1 aa4449 aa4449   747 Aug 21 16:19 out4
+-rw-rw-r-- 1 aa4449 aa4449   971 Aug 21 18:45 out
+-rw-rw-r-- 1 aa4449 aa4449    24 Aug 21 18:45 out1
+-rw-rw-r-- 1 aa4449 aa4449    24 Aug 21 18:03 out2
+-rw-rw-r-- 1 aa4449 aa4449   747 Aug 21 16:19 out4

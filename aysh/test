@@ -1,0 +1,1373 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.5  0.0 172256 16236 ?        Ss   Mar27 1099:12 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    Mar27   0:23 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   Mar27   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   Mar27   0:02 [rcu_par_gp]
+root           5  0.0  0.0      0     0 ?        I<   Mar27   0:00 [slub_flushwq]
+root           6  0.0  0.0      0     0 ?        I<   Mar27   0:00 [netns]
+root           8  0.0  0.0      0     0 ?        I<   Mar27   0:00 [kworker/0:0H-events_highpri]
+root          10  0.0  0.0      0     0 ?        I<   Mar27   0:00 [mm_percpu_wq]
+root          11  0.0  0.0      0     0 ?        S    Mar27   0:00 [rcu_tasks_rude_]
+root          12  0.0  0.0      0     0 ?        S    Mar27   0:00 [rcu_tasks_trace]
+root          13  0.2  0.0      0     0 ?        S    Mar27 482:42 [ksoftirqd/0]
+root          14  0.0  0.0      0     0 ?        I    Mar27 144:38 [rcu_sched]
+root          15  0.0  0.0      0     0 ?        S    Mar27   1:29 [migration/0]
+root          16  0.0  0.0      0     0 ?        S    Mar27   0:00 [idle_inject/0]
+root          18  0.0  0.0      0     0 ?        S    Mar27   0:00 [cpuhp/0]
+root          19  0.0  0.0      0     0 ?        S    Mar27   0:00 [cpuhp/1]
+root          20  0.0  0.0      0     0 ?        S    Mar27   0:00 [idle_inject/1]
+root          21  0.0  0.0      0     0 ?        S    Mar27   1:28 [migration/1]
+root          22  0.2  0.0      0     0 ?        S    Mar27 505:01 [ksoftirqd/1]
+root          24  0.0  0.0      0     0 ?        I<   Mar27   0:00 [kworker/1:0H-events_highpri]
+root          25  0.0  0.0      0     0 ?        S    Mar27   0:00 [cpuhp/2]
+root          26  0.0  0.0      0     0 ?        S    Mar27   0:00 [idle_inject/2]
+root          27  0.0  0.0      0     0 ?        S    Mar27   1:26 [migration/2]
+root          28  0.2  0.0      0     0 ?        S    Mar27 528:53 [ksoftirqd/2]
+root          30  0.0  0.0      0     0 ?        I<   Mar27   0:00 [kworker/2:0H-events_highpri]
+root          31  0.0  0.0      0     0 ?        S    Mar27   0:00 [cpuhp/3]
+root          32  0.0  0.0      0     0 ?        S    Mar27   0:00 [idle_inject/3]
+root          33  0.0  0.0      0     0 ?        S    Mar27   1:26 [migration/3]
+root          34  0.2  0.0      0     0 ?        S    Mar27 510:18 [ksoftirqd/3]
+root          36  0.0  0.0      0     0 ?        I<   Mar27   0:00 [kworker/3:0H-events_highpri]
+root          37  0.0  0.0      0     0 ?        S    Mar27   0:00 [cpuhp/4]
+root          38  0.0  0.0      0     0 ?        S    Mar27   0:00 [idle_inject/4]
+root          39  0.0  0.0      0     0 ?        S    Mar27   1:22 [migration/4]
+root          40  0.2  0.0      0     0 ?        S    Mar27 507:52 [ksoftirqd/4]
+root          42  0.0  0.0      0     0 ?        I<   Mar27   0:00 [kworker/4:0H-kblockd]
+root          43  0.0  0.0      0     0 ?        S    Mar27   0:00 [cpuhp/5]
+root          44  0.0  0.0      0     0 ?        S    Mar27   0:00 [idle_inject/5]
+root          45  0.0  0.0      0     0 ?        S    Mar27   1:27 [migration/5]
+root          46  0.2  0.0      0     0 ?        S    Mar27 491:36 [ksoftirqd/5]
+root          48  0.0  0.0      0     0 ?        I<   Mar27   0:00 [kworker/5:0H-events_highpri]
+root          49  0.0  0.0      0     0 ?        S    Mar27   0:00 [cpuhp/6]
+root          50  0.0  0.0      0     0 ?        S    Mar27   0:00 [idle_inject/6]
+root          51  0.0  0.0      0     0 ?        S    Mar27   1:22 [migration/6]
+root          52  0.2  0.0      0     0 ?        S    Mar27 502:28 [ksoftirqd/6]
+root          54  0.0  0.0      0     0 ?        I<   Mar27   0:00 [kworker/6:0H-kblockd]
+root          55  0.0  0.0      0     0 ?        S    Mar27   0:00 [cpuhp/7]
+root          56  0.0  0.0      0     0 ?        S    Mar27   0:00 [idle_inject/7]
+root          57  0.0  0.0      0     0 ?        S    Mar27   1:24 [migration/7]
+root          58  0.2  0.0      0     0 ?        S    Mar27 483:41 [ksoftirqd/7]
+root          60  0.0  0.0      0     0 ?        I<   Mar27   0:00 [kworker/7:0H-events_highpri]
+root          61  0.0  0.0      0     0 ?        S    Mar27   0:00 [cpuhp/8]
+root          62  0.0  0.0      0     0 ?        S    Mar27   0:00 [idle_inject/8]
+root          63  0.0  0.0      0     0 ?        S    Mar27   1:25 [migration/8]
+root          64  0.2  0.0      0     0 ?        S    Mar27 495:17 [ksoftirqd/8]
+root          66  0.0  0.0      0     0 ?        I<   Mar27   0:00 [kworker/8:0H-events_highpri]
+root          67  0.0  0.0      0     0 ?        S    Mar27   0:00 [cpuhp/9]
+root          68  0.0  0.0      0     0 ?        S    Mar27   0:00 [idle_inject/9]
+root          69  0.0  0.0      0     0 ?        S    Mar27   1:25 [migration/9]
+root          70  0.2  0.0      0     0 ?        S    Mar27 476:04 [ksoftirqd/9]
+root          72  0.0  0.0      0     0 ?        I<   Mar27   0:00 [kworker/9:0H-events_highpri]
+root          73  0.0  0.0      0     0 ?        S    Mar27   0:00 [cpuhp/10]
+root          74  0.0  0.0      0     0 ?        S    Mar27   0:00 [idle_inject/10]
+root          75  0.0  0.0      0     0 ?        S    Mar27   1:21 [migration/10]
+root          76  0.2  0.0      0     0 ?        S    Mar27 500:37 [ksoftirqd/10]
+root          78  0.0  0.0      0     0 ?        I<   Mar27   0:00 [kworker/10:0H-events_highpri]
+root          79  0.0  0.0      0     0 ?        S    Mar27   0:00 [cpuhp/11]
+root          80  0.0  0.0      0     0 ?        S    Mar27   0:00 [idle_inject/11]
+root          81  0.0  0.0      0     0 ?        S    Mar27   1:21 [migration/11]
+root          82  0.2  0.0      0     0 ?        S    Mar27 493:23 [ksoftirqd/11]
+root          84  0.0  0.0      0     0 ?        I<   Mar27   0:00 [kworker/11:0H-events_highpri]
+root          85  0.0  0.0      0     0 ?        S    Mar27   0:00 [cpuhp/12]
+root          86  0.0  0.0      0     0 ?        S    Mar27   0:00 [idle_inject/12]
+root          87  0.0  0.0      0     0 ?        S    Mar27   1:21 [migration/12]
+root          88  0.2  0.0      0     0 ?        S    Mar27 484:58 [ksoftirqd/12]
+root          90  0.0  0.0      0     0 ?        I<   Mar27   0:00 [kworker/12:0H-events_highpri]
+root          91  0.0  0.0      0     0 ?        S    Mar27   0:00 [cpuhp/13]
+root          92  0.0  0.0      0     0 ?        S    Mar27   0:00 [idle_inject/13]
+root          93  0.0  0.0      0     0 ?        S    Mar27   1:19 [migration/13]
+root          94  0.2  0.0      0     0 ?        S    Mar27 480:51 [ksoftirqd/13]
+root          96  0.0  0.0      0     0 ?        I<   Mar27   0:00 [kworker/13:0H-events_highpri]
+root          97  0.0  0.0      0     0 ?        S    Mar27   0:00 [cpuhp/14]
+root          98  0.0  0.0      0     0 ?        S    Mar27   0:00 [idle_inject/14]
+root          99  0.0  0.0      0     0 ?        S    Mar27   1:20 [migration/14]
+root         100  0.2  0.0      0     0 ?        S    Mar27 467:35 [ksoftirqd/14]
+root         102  0.0  0.0      0     0 ?        I<   Mar27   0:00 [kworker/14:0H-kblockd]
+root         103  0.0  0.0      0     0 ?        S    Mar27   0:00 [cpuhp/15]
+root         104  0.0  0.0      0     0 ?        S    Mar27   0:00 [idle_inject/15]
+root         105  0.0  0.0      0     0 ?        S    Mar27   1:17 [migration/15]
+root         106  0.2  0.0      0     0 ?        S    Mar27 488:00 [ksoftirqd/15]
+root         108  0.0  0.0      0     0 ?        I<   Mar27   0:00 [kworker/15:0H-events_highpri]
+root         109  0.0  0.0      0     0 ?        S    Mar27   0:00 [cpuhp/16]
+root         110  0.0  0.0      0     0 ?        S    Mar27   0:00 [idle_inject/16]
+root         111  0.0  0.0      0     0 ?        S    Mar27   1:20 [migration/16]
+root         112  0.2  0.0      0     0 ?        S    Mar27 481:00 [ksoftirqd/16]
+root         114  0.0  0.0      0     0 ?        I<   Mar27   0:00 [kworker/16:0H-events_highpri]
+root         115  0.0  0.0      0     0 ?        S    Mar27   0:00 [cpuhp/17]
+root         116  0.0  0.0      0     0 ?        S    Mar27   0:00 [idle_inject/17]
+root         117  0.0  0.0      0     0 ?        S    Mar27   1:20 [migration/17]
+root         118  0.2  0.0      0     0 ?        S    Mar27 489:48 [ksoftirqd/17]
+root         120  0.0  0.0      0     0 ?        I<   Mar27   0:00 [kworker/17:0H-events_highpri]
+root         121  0.0  0.0      0     0 ?        S    Mar27   0:00 [cpuhp/18]
+root         122  0.0  0.0      0     0 ?        S    Mar27   0:00 [idle_inject/18]
+root         123  0.0  0.0      0     0 ?        S    Mar27   1:19 [migration/18]
+root         124  0.2  0.0      0     0 ?        S    Mar27 476:06 [ksoftirqd/18]
+root         126  0.0  0.0      0     0 ?        I<   Mar27   0:00 [kworker/18:0H-events_highpri]
+root         127  0.0  0.0      0     0 ?        S    Mar27   0:00 [cpuhp/19]
+root         128  0.0  0.0      0     0 ?        S    Mar27   0:00 [idle_inject/19]
+root         129  0.0  0.0      0     0 ?        S    Mar27   1:21 [migration/19]
+root         130  0.2  0.0      0     0 ?        S    Mar27 488:04 [ksoftirqd/19]
+root         132  0.0  0.0      0     0 ?        I<   Mar27   0:00 [kworker/19:0H-events_highpri]
+root         133  0.0  0.0      0     0 ?        S    Mar27   0:00 [cpuhp/20]
+root         134  0.0  0.0      0     0 ?        S    Mar27   0:00 [idle_inject/20]
+root         135  0.0  0.0      0     0 ?        S    Mar27   1:18 [migration/20]
+root         136  0.2  0.0      0     0 ?        S    Mar27 477:10 [ksoftirqd/20]
+root         138  0.0  0.0      0     0 ?        I<   Mar27   0:00 [kworker/20:0H-events_highpri]
+root         139  0.0  0.0      0     0 ?        S    Mar27   0:00 [cpuhp/21]
+root         140  0.0  0.0      0     0 ?        S    Mar27   0:00 [idle_inject/21]
+root         141  0.0  0.0      0     0 ?        S    Mar27   1:18 [migration/21]
+root         142  0.2  0.0      0     0 ?        S    Mar27 478:31 [ksoftirqd/21]
+root         144  0.0  0.0      0     0 ?        I<   Mar27   0:00 [kworker/21:0H-events_highpri]
+root         145  0.0  0.0      0     0 ?        S    Mar27   0:00 [cpuhp/22]
+root         146  0.0  0.0      0     0 ?        S    Mar27   0:00 [idle_inject/22]
+root         147  0.0  0.0      0     0 ?        S    Mar27   1:18 [migration/22]
+root         148  0.2  0.0      0     0 ?        S    Mar27 467:18 [ksoftirqd/22]
+root         150  0.0  0.0      0     0 ?        I<   Mar27   0:00 [kworker/22:0H-events_highpri]
+root         151  0.0  0.0      0     0 ?        S    Mar27   0:00 [cpuhp/23]
+root         152  0.0  0.0      0     0 ?        S    Mar27   0:00 [idle_inject/23]
+root         153  0.0  0.0      0     0 ?        S    Mar27   1:17 [migration/23]
+root         154  0.2  0.0      0     0 ?        S    Mar27 460:56 [ksoftirqd/23]
+root         156  0.0  0.0      0     0 ?        I<   Mar27   0:00 [kworker/23:0H-events_highpri]
+root         157  0.0  0.0      0     0 ?        S    Mar27   0:00 [cpuhp/24]
+root         158  0.0  0.0      0     0 ?        S    Mar27   0:00 [idle_inject/24]
+root         159  0.0  0.0      0     0 ?        S    Mar27   1:21 [migration/24]
+root         160  0.2  0.0      0     0 ?        S    Mar27 493:02 [ksoftirqd/24]
+root         162  0.0  0.0      0     0 ?        I<   Mar27   0:00 [kworker/24:0H-events_highpri]
+root         163  0.0  0.0      0     0 ?        S    Mar27   0:00 [cpuhp/25]
+root         164  0.0  0.0      0     0 ?        S    Mar27   0:00 [idle_inject/25]
+root         165  0.0  0.0      0     0 ?        S    Mar27   1:20 [migration/25]
+root         166  0.2  0.0      0     0 ?        S    Mar27 482:08 [ksoftirqd/25]
+root         168  0.0  0.0      0     0 ?        I<   Mar27   0:00 [kworker/25:0H-events_highpri]
+root         169  0.0  0.0      0     0 ?        S    Mar27   0:00 [cpuhp/26]
+root         170  0.0  0.0      0     0 ?        S    Mar27   0:00 [idle_inject/26]
+root         171  0.0  0.0      0     0 ?        S    Mar27   1:19 [migration/26]
+root         172  0.2  0.0      0     0 ?        S    Mar27 476:58 [ksoftirqd/26]
+root         174  0.0  0.0      0     0 ?        I<   Mar27   0:00 [kworker/26:0H-events_highpri]
+root         175  0.0  0.0      0     0 ?        S    Mar27   0:00 [cpuhp/27]
+root         176  0.0  0.0      0     0 ?        S    Mar27   0:00 [idle_inject/27]
+root         177  0.0  0.0      0     0 ?        S    Mar27   1:17 [migration/27]
+root         178  0.2  0.0      0     0 ?        S    Mar27 480:27 [ksoftirqd/27]
+root         180  0.0  0.0      0     0 ?        I<   Mar27   0:00 [kworker/27:0H-events_highpri]
+root         181  0.0  0.0      0     0 ?        S    Mar27   0:00 [cpuhp/28]
+root         182  0.0  0.0      0     0 ?        S    Mar27   0:00 [idle_inject/28]
+root         183  0.0  0.0      0     0 ?        S    Mar27   1:18 [migration/28]
+root         184  0.2  0.0      0     0 ?        S    Mar27 456:03 [ksoftirqd/28]
+root         186  0.0  0.0      0     0 ?        I<   Mar27   0:00 [kworker/28:0H-events_highpri]
+root         187  0.0  0.0      0     0 ?        S    Mar27   0:00 [cpuhp/29]
+root         188  0.0  0.0      0     0 ?        S    Mar27   0:00 [idle_inject/29]
+root         189  0.0  0.0      0     0 ?        S    Mar27   1:16 [migration/29]
+root         190  0.2  0.0      0     0 ?        S    Mar27 463:17 [ksoftirqd/29]
+root         192  0.0  0.0      0     0 ?        I<   Mar27   0:00 [kworker/29:0H-events_highpri]
+root         193  0.0  0.0      0     0 ?        S    Mar27   0:00 [cpuhp/30]
+root         194  0.0  0.0      0     0 ?        S    Mar27   0:00 [idle_inject/30]
+root         195  0.0  0.0      0     0 ?        S    Mar27   1:18 [migration/30]
+root         196  0.2  0.0      0     0 ?        S    Mar27 473:19 [ksoftirqd/30]
+root         198  0.0  0.0      0     0 ?        I<   Mar27   0:00 [kworker/30:0H-events_highpri]
+root         199  0.0  0.0      0     0 ?        S    Mar27   0:00 [cpuhp/31]
+root         200  0.0  0.0      0     0 ?        S    Mar27   0:00 [idle_inject/31]
+root         201  0.0  0.0      0     0 ?        S    Mar27   1:18 [migration/31]
+root         202  0.2  0.0      0     0 ?        S    Mar27 457:59 [ksoftirqd/31]
+root         204  0.0  0.0      0     0 ?        I<   Mar27   0:00 [kworker/31:0H-events_highpri]
+root         205  0.0  0.0      0     0 ?        S    Mar27   0:00 [kdevtmpfs]
+root         206  0.0  0.0      0     0 ?        I<   Mar27   0:00 [inet_frag_wq]
+root         207  0.0  0.0      0     0 ?        S    Mar27   0:01 [kauditd]
+root         212  0.0  0.0      0     0 ?        S    Mar27   2:08 [khungtaskd]
+root         213  0.0  0.0      0     0 ?        S    Mar27   0:00 [oom_reaper]
+root         214  0.0  0.0      0     0 ?        I<   Mar27   0:00 [writeback]
+root         215  0.0  0.0      0     0 ?        S    Mar27  22:10 [kcompactd0]
+root         216  0.0  0.0      0     0 ?        SN   Mar27   0:00 [ksmd]
+root         217  0.0  0.0      0     0 ?        SN   Mar27   5:23 [khugepaged]
+root         263  0.0  0.0      0     0 ?        I<   Mar27   0:00 [kintegrityd]
+root         264  0.0  0.0      0     0 ?        I<   Mar27   0:00 [kblockd]
+root         265  0.0  0.0      0     0 ?        I<   Mar27   0:00 [blkcg_punt_bio]
+root         267  0.0  0.0      0     0 ?        I<   Mar27   0:00 [tpm_dev_wq]
+root         268  0.0  0.0      0     0 ?        I<   Mar27   0:00 [ata_sff]
+root         269  0.0  0.0      0     0 ?        I<   Mar27   0:00 [md]
+root         270  0.0  0.0      0     0 ?        I<   Mar27   0:00 [edac-poller]
+root         271  0.0  0.0      0     0 ?        I<   Mar27   0:00 [devfreq_wq]
+root         272  0.0  0.0      0     0 ?        S    Mar27   0:00 [watchdogd]
+root         275  0.0  0.0      0     0 ?        I<   Mar27   0:44 [kworker/1:1H-kblockd]
+root         277  0.0  0.0      0     0 ?        S    Mar27   9:54 [kswapd0]
+root         278  0.0  0.0      0     0 ?        S    Mar27   0:00 [ecryptfs-kthrea]
+root         281  0.0  0.0      0     0 ?        I<   Mar27   0:00 [kthrotld]
+root         283  0.0  0.0      0     0 ?        I<   Mar27   0:00 [acpi_thermal_pm]
+root         286  0.0  0.0      0     0 ?        S    Mar27   0:00 [scsi_eh_0]
+root         287  0.0  0.0      0     0 ?        I<   Mar27   0:00 [scsi_tmf_0]
+root         288  0.0  0.0      0     0 ?        S    Mar27   0:00 [scsi_eh_1]
+root         289  0.0  0.0      0     0 ?        I<   Mar27   0:00 [scsi_tmf_1]
+root         291  0.0  0.0      0     0 ?        I<   Mar27   0:00 [vfio-irqfd-clea]
+root         292  0.0  0.0      0     0 ?        I<   Mar27   0:00 [mld]
+root         293  0.0  0.0      0     0 ?        I<   Mar27   0:22 [kworker/10:1H-kblockd]
+root         294  0.0  0.0      0     0 ?        I<   Mar27   0:00 [ipv6_addrconf]
+root         301  0.0  0.0      0     0 ?        I<   Mar27   0:42 [kworker/4:1H-kblockd]
+root         312  0.0  0.0      0     0 ?        I<   Mar27   0:00 [kstrp]
+root         322  0.0  0.0      0     0 ?        I<   Mar27   0:00 [zswap-shrink]
+root         364  0.0  0.0      0     0 ?        I<   Mar27   0:00 [kworker/u65:0]
+root         369  0.0  0.0      0     0 ?        I<   Mar27   0:00 [charger_manager]
+root         391  0.0  0.0      0     0 ?        I<   Mar27   0:18 [kworker/22:1H-kblockd]
+root         405  0.0  0.0      0     0 ?        I<   Mar27   0:09 [kworker/31:1H-kblockd]
+root         407  0.0  0.0      0     0 ?        I<   Mar27   0:30 [kworker/2:1H-kblockd]
+root         425  0.0  0.0      0     0 ?        I<   Mar27   0:18 [kworker/19:1H-kblockd]
+root         438  0.0  0.0      0     0 ?        I<   Mar27   0:30 [kworker/8:1H-kblockd]
+root         440  0.0  0.0      0     0 ?        I<   Mar27   0:10 [kworker/30:1H-kblockd]
+root         443  0.0  0.0      0     0 ?        I<   Mar27   0:14 [kworker/28:1H-kblockd]
+root         445  0.0  0.0      0     0 ?        I<   Mar27   0:39 [kworker/25:1H-kblockd]
+root         447  0.0  0.0      0     0 ?        I<   Mar27   0:18 [kworker/27:1H-kblockd]
+root         449  0.0  0.0      0     0 ?        I<   Mar27   1:00 [kworker/24:1H-kblockd]
+root         451  0.0  0.0      0     0 ?        I<   Mar27   0:25 [kworker/26:1H-kblockd]
+root         452  0.0  0.0      0     0 ?        I<   Mar27   0:00 [cryptd]
+root         483  0.0  0.0      0     0 ?        I<   Mar27   0:38 [kworker/17:1H-kblockd]
+root         486  0.0  0.0      0     0 ?        I<   Mar27   0:08 [kworker/15:1H-kblockd]
+root         489  0.0  0.0      0     0 ?        I<   Mar27   0:12 [kworker/29:1H-kblockd]
+root         490  0.0  0.0      0     0 ?        I<   Mar27   0:10 [kworker/5:1H-kblockd]
+root         492  0.0  0.0      0     0 ?        I<   Mar27   0:05 [kworker/7:1H-kblockd]
+root         494  0.0  0.0      0     0 ?        I<   Mar27   0:12 [kworker/12:1H-kblockd]
+root         497  0.0  0.0      0     0 ?        I<   Mar27   0:00 [kdmflush]
+root         498  0.0  0.0      0     0 ?        I<   Mar27   0:00 [kdmflush]
+root         503  0.0  0.0      0     0 ?        I<   Mar27   0:00 [kdmflush]
+root         506  0.0  0.0      0     0 ?        I<   Mar27   0:59 [kworker/16:1H-kblockd]
+root         511  0.0  0.0      0     0 ?        I<   Mar27   0:09 [kworker/13:1H-kblockd]
+root         521  0.0  0.0      0     0 ?        I<   Mar27   1:08 [kworker/0:1H-kblockd]
+root         523  0.0  0.0      0     0 ?        I<   Mar27   1:15 [kworker/9:1H-kblockd]
+root         585  0.0  0.0      0     0 ?        S    Mar27  28:46 [jbd2/dm-0-8]
+root         586  0.0  0.0      0     0 ?        I<   Mar27   0:00 [ext4-rsv-conver]
+root         601  0.0  0.0      0     0 ?        I<   Mar27   0:18 [kworker/3:1H-kblockd]
+root         672  0.0  0.0      0     0 ?        I<   Mar27   0:08 [kworker/14:1H-kblockd]
+root         720  0.0  0.0  26920  6732 ?        Ss   Mar27   1:36 /lib/systemd/systemd-udevd
+root         756  0.0  0.0      0     0 ?        I<   Mar27   0:07 [kworker/6:1H-kblockd]
+root         769  0.0  0.0      0     0 ?        I<   Mar27   0:09 [kworker/23:1H-kblockd]
+root         816  0.0  0.0      0     0 ?        I<   Mar27   0:28 [kworker/11:1H-kblockd]
+root         817  0.0  0.0      0     0 ?        I<   Mar27   0:24 [kworker/18:1H-kblockd]
+root         842  0.0  0.0      0     0 ?        I<   Mar27   0:14 [kworker/20:1H-kblockd]
+root         861  0.0  0.0      0     0 ?        I<   Mar27   0:11 [kworker/21:1H-kblockd]
+root         924  0.0  0.0      0     0 ?        S    Mar27   0:00 [jbd2/dm-2-8]
+root         925  0.0  0.0      0     0 ?        I<   Mar27   0:00 [ext4-rsv-conver]
+systemd+     954  0.0  0.0  16120  6860 ?        Ss   Mar27   3:14 /lib/systemd/systemd-networkd
+_rpc         982  0.0  0.0   8100  4096 ?        Ss   Mar27   0:31 /sbin/rpcbind -f -w
+systemd+     983  0.0  0.0  27776 14620 ?        Ss   Mar27   5:38 /lib/systemd/systemd-resolved
+root        1108  0.0  0.0   2812  1132 ?        Ss   Mar27   0:00 /usr/sbin/acpid
+message+    1112  0.0  0.0  47124 17624 ?        Ss   Mar27 175:26 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root        1113  0.0  0.0 270752 14708 ?        Ssl  Mar27  42:46 /usr/sbin/NetworkManager --no-daemon
+root        1120  0.0  0.0  82924  3768 ?        Ssl  Mar27  24:48 /usr/sbin/irqbalance --foreground
+root        1122  0.0  0.0  41100 18116 ?        Ss   Mar27   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root        1124  0.1  0.2 370212 142972 ?       Ssl  Mar27 392:13 /usr/libexec/polkitd --no-debug
+syslog      1127  0.0  0.0 233444  5260 ?        Ssl  Mar27  22:34 /usr/sbin/rsyslogd -n -iNONE
+root        1133  0.0  0.0 402792 12172 ?        Ssl  Mar27   6:33 /usr/libexec/udisks2/udisksd
+root        1134  0.0  0.0  16496  4492 ?        Ss   Mar27   1:32 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+root        1180  0.0  0.0  11284  4380 ?        Ss   Mar27  44:08 /bin/bash /usr/bin/check_mk_agent
+root        1181  0.0  0.1 466568 107104 ?       Ssl  Mar27 135:23 /usr/bin/python3 /usr/bin/fail2ban-server -xf start
+root        1183  0.0  0.0  43620  4268 ?        Ss   Mar27   0:00 /usr/sbin/oddjobd -n -p /run/oddjobd.pid -t 300
+root        1199  0.0  0.0 317008  9112 ?        Ssl  Mar27   0:43 /usr/sbin/ModemManager
+root        1215  0.0  0.0  46148  7020 ?        S    Mar27   0:00 /usr/sbin/xrdp-sesman
+xrdp        1267  0.0  0.0  14856  1864 ?        S    Mar27   2:38 /usr/sbin/xrdp
+colord      1534  0.0  0.0 860692 12944 ?        Ssl  Mar27   0:03 /usr/libexec/colord
+root        1612  0.0  0.0      0     0 ?        I<   Mar27   0:00 [ceph-msgr]
+root        1619  0.0  0.0      0     0 ?        I<   Mar27   0:00 [ceph-watch-noti]
+root        1620  0.0  0.0      0     0 ?        I<   Mar27   0:00 [ceph-completion]
+root        1621  0.0  0.0      0     0 ?        I<   Mar27   0:00 [ceph-watch-noti]
+root        1622  0.0  0.0      0     0 ?        I<   Mar27   0:00 [ceph-completion]
+kernoops    1636  0.0  0.0  13080   456 ?        Ss   Mar27   0:22 /usr/sbin/kerneloops --test
+kernoops    1644  0.0  0.0  13080   452 ?        Ss   Mar27   0:22 /usr/sbin/kerneloops
+root        1695  0.0  0.0  18584  2780 ?        Ss   Mar27   0:36 /usr/sbin/cron -f -P
+root        1697  0.0  0.0  27904 12592 ?        Ss   Mar27   6:36 /lib/systemd/systemd-logind
+root        1711  0.0  0.0 306972  6808 ?        Ssl  Mar27  17:53 /usr/sbin/lightdm
+root        1721  0.0  0.0 118176 19284 ?        Ssl  Mar27   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root        1744  0.0  0.0 2454084 59964 tty7    Ssl+ Mar27   5:28 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root        1747  0.0  0.0   8772  1120 tty1     Ss+  Mar27   0:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+root        1795  0.0  2.1 1714276 1416052 ?     Sl   Mar27   2:00 lightdm --session-child 17 20
+lightdm     1799  0.0  0.0  18832 10312 ?        Ss   Mar27   9:29 /lib/systemd/systemd --user
+lightdm     1800  0.0  0.0 181568  2468 ?        S    Mar27   0:00 (sd-pam)
+lightdm     1807  0.0  0.0  39424  6380 ?        S<sl Mar27   0:00 /usr/bin/pipewire
+lightdm     1808  0.0  0.0  23452  6340 ?        Ssl  Mar27   2:53 /usr/bin/pipewire-media-session
+lightdm     1809  0.0  0.0 1345812 19348 ?       S<sl Mar27   0:11 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+rtkit       1815  0.0  0.0 154232  3576 ?        SNsl Mar27   6:05 /usr/libexec/rtkit-daemon
+lightdm     1819  0.0  0.0   2888   860 ?        Ss   Mar27   0:00 /bin/sh /usr/lib/lightdm/lightdm-greeter-session /usr/sbin/arctica-greeter
+lightdm     1820  0.5  1.4 1824648 933648 ?      Sl   Mar27 1143:06 /usr/sbin/arctica-greeter
+lightdm     1821  0.0  0.0   8512  4728 ?        Ss   Mar27   5:39 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+lightdm     1829  0.0  0.0 309632  6096 ?        Ssl  Mar27   0:00 /usr/libexec/at-spi-bus-launcher
+lightdm     1835  0.0  0.0  19340  3480 ?        S    Mar27   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/114/at-spi/bus
+lightdm     1848  0.0  0.0 240632  6032 ?        Ssl  Mar27   0:00 /usr/libexec/gvfsd
+lightdm     1853  0.0  0.0 380884  5188 ?        Sl   Mar27   0:00 /usr/libexec/gvfsd-fuse /run/user/114/gvfs -f
+root        1865  0.0  0.0 242208  6664 ?        Ssl  Mar27   0:18 /usr/libexec/upowerd
+lightdm     1871  0.0  0.0 552300 25400 ?        Sl   Mar27   1:21 marco --no-keybindings
+lightdm     1873  0.0  0.0 926632  9832 ?        Ssl  Mar27  28:04 /usr/libexec/ayatana-indicator-session/ayatana-indicator-session-service
+lightdm     1875  0.0  0.0 366908 12548 ?        Ssl  Mar27   2:46 /usr/libexec/ayatana-indicator-datetime/ayatana-indicator-datetime-service
+lightdm     1882  0.0  0.0 385116  5556 ?        Ssl  Mar27   0:00 /usr/libexec/ayatana-indicator-power/ayatana-indicator-power-service
+lightdm     1892  0.0  0.0 845872  9952 ?        Ssl  Mar27   0:00 /usr/libexec/ayatana-indicator-sound/ayatana-indicator-sound-service
+lightdm     1899  0.0  0.0 255044  7988 ?        Ssl  Mar27   0:00 /usr/libexec/ayatana-indicator-application/ayatana-indicator-application-service
+lightdm     1901  0.0  0.0 431496 16444 ?        Sl   Mar27   1:32 nm-applet --indicator
+lightdm     1903  0.0  0.0 162676  5688 ?        Sl   Mar27   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+lightdm     1905  0.0  0.0 1032552 22308 ?       Sl   Mar27  45:36 /usr/bin/mate-settings-daemon
+lightdm     1942  0.0  0.0 316424  8736 ?        Ssl  Mar27  42:31 /usr/libexec/gvfs-udisks2-volume-monitor
+lightdm     1947  0.0  0.0 236448  5640 ?        Ssl  Mar27   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+lightdm     1951  0.0  0.0 315200  6328 ?        Ssl  Mar27  10:53 /usr/libexec/gvfs-afc-volume-monitor
+lightdm     1956  0.0  0.0 236624  5308 ?        Ssl  Mar27   0:00 /usr/libexec/gvfs-goa-volume-monitor
+lightdm     1960  0.0  0.0 237404  5800 ?        Ssl  Mar27   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+root        1970  0.0  0.0  35176  5600 ?        S    Mar27   0:00 lightdm --session-child 13 20
+avahi       2879  0.0  0.0  26436  5564 ?        Ss   Mar27   2:03 /usr/sbin/nrpe -c /etc/nagios/nrpe.cfg -f
+root        3295  0.0  0.0  57092  3308 ?        Ss   Mar27   1:09 /usr/lib/postfix/sbin/master -w
+postfix     3297  0.0  0.0  68532  4484 ?        S    Mar27   0:26 qmgr -l -t unix -u
+lz435@d+   47414  0.0  0.0  20516  4680 pts/401  Ss+  May22   0:00 /bin/bash --init-file /home/lz435@drexel.edu/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+root       73022  0.0  0.0 298188 17288 ?        Ssl  Mar28  23:30 /usr/libexec/packagekitd
+jm4646    105290  0.0  0.0  94616 10132 ?        Sl   Aug17   1:25 /home/jm4646/.vscode-server/extensions/ms-vscode.cpptools-1.17.2-linux-x64/bin/cpptools
+mfp46     126041  0.0  0.0  18464 11132 ?        Ss   Aug01   2:25 /lib/systemd/systemd --user
+mfp46     126042  0.0  0.0 201748  8976 ?        S    Aug01   0:00 (sd-pam)
+mfp46     126050  0.0  0.0  48524  6712 ?        Ssl  Aug01   0:00 /usr/bin/pipewire
+mfp46     126051  0.0  0.0  32700  7132 ?        Ssl  Aug01   0:36 /usr/bin/pipewire-media-session
+mfp46     126066  0.0  0.0  28612  4812 ?        Ss   Aug01   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+mfp46     126071  0.0  0.0 240640  7632 ?        Ssl  Aug01   0:00 /usr/libexec/gvfsd
+mfp46     126076  0.0  0.0 380888  6820 ?        Sl   Aug01   0:00 /usr/libexec/gvfsd-fuse /run/user/13189/gvfs -f
+mfp46     127091  0.0  0.0  11308  3980 ?        Ss   Aug01   0:01 tmux new -s mperlick
+mfp46     127092  0.0  0.0  20512  5584 pts/473  Ss+  Aug01   0:00 -bash
+mfp46     127953  0.0  0.0  20512  5396 pts/474  Ss+  Aug01   0:00 -bash
+jm4646    141247  0.0  0.0 4287488 17296 ?       Sl   Aug17   1:57 /home/jm4646/.vscode-server/extensions/ms-vscode.cpptools-1.17.2-linux-x64/bin/cpptools-srv 105290 {30BAEBC4-9C8F-4F4F-AD4E-7B1A2F6C8AD6}
+root      184948  0.0  0.2 352656 152952 ?       S<s  Mar29 202:30 /lib/systemd/systemd-journald
+fa484     189391  0.0  0.0  18580  9824 ?        Ss   May23   7:31 /lib/systemd/systemd --user
+fa484     189392  0.0  0.0 200748  7864 ?        S    May23   0:00 (sd-pam)
+fa484     189400  0.0  0.0  48528  6568 ?        Ssl  May23   0:00 /usr/bin/pipewire
+fa484     189401  0.0  0.0  32552  6792 ?        Ssl  May23   2:02 /usr/bin/pipewire-media-session
+fa484     189464  0.0  0.0  28624  4612 ?        Ss   May23   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+fa484     195275  0.0  0.0  19456  3708 pts/402  Ss+  May23   0:00 /bin/bash --init-file /home/fa484/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+kw875     279736  0.0  0.0  18616 10648 ?        Ss   Mar30   9:33 /lib/systemd/systemd --user
+kw875     279737  0.0  0.0 198992  4684 ?        S    Mar30   0:00 (sd-pam)
+kw875     279745  0.0  0.0  48524  6600 ?        Ssl  Mar30   0:00 /usr/bin/pipewire
+kw875     279746  0.0  0.0  32552  6700 ?        Ssl  Mar30   3:13 /usr/bin/pipewire-media-session
+kw875     279752  0.0  0.0   8264  4368 ?        Ss   Mar30   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+kw875     279764  0.0  0.0 240632  6428 ?        Ssl  Mar30   0:00 /usr/libexec/gvfsd
+kw875     279769  0.0  0.0 380884  5148 ?        Sl   Mar30   0:00 /usr/libexec/gvfsd-fuse /run/user/13144/gvfs -f
+kw875     280009  0.0  0.0  12196  4276 ?        Ss   Mar30   0:04 tmux new
+kw875     280010  0.0  0.0  20516  4184 pts/1    Ss+  Mar30   0:00 -bash
+lz435@d+  330931  0.0  0.0  20512  4600 pts/412  Ss+  May24   0:00 /bin/bash --init-file /home/lz435@drexel.edu/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+mom34@d+  346907  0.0  0.0  20384  4524 pts/419  Ss+  May24   0:00 /bin/bash --init-file /home/mom34@drexel.edu/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+bsh65     373253  0.0  0.0  20652  5236 pts/502  Ss+  Aug02   0:00 /bin/bash --init-file /home/bsh65/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+jm4646    382117  0.0  0.0  18552 10668 ?        Ss   Aug02   2:15 /lib/systemd/systemd --user
+jm4646    382118  0.0  0.0 201748  8996 ?        S    Aug02   0:00 (sd-pam)
+jm4646    382126  0.0  0.0  48524  6808 ?        Ssl  Aug02   0:00 /usr/bin/pipewire
+jm4646    382127  0.0  0.0  32552  7024 ?        Ssl  Aug02   0:38 /usr/bin/pipewire-media-session
+jm4646    382340  0.0  0.0  28508  4644 ?        Ss   Aug02   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+jm4646    382400  0.0  0.0 240640  7448 ?        Ssl  Aug02   0:00 /usr/libexec/gvfsd
+jm4646    382405  0.0  0.0 380888  6656 ?        Sl   Aug02   0:00 /usr/libexec/gvfsd-fuse /run/user/22008/gvfs -f
+jm4646    382571  0.0  0.0 2776544 17752 ?       Sl   Aug02   3:37 /home/jm4646/.vscode-server/extensions/ms-vscode.cpptools-1.16.3-linux-x64/bin/cpptools
+jm4646    382621  0.0  0.0 7020112 11996 ?       Sl   Aug02   6:01 /home/jm4646/.vscode-server/extensions/ms-vscode.cpptools-1.16.3-linux-x64/bin/cpptools-srv 382571 {F69D35B4-BD09-4820-8B2F-C02522FB0A13}
+bsh65     411912  0.0  0.0  20652  5496 pts/539  Ss+  Aug18   0:00 /bin/bash --init-file /home/bsh65/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+jac677@+  414616  0.0  0.0  18552 11072 ?        Ss   Aug02   2:15 /lib/systemd/systemd --user
+jac677@+  414617  0.0  0.0 201748  8996 ?        S    Aug02   0:00 (sd-pam)
+jac677@+  414626  0.0  0.0  48524  6896 ?        Ssl  Aug02   0:00 /usr/bin/pipewire
+jac677@+  414627  0.0  0.0  32552  6928 ?        Ssl  Aug02   0:34 /usr/bin/pipewire-media-session
+jac677@+  414640  0.0  0.0  28508  4656 ?        Ss   Aug02   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+jac677@+  414667  0.0  0.0 240640  7736 ?        Ssl  Aug02   0:00 /usr/libexec/gvfsd
+jac677@+  414673  0.0  0.0 380888  6456 ?        Sl   Aug02   0:00 /usr/libexec/gvfsd-fuse /run/user/945144358/gvfs -f
+jac677@+  415749  0.0  0.0  12896  5200 ?        Ss   Aug02   2:51 tmux
+jac677@+  415750  0.0  0.0  20648  5624 pts/519  Ss+  Aug02   0:00 -bash
+jac677@+  416160  0.0  0.0  20648  5404 pts/520  Ss   Aug02   0:00 -bash
+jac677@+  416706  0.0  0.0  73392 16764 pts/520  S+   Aug02   0:04 vim lab5_starter/simulator.c
+mom34@d+  450081  0.0  0.0  20384  4500 pts/416  Ss+  May25   0:00 /bin/bash --init-file /home/mom34@drexel.edu/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+jm4646    453841  0.0  0.0  94036  9308 ?        Sl   Aug18   1:17 /home/jm4646/.vscode-server/extensions/ms-vscode.cpptools-1.17.3-linux-x64/bin/cpptools
+jm4646    453992  0.0  0.0 4287856 32404 ?       Sl   Aug18   2:03 /home/jm4646/.vscode-server/extensions/ms-vscode.cpptools-1.17.3-linux-x64/bin/cpptools-srv 453841 {5AE74EA1-94CC-40BC-BDC7-028457BAFB71}
+root      573114  0.0  0.0  46104  4460 ?        S    Apr03   0:00 /usr/sbin/xrdp-sesman
+bc963@d+  573116  0.0  0.0  18832 10720 ?        Ss   Apr03   9:32 /lib/systemd/systemd --user
+bc963@d+  573117  0.0  0.0 198992  4324 ?        S    Apr03   0:00 (sd-pam)
+bc963@d+  573125  0.0  0.0  48660  6496 ?        Ssl  Apr03   0:08 /usr/bin/pipewire
+bc963@d+  573126  0.0  0.0  32552  6624 ?        Ssl  Apr03   2:49 /usr/bin/pipewire-media-session
+bc963@d+  573127  0.0  0.0 1084688 20472 ?       Ssl  Apr03   0:12 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+bc963@d+  573128  0.0  0.0 510940 25708 ?        Sl   Apr03   2:14 x-session-manager
+bc963@d+  573129 22.2  0.2 686104 196260 ?       Rl   Apr03 46378:07 /usr/lib/xorg/Xorg :10 -auth .Xauthority -config xrdp/xorg.conf -noreset -nolisten tcp -logfile .xorgxrdp.%s.log
+bc963@d+  573133  0.0  0.0  29300  4908 ?        Ss   Apr03   1:59 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+bc963@d+  573143  0.0  0.0 240752  6660 ?        Ssl  Apr03   0:20 /usr/libexec/gvfsd
+bc963@d+  573148  0.0  0.0 380884  4464 ?        Sl   Apr03   0:00 /usr/libexec/gvfsd-fuse /run/user/945170139/gvfs -f
+bc963@d+  573156  0.0  0.0  91200  1588 ?        Sl   Apr03   0:00 /usr/sbin/xrdp-chansrv
+bc963@d+  573300  0.0  0.0   7972    48 ?        Ss   Apr03   1:27 /usr/bin/ssh-agent /usr/bin/im-launch x-session-manager
+bc963@d+  573376  0.0  0.0 309764  6076 ?        Ssl  Apr03   0:00 /usr/libexec/at-spi-bus-launcher
+bc963@d+  573382  0.0  0.0  28644  4052 ?        S    Apr03   0:47 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/945170139/at-spi/bus_10.0
+bc963@d+  573460  0.0  0.0 156988  4948 ?        Ssl  Apr03   0:00 /usr/libexec/dconf-service
+bc963@d+  573464  0.0  0.0 240876  3932 ?        Sl   Apr03   0:25 gnome-keyring-daemon --start
+bc963@d+  573469  0.0  0.0 1016116 21620 ?       Sl   Apr03  49:07 /usr/bin/mate-settings-daemon
+bc963@d+  573473  0.0  0.0 162748  6180 ?        Sl   Apr03   0:22 /usr/libexec/at-spi2-registryd --use-gnome-session
+bc963@d+  573852  0.0  0.0 399236  9240 ?        Ssl  Apr03  42:41 /usr/libexec/gvfs-udisks2-volume-monitor
+bc963@d+  573974  0.0  0.0 236448  5600 ?        Ssl  Apr03   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+bc963@d+  573995  0.0  0.0 315196  6512 ?        Ssl  Apr03  10:53 /usr/libexec/gvfs-afc-volume-monitor
+bc963@d+  574000  0.0  0.0 236624  5212 ?        Ssl  Apr03   0:00 /usr/libexec/gvfs-goa-volume-monitor
+bc963@d+  574012  0.0  0.0 237404  5768 ?        Ssl  Apr03   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+bc963@d+  574058  1.7  0.0 632592 32628 ?        Sl   Apr03 3661:53 marco
+bc963@d+  574063  0.0  0.0 508552 23160 ?        Sl   Apr03   0:17 mate-panel
+bc963@d+  574072  0.0  0.1 833708 82716 ?        Sl   Apr03   1:07 /usr/bin/caja
+bc963@d+  574077  0.0  0.0 570624 17556 ?        Sl   Apr03   0:24 /usr/lib/mate-panel/wnck-applet
+bc963@d+  574081  0.0  0.0 572088 17064 ?        Sl   Apr03   0:13 /usr/lib/mate-applets/trashapplet
+bc963@d+  574083  0.0  0.3 811356 219152 ?       Sl   Apr03   4:16 /usr/lib/x86_64-linux-gnu/brisk-menu/brisk-menu
+bc963@d+  574085  0.5  1.6 1667196 1115356 ?     Sl   Apr03 1071:29 /usr/lib/mate-indicator-applet/mate-indicator-applet-complete
+bc963@d+  574087  0.0  0.0 570580 17036 ?        Sl   Apr03   0:13 /usr/lib/mate-panel/notification-area-applet
+bc963@d+  574106  0.0  0.0 363760 19432 ?        Sl   Apr03   0:12 /usr/libexec/ayatana-indicator-printers/ayatana-indicator-printers-service
+bc963@d+  574109  0.0  0.0 388252 32592 ?        Sl   Apr03   1:36 /usr/bin/python3 /usr/bin/blueman-applet
+bc963@d+  574111  0.0  0.0 430912 20416 ?        Sl   Apr03   1:44 nm-applet --indicator
+bc963@d+  574119  0.0  0.0 487916 28184 ?        Sl   Apr03  12:26 mate-screensaver
+bc963@d+  574120  0.0  0.0 315104  7340 ?        Sl   Apr03   4:30 /usr/libexec/gvfsd-trash --spawner :1.4 /org/gtk/gvfs/exec_spaw/0
+bc963@d+  574140  0.0  0.0 881628 35468 ?        Sl   Apr03   0:37 /usr/libexec/evolution-data-server/evolution-alarm-notify
+bc963@d+  574142  0.0  0.0 427548 16576 ?        Sl   Apr03   6:37 update-notifier
+bc963@d+  574146  0.0  0.0 384140  5536 ?        Sl   Apr03   0:00 /usr/libexec/ayatana-indicator-notifications/ayatana-indicator-notifications-service
+bc963@d+  574155  0.0  0.0 877512 16660 ?        Sl   Apr03   2:53 /usr/libexec/ayatana-indicator-datetime/ayatana-indicator-datetime-service
+bc963@d+  574173  0.0  0.0 255044  6820 ?        Sl   Apr03   0:10 /usr/libexec/ayatana-indicator-application/ayatana-indicator-application-service
+bc963@d+  574180  0.0  0.0 237108  4356 ?        Sl   Apr03   0:00 /usr/libexec/geoclue-2.0/demos/agent
+bc963@d+  574199  0.0  0.0 928808 10108 ?        Sl   Apr03   0:09 /usr/libexec/ayatana-indicator-sound/ayatana-indicator-sound-service
+bc963@d+  574220  0.0  0.0 926700  9452 ?        Sl   Apr03  27:49 /usr/libexec/ayatana-indicator-session/ayatana-indicator-session-service
+bc963@d+  574268  0.0  0.0 345900 13652 ?        Sl   Apr03   1:32 /usr/lib/x86_64-linux-gnu/polkit-mate/polkit-mate-authentication-agent-1
+bc963@d+  574274  0.0  0.0 323288  6756 ?        Sl   Apr03   0:00 /usr/libexec/ayatana-indicator-messages/ayatana-indicator-messages-service
+bc963@d+  574299  0.0  0.0 532584  5808 ?        Sl   Apr03   0:00 /usr/libexec/ayatana-indicator-power/ayatana-indicator-power-service
+bc963@d+  574329  0.0  0.0 562892 14812 ?        Ssl  Apr03   1:27 /usr/libexec/xdg-desktop-portal
+bc963@d+  574340  0.0  0.0 463164  5968 ?        Ssl  Apr03   0:38 /usr/libexec/xdg-document-portal
+bc963@d+  574347  0.0  0.0 236140  4028 ?        Ssl  Apr03   0:00 /usr/libexec/xdg-permission-store
+root      574355  0.0  0.0  11884  1808 ?        Ss   Apr03   0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/945170139/doc
+bc963@d+  574370  0.0  0.0 1146916 18288 ?       Ssl  Apr03   0:02 /usr/libexec/evolution-source-registry
+bc963@d+  574371  0.0  0.0 419840 15996 ?        Ssl  Apr03   0:34 /usr/libexec/xdg-desktop-portal-gtk
+bc963@d+  574406  0.0  0.0 997192 22380 ?        Ssl  Apr03   0:34 /usr/libexec/evolution-calendar-factory
+bc963@d+  574432  0.0  0.0  46948  4912 ?        Ss   Apr03   0:00 /usr/lib/bluetooth/obexd
+bc963@d+  574433  0.0  0.0 745976 22632 ?        Ssl  Apr03   0:32 /usr/libexec/evolution-addressbook-factory
+bc963@d+  574441  0.0  0.0 163004  5448 ?        Ssl  Apr03   0:00 /usr/libexec/gvfsd-metadata
+ac3963    589494  0.0  0.0  18580 10520 ?        Ss   Apr03   9:32 /lib/systemd/systemd --user
+ac3963    589495  0.0  0.0 198992  3772 ?        S    Apr03   0:00 (sd-pam)
+ac3963    589503  0.0  0.0  48524  6488 ?        Ssl  Apr03   0:00 /usr/bin/pipewire
+ac3963    589504  0.0  0.0  32552  6696 ?        Ssl  Apr03   2:52 /usr/bin/pipewire-media-session
+ac3963    589541  0.0  0.0   8268  4476 ?        Ss   Apr03   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ac3963    589557  0.0  0.0   2888   868 ?        S    Apr03   0:00 sh /home/ac3963/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/ac3963/.vscode-server/.6d9b74a70ca9c7733b29f0456fd8195364076dda.token
+ac3963    589566  0.0  0.0 930992 42916 ?        Sl   Apr03  22:04 /home/ac3963/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/node /home/ac3963/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/ac3963/.vscode-server/.6d9b74a70ca9c7733b29f0456fd8195364076dda.token
+ac3963    589583  0.0  0.0 240636  6340 ?        Ssl  Apr03   0:00 /usr/libexec/gvfsd
+ac3963    589588  0.0  0.0 380884  5100 ?        Sl   Apr03   0:00 /usr/libexec/gvfsd-fuse /run/user/15650/gvfs -f
+ac3963    589682  0.0  0.0 623464 24304 ?        Sl   Apr03  14:05 /home/ac3963/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/node /home/ac3963/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/bootstrap-fork --type=ptyHost --logsPath /home/ac3963/.vscode-server/data/logs/20230403T132409
+jl3988    591137  0.0  0.0  18604 10592 ?        Ss   Apr03   9:32 /lib/systemd/systemd --user
+jl3988    591138  0.0  0.0 198992  3652 ?        S    Apr03   0:00 (sd-pam)
+jl3988    591145  0.0  0.0  48524  6548 ?        Ssl  Apr03   0:00 /usr/bin/pipewire
+jl3988    591146  0.0  0.0  32552  6696 ?        Ssl  Apr03   2:52 /usr/bin/pipewire-media-session
+jl3988    591188  0.0  0.0   8264  4484 ?        Ss   Apr03   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+jl3988    591194  0.0  0.0 240632  6288 ?        Ssl  Apr03   0:00 /usr/libexec/gvfsd
+jl3988    591199  0.0  0.0 380884  4688 ?        Sl   Apr03   0:00 /usr/libexec/gvfsd-fuse /run/user/12988/gvfs -f
+jl3988    592255  0.0  0.0  19524  3124 pts/7    Ss+  Apr03   0:00 /bin/bash --init-file /home/jl3988/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+fa484     645179  0.0  0.0  19456  3572 pts/423  Ss+  May26   0:00 /bin/bash --init-file /home/fa484/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+agm67     765296  0.0  0.0  18564  9920 ?        Ss   Jul05   5:34 /lib/systemd/systemd --user
+agm67     765297  0.0  0.0 201396  8596 ?        S    Jul05   0:00 (sd-pam)
+agm67     765304  0.0  0.0  48524  6884 ?        Ssl  Jul05   0:00 /usr/bin/pipewire
+agm67     765305  0.0  0.0  32552  6992 ?        Ssl  Jul05   1:14 /usr/bin/pipewire-media-session
+agm67     765349  0.0  0.0  28508  4560 ?        Ss   Jul05   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+agm67     765355  0.0  0.0 240640  6096 ?        Ssl  Jul05   0:00 /usr/libexec/gvfsd
+agm67     765360  0.0  0.0 380888  5016 ?        Sl   Jul05   0:00 /usr/libexec/gvfsd-fuse /run/user/17398/gvfs -f
+agm67     777201  0.0  0.0  19448  3880 pts/488  Ss+  Jul05   0:00 /bin/bash --init-file /home/agm67/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+agm67     807632  0.0  0.0 3507724 21760 ?       Sl   Jul05   0:41 /home/agm67/.vscode-server/extensions/ms-vscode.cpptools-1.16.3-linux-x64/debugAdapters/bin/OpenDebugAD7
+agm67     808101  0.0  0.0 3507788 21584 ?       Sl   Jul05   0:40 /home/agm67/.vscode-server/extensions/ms-vscode.cpptools-1.16.3-linux-x64/debugAdapters/bin/OpenDebugAD7
+jm4646    999850  0.0  0.0 2776544 14532 ?       Sl   Aug04   3:13 /home/jm4646/.vscode-server/extensions/ms-vscode.cpptools-1.16.3-linux-x64/bin/cpptools
+jm4646    999940  0.0  0.0 7020244 11420 ?       Sl   Aug04   5:28 /home/jm4646/.vscode-server/extensions/ms-vscode.cpptools-1.16.3-linux-x64/bin/cpptools-srv 999850 {A6E76226-923C-4EB9-9A7F-9C9A2DEBB165}
+tkg36    1017944  0.0  0.0  18604 10564 ?        Ss   Apr05   9:29 /lib/systemd/systemd --user
+tkg36    1017945  0.0  0.0 198992  3772 ?        S    Apr05   0:00 (sd-pam)
+tkg36    1017953  0.0  0.0  48528  6460 ?        Ssl  Apr05   0:00 /usr/bin/pipewire
+tkg36    1017954  0.0  0.0  32552  6700 ?        Ssl  Apr05   2:53 /usr/bin/pipewire-media-session
+tkg36    1017959  0.0  0.0   2888   896 ?        Ss   Apr05   0:00 /bin/sh /usr/bin/loffice
+tkg36    1017960  0.0  0.0 170760  2892 ?        Sl   Apr05   0:00 /usr/lib/libreoffice/program/oosplash
+tkg36    1017968  0.0  0.0   8268  4440 ?        Ss   Apr05   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+tkg36    1017995  0.0  0.0 240632  6252 ?        Ssl  Apr05   0:00 /usr/libexec/gvfsd
+tkg36    1018003  0.0  0.0 380884  5176 ?        Sl   Apr05   0:00 /usr/libexec/gvfsd-fuse /run/user/20539/gvfs -f
+tkg36    1018022  0.0  0.0 456316 55108 ?        Sl   Apr05   0:15 /usr/lib/libreoffice/program/soffice.bin
+mom34@d+ 1087008  0.0  0.0  20384  4552 pts/434  Ss+  May29   0:00 /bin/bash --init-file /home/mom34@drexel.edu/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+root     1202287  0.0  0.0 3683900 34412 ?       Ssl  Aug21   3:04 /usr/lib/snapd/snapd
+mar558   1264384  0.0  0.0  18548 11296 ?        Ss   Aug05   1:50 /lib/systemd/systemd --user
+mar558   1264385  0.0  0.0 202048  9308 ?        S    Aug05   0:00 (sd-pam)
+mar558   1264393  0.0  0.0  48524  6704 ?        Ssl  Aug05   0:00 /usr/bin/pipewire
+mar558   1264394  0.0  0.0  32552  6868 ?        Ssl  Aug05   0:29 /usr/bin/pipewire-media-session
+mar558   1264413  0.0  0.0  28508  4504 ?        Ss   Aug05   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+mar558   1264419  0.0  0.0 240640  7648 ?        Ssl  Aug05   0:00 /usr/libexec/gvfsd
+mar558   1264424  0.0  0.0 380888  6544 ?        Sl   Aug05   0:00 /usr/libexec/gvfsd-fuse /run/user/23307/gvfs -f
+mar558   1268102  0.0  0.0   2640    88 ?        S    Aug05   0:00 ./chat 2
+root     1312000  0.0  0.0  46288  5188 ?        S    May30   0:00 /usr/sbin/xrdp-sesman
+eah356   1312002  0.0  0.0  18808 10004 ?        Ss   May30   7:10 /lib/systemd/systemd --user
+eah356   1312003  0.0  0.0 200748  7924 ?        S    May30   0:00 (sd-pam)
+eah356   1312013  0.0  0.0  48660  6888 ?        Ssl  May30   0:06 /usr/bin/pipewire
+eah356   1312014  0.0  0.0  32552  6944 ?        Ssl  May30   1:55 /usr/bin/pipewire-media-session
+eah356   1312015  0.0  0.0 1084708 20232 ?       Ssl  May30   0:10 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+eah356   1312016  0.0  0.0 510928 40400 ?        Sl   May30   1:32 x-session-manager
+eah356   1312017 14.0  0.2 488240 132292 ?       Sl   May30 17587:04 /usr/lib/xorg/Xorg :12 -auth .Xauthority -config xrdp/xorg.conf -noreset -nolisten tcp -logfile .xorgxrdp.%s.log
+eah356   1312025  0.0  0.0  29328  5160 ?        Ss   May30   1:15 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+eah356   1312029  0.0  0.0  91200  2180 ?        Sl   May30   0:00 /usr/sbin/xrdp-chansrv
+eah356   1312035  0.0  0.0 240760  6864 ?        Ssl  May30   0:14 /usr/libexec/gvfsd
+eah356   1312041  0.0  0.0 380884  4424 ?        Sl   May30   0:00 /usr/libexec/gvfsd-fuse /run/user/20245/gvfs -f
+eah356   1312198  0.0  0.0   7972    80 ?        Ss   May30   0:55 /usr/bin/ssh-agent /usr/bin/im-launch x-session-manager
+eah356   1312272  0.0  0.0 309636  6460 ?        Ssl  May30   0:00 /usr/libexec/at-spi-bus-launcher
+eah356   1312278  0.0  0.0  28644  4256 ?        S    May30   0:32 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/20245/at-spi/bus_12.0
+eah356   1312356  0.0  0.0 156960  4972 ?        Ssl  May30   0:00 /usr/libexec/dconf-service
+eah356   1312360  0.0  0.0 240872  4224 ?        Sl   May30   0:18 gnome-keyring-daemon --start
+eah356   1312365  0.0  0.0 1081504 27976 ?       Sl   May30  34:31 /usr/bin/mate-settings-daemon
+eah356   1312368  0.0  0.0 162748  6432 ?        Sl   May30   0:11 /usr/libexec/at-spi2-registryd --use-gnome-session
+eah356   1312472  1.6  0.0 560936 38588 ?        Sl   May30 2061:54 marco
+eah356   1312481  0.0  0.0 512244 28580 ?        Sl   May30   0:13 mate-panel
+eah356   1312491  0.0  0.1 899416 71300 ?        Sl   May30   0:14 /usr/bin/caja
+eah356   1312504  0.0  0.0 571136 25064 ?        Sl   May30   0:11 /usr/lib/mate-panel/wnck-applet
+eah356   1312506  0.0  0.0 572192 24200 ?        Sl   May30   0:10 /usr/lib/mate-applets/trashapplet
+eah356   1312508  0.0  0.2 743488 158712 ?       Sl   May30   2:32 /usr/lib/x86_64-linux-gnu/brisk-menu/brisk-menu
+eah356   1312511  0.3  1.0 1230848 705404 ?      Sl   May30 412:55 /usr/lib/mate-indicator-applet/mate-indicator-applet-complete
+eah356   1312514  0.0  0.0 572460 26216 ?        Sl   May30   0:10 /usr/lib/mate-panel/notification-area-applet
+eah356   1312533  0.0  0.0 363796 23200 ?        Sl   May30   0:10 /usr/libexec/ayatana-indicator-printers/ayatana-indicator-printers-service
+eah356   1312536  0.0  0.0 388256 42080 ?        Sl   May30   1:11 /usr/bin/python3 /usr/bin/blueman-applet
+eah356   1312538  0.0  0.0 430920 23764 ?        Sl   May30   1:17 nm-applet --indicator
+eah356   1312548  0.0  0.0 422560 31764 ?        Sl   May30   7:13 mate-screensaver
+eah356   1312550  0.0  0.0 399232  9756 ?        Ssl  May30  33:58 /usr/libexec/gvfs-udisks2-volume-monitor
+eah356   1312568  0.0  0.0 315112  7180 ?        Sl   May30   3:23 /usr/libexec/gvfsd-trash --spawner :1.4 /org/gtk/gvfs/exec_spaw/0
+eah356   1312569  0.0  0.0 807884 42988 ?        Sl   May30   0:27 /usr/libexec/evolution-data-server/evolution-alarm-notify
+eah356   1312572  0.0  0.0 353856 21644 ?        Sl   May30   4:12 update-notifier
+eah356   1312574  0.0  0.0 384008  5664 ?        Sl   May30   0:00 /usr/libexec/ayatana-indicator-notifications/ayatana-indicator-notifications-service
+eah356   1312577  0.0  0.0 877436 17800 ?        Sl   May30   2:00 /usr/libexec/ayatana-indicator-datetime/ayatana-indicator-datetime-service
+eah356   1312597  0.0  0.0 255044  9272 ?        Sl   May30   0:07 /usr/libexec/ayatana-indicator-application/ayatana-indicator-application-service
+eah356   1312601  0.0  0.0 237108  4360 ?        Sl   May30   0:00 /usr/libexec/geoclue-2.0/demos/agent
+eah356   1312613  0.0  0.0 1002536 10756 ?       Sl   May30   0:06 /usr/libexec/ayatana-indicator-sound/ayatana-indicator-sound-service
+eah356   1312629  0.0  0.0 163000  5156 ?        Ssl  May30   0:00 /usr/libexec/gvfsd-metadata
+eah356   1312646  0.0  0.0 926688  9808 ?        Sl   May30  19:16 /usr/libexec/ayatana-indicator-session/ayatana-indicator-session-service
+eah356   1312659  0.0  0.0 236448  5680 ?        Ssl  May30   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+eah356   1312673  0.0  0.0 1146848 20760 ?       Ssl  May30   0:01 /usr/libexec/evolution-source-registry
+eah356   1312689  0.0  0.0 345872 19916 ?        Sl   May30   1:09 /usr/lib/x86_64-linux-gnu/polkit-mate/polkit-mate-authentication-agent-1
+eah356   1312698  0.0  0.0 315196  5852 ?        Ssl  May30   6:29 /usr/libexec/gvfs-afc-volume-monitor
+eah356   1312702  0.0  0.0 323292  6676 ?        Sl   May30   0:00 /usr/libexec/ayatana-indicator-messages/ayatana-indicator-messages-service
+eah356   1312730  0.0  0.0 532584  5756 ?        Sl   May30   0:00 /usr/libexec/ayatana-indicator-power/ayatana-indicator-power-service
+eah356   1312735  0.0  0.0 236624  5348 ?        Ssl  May30   0:00 /usr/libexec/gvfs-goa-volume-monitor
+eah356   1312772  0.0  0.0 237404  5824 ?        Ssl  May30   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+eah356   1312778  0.0  0.0 823584 13660 ?        Ssl  May30   1:02 /usr/libexec/xdg-desktop-portal
+eah356   1312795  0.0  0.0 536896  6248 ?        Ssl  May30   0:26 /usr/libexec/xdg-document-portal
+eah356   1312799  0.0  0.0 236140  4436 ?        Ssl  May30   0:00 /usr/libexec/xdg-permission-store
+root     1312808  0.0  0.0  11884  2016 ?        Ss   May30   0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/20245/doc
+eah356   1312822  0.0  0.0 419792 19832 ?        Ssl  May30   0:29 /usr/libexec/xdg-desktop-portal-gtk
+eah356   1312845  0.0  0.0 849692 24844 ?        Ssl  May30   0:25 /usr/libexec/evolution-calendar-factory
+eah356   1312861  0.0  0.0 672244 22152 ?        Ssl  May30   0:24 /usr/libexec/evolution-addressbook-factory
+eah356   1312909  0.0  0.0  46948  4988 ?        Ss   May30   0:00 /usr/lib/bluetooth/obexd
+bcg64    1354056  0.0  0.0  20516  4240 pts/323  Ss+  May04   0:00 /bin/bash --init-file /home/bcg64/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+im453    1357316  0.0  0.0  21280  4816 pts/332  Ss+  May04   0:00 /bin/bash --init-file /home/im453/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+root     1361383  0.0  0.0  44712  5360 ?        Ss   May04   0:00 sshd: jv477 [priv]
+jv477    1361387  0.0  0.0  44712  3784 ?        S    May04   0:00 sshd: jv477@pts/336
+jv477    1361388  0.0  0.0  20356  3904 pts/336  Ss   May04   0:00 -bash
+jv477    1361403  0.0  0.0  25992  5196 pts/336  S+   May04   0:00 ssh tux4
+bcg64    1364031  0.0  0.0  20648  4424 pts/345  Ss+  May04   0:00 /bin/bash --init-file /home/bcg64/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+jah575   1374933  0.0  0.0  19456  3220 pts/353  Ss+  May04   0:00 /bin/bash --init-file /home/jah575/.vscode-server/bin/e344f1f539a80912a0e9357cec841f36ce97a4e2/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+dk989    1375762  0.0  0.0  20516  4264 pts/328  Ss+  May04   0:00 /bin/bash --init-file /home/dk989/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+gp492    1396150  0.0  0.0  18596 10292 ?        Ss   Apr10   9:24 /lib/systemd/systemd --user
+gp492    1396151  0.0  0.0 198992  3920 ?        S    Apr10   0:00 (sd-pam)
+gp492    1396159  0.0  0.0  48524  6492 ?        Ssl  Apr10   0:00 /usr/bin/pipewire
+gp492    1396160  0.0  0.0  32552  6572 ?        Ssl  Apr10   2:48 /usr/bin/pipewire-media-session
+gp492    1396197  0.0  0.0   8248  4468 ?        Ss   Apr10   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+gp492    1396208  0.0  0.0 240632  6368 ?        Ssl  Apr10   0:00 /usr/libexec/gvfsd
+gp492    1396213  0.0  0.0 380884  4692 ?        Sl   Apr10   0:00 /usr/libexec/gvfsd-fuse /run/user/20673/gvfs -f
+gp492    1397302  0.0  0.0  19456  3168 pts/14   Ss+  Apr10   0:00 /bin/bash --init-file /home/gp492/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+bql23    1494165  0.0  0.0   2888   988 ?        S    Jul08   0:00 sh /home/bql23/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/bql23/.vscode-server/.74b1f979648cc44d385a2286793c226e611f59e7.token
+bql23    1494169  0.0  0.0 917128 46916 ?        Sl   Jul08  19:05 /home/bql23/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/node /home/bql23/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/bql23/.vscode-server/.74b1f979648cc44d385a2286793c226e611f59e7.token
+bql23    1494224  0.0  0.0 624512 27332 ?        Sl   Jul08   5:40 /home/bql23/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/node /home/bql23/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/bootstrap-fork --type=ptyHost --logsPath /home/bql23/.vscode-server/data/logs/20230708T182247
+vmc67    1495396  0.0  0.0  22380  7744 pts/471  Ss+  Aug22   0:00 -bash
+vmc67    1495555  0.0  0.0  20512  5852 pts/472  Ss+  Aug22   0:00 -bash
+root     1517035  0.0  0.0  15584  7360 ?        Ss   Jul26   0:55 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+bnb62@d+ 1546527  0.0  0.0  18588  9876 ?        Ss   Jun01   7:02 /lib/systemd/systemd --user
+bnb62@d+ 1546528  0.0  0.0 200748  8084 ?        S    Jun01   0:00 (sd-pam)
+bnb62@d+ 1546536  0.0  0.0  48524  6600 ?        Ssl  Jun01   0:00 /usr/bin/pipewire
+bnb62@d+ 1546537  0.0  0.0  32552  6824 ?        Ssl  Jun01   1:58 /usr/bin/pipewire-media-session
+bnb62@d+ 1546557  0.0  0.0  28580  4460 ?        Ss   Jun01   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+bnb62@d+ 1546562  0.0  0.0 240640  6116 ?        Ssl  Jun01   0:00 /usr/libexec/gvfsd
+bnb62@d+ 1546567  0.0  0.0 380884  5512 ?        Sl   Jun01   0:00 /usr/libexec/gvfsd-fuse /run/user/945174630/gvfs -f
+bnb62@d+ 1550424 99.9  0.0   2656    92 ?        R    Jun01 122879:02 ./wp1
+jv477    1554955  0.0  0.0  19456  3172 pts/356  Ss+  May04   0:00 /bin/bash --init-file /home/jv477/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+egc39    1562291  0.0  0.0  18564 10432 ?        Ss   Jul26   3:10 /lib/systemd/systemd --user
+egc39    1562292  0.0  0.0 201800  8968 ?        S    Jul26   0:00 (sd-pam)
+egc39    1562301  0.0  0.0  48528  6808 ?        Ssl  Jul26   0:00 /usr/bin/pipewire
+egc39    1562302  0.0  0.0  32552  7004 ?        Ssl  Jul26   0:46 /usr/bin/pipewire-media-session
+egc39    1562308  0.0  0.0  16856  3276 ?        Ss   Jul26   0:00 /usr/lib/openssh/sftp-server
+egc39    1562310  0.0  0.0  28608  4704 ?        Ss   Jul26   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+egc39    1562315  0.0  0.0 240640  7640 ?        Ssl  Jul26   0:00 /usr/libexec/gvfsd
+egc39    1562320  0.0  0.0 380888  6512 ?        Sl   Jul26   0:00 /usr/libexec/gvfsd-fuse /run/user/12846/gvfs -f
+ar3637   1618237  0.0  0.0  18576 10636 ?        Ss   Jul26   3:08 /lib/systemd/systemd --user
+ar3637   1618238  0.0  0.0 201800  8972 ?        S    Jul26   0:00 (sd-pam)
+ar3637   1618246  0.0  0.0  48524  6956 ?        Ssl  Jul26   0:00 /usr/bin/pipewire
+ar3637   1618247  0.0  0.0  32552  7020 ?        Ssl  Jul26   0:46 /usr/bin/pipewire-media-session
+ar3637   1618261  0.0  0.0  28536  4776 ?        Ss   Jul26   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ar3637   1629473  0.0  0.0   2772    96 ?        S    Jul26   0:00 ./forkdemo Bob
+ar3637   1629474  0.0  0.0   2772    96 ?        S    Jul26   0:00 ./forkdemo Alice
+jv477    1629958  0.0  0.0  19456  3140 pts/361  Ss+  May05   0:00 /bin/bash --init-file /home/jv477/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+lwb32    1632895  0.0  0.0  18580 10264 ?        Ss   May05   8:28 /lib/systemd/systemd --user
+lwb32    1632896  0.0  0.0 200396  7552 ?        S    May05   0:00 (sd-pam)
+lwb32    1632907  0.0  0.0  48524  6628 ?        Ssl  May05   0:00 /usr/bin/pipewire
+lwb32    1632908  0.0  0.0  32552  6696 ?        Ssl  May05   2:37 /usr/bin/pipewire-media-session
+lwb32    1632945  0.0  0.0   8276  4408 ?        Ss   May05   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+lwb32    1633007  0.0  0.0 240636  6148 ?        Ssl  May05   0:00 /usr/libexec/gvfsd
+lwb32    1633012  0.0  0.0 380884  5296 ?        Sl   May05   0:00 /usr/libexec/gvfsd-fuse /run/user/20143/gvfs -f
+jah575   1642858  0.0  0.0  18632 10544 ?        Ss   Apr12   9:20 /lib/systemd/systemd --user
+jah575   1642859  0.0  0.0 199620  3760 ?        S    Apr12   0:00 (sd-pam)
+jah575   1642867  0.0  0.0  48528  6680 ?        Ssl  Apr12   0:00 /usr/bin/pipewire
+jah575   1642868  0.0  0.0  32552  6744 ?        Ssl  Apr12   2:35 /usr/bin/pipewire-media-session
+jah575   1642874  0.0  0.0   8276  4432 ?        Ss   Apr12   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+jah575   1642879  0.0  0.0 240636  6508 ?        Ssl  Apr12   0:00 /usr/libexec/gvfsd
+jah575   1642884  0.0  0.0 380884  4352 ?        Sl   Apr12   0:00 /usr/libexec/gvfsd-fuse /run/user/15594/gvfs -f
+jah575   1643174  0.0  0.0  19456  3048 pts/30   Ss+  Apr12   0:00 /bin/bash --init-file /home/jah575/.vscode-server/bin/e344f1f539a80912a0e9357cec841f36ce97a4e2/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+jah575   1644440  0.0  0.0  19456  3276 pts/38   Ss   Apr12   0:00 /bin/bash --init-file /home/jah575/.vscode-server/bin/e344f1f539a80912a0e9357cec841f36ce97a4e2/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+jah575   1644461  0.0  0.0  42376 21384 pts/38   S+   Apr12   0:00 /usr/bin/python3
+jah575   1649960  0.0  0.0  19456  3240 pts/19   Ss+  Apr12   0:00 /bin/bash --init-file /home/jah575/.vscode-server/bin/e344f1f539a80912a0e9357cec841f36ce97a4e2/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+ihw23    1667444  0.0  0.0  18472 10964 ?        Ss   Aug06   1:43 /lib/systemd/systemd --user
+ihw23    1667445  0.0  0.0 202048  9320 ?        S    Aug06   0:00 (sd-pam)
+ihw23    1667453  0.0  0.0  48524  6692 ?        Ssl  Aug06   0:00 /usr/bin/pipewire
+ihw23    1667454  0.0  0.0  32552  6924 ?        Ssl  Aug06   0:28 /usr/bin/pipewire-media-session
+ihw23    1667471  0.0  0.0  28508  3856 ?        Ss   Aug06   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ihw23    1667493  0.0  0.0 240640  7520 ?        Ssl  Aug06   0:00 /usr/libexec/gvfsd
+ihw23    1667498  0.0  0.0 380888  6520 ?        Sl   Aug06   0:00 /usr/libexec/gvfsd-fuse /run/user/15681/gvfs -f
+ihw23    1667569  0.0  0.0  12756  5320 ?        Ss   Aug06   0:20 tmux
+ihw23    1667570  0.0  0.0  20504  5428 pts/481  Ss   Aug06   0:00 -bash
+ihw23    1667603  0.0  0.0  20592  5196 pts/482  Ss+  Aug06   0:00 -bash
+ihw23    1667641  0.0  0.0  73296 21036 pts/481  S+   Aug06   0:02 vim thumbnail.c
+avahi    1689635  0.0  0.0  18616  2996 ?        Ss   Jun02   1:07 avahi-daemon: running [tux2.local]
+avahi    1689636  0.0  0.0  18484   316 ?        S    Jun02   0:00 avahi-daemon: chroot helper
+ntp      1696918  0.0  0.0  75780  3196 ?        Ssl  Apr13  18:52 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 126:134
+bql23    1733528  0.0  0.0   2888  1044 ?        S    Jul09   0:00 sh /home/bql23/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/bql23/.vscode-server/.74b1f979648cc44d385a2286793c226e611f59e7.token
+bql23    1733532  0.0  0.0 917524 47676 ?        Sl   Jul09  18:40 /home/bql23/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/node /home/bql23/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/bql23/.vscode-server/.74b1f979648cc44d385a2286793c226e611f59e7.token
+bql23    1733592  0.0  0.0 624364 27512 ?        Sl   Jul09   5:26 /home/bql23/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/node /home/bql23/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/bootstrap-fork --type=ptyHost --logsPath /home/bql23/.vscode-server/data/logs/20230709T230853
+mom34@d+ 1750293  0.0  0.0  20588  4844 pts/425  Ss+  Jun02   0:00 /bin/bash --init-file /home/mom34@drexel.edu/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+lwb32    1757426  0.0  0.0  19524  3172 pts/373  Ss+  May05   0:00 /bin/bash --init-file /home/lwb32/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+eah356   1761496  0.0  0.0 1827088 11096 ?       Ssl  Jun02   4:54 /usr/bin/snap userd --agent
+eah356   1761967  0.0  0.0 618696 35152 ?        Sl   Jun02   0:09 /usr/lib/mate-notification-daemon/mate-notification-daemon
+lwb32    1762115  0.0  0.0  19524  3132 pts/362  Ss+  May05   0:00 /bin/bash --init-file /home/lwb32/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+mar558   1768326  0.0  0.0   9252  1096 ?        D    Aug07   0:00 ls --color=auto
+ps949@d+ 1775070  0.0  0.0  18584 10036 ?        Ss   Jun02   7:02 /lib/systemd/systemd --user
+ps949@d+ 1775072  0.0  0.0 200748  8080 ?        S    Jun02   0:00 (sd-pam)
+ps949@d+ 1775079  0.0  0.0  48524  6840 ?        Ssl  Jun02   0:00 /usr/bin/pipewire
+ps949@d+ 1775080  0.0  0.0  32552  6812 ?        Ssl  Jun02   1:50 /usr/bin/pipewire-media-session
+ps949@d+ 1775098  0.0  0.0  28604  4648 ?        Ss   Jun02   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ps949@d+ 1775103  0.0  0.0 240632  6508 ?        Ssl  Jun02   0:00 /usr/libexec/gvfsd
+ps949@d+ 1775108  0.0  0.0 380884  4352 ?        Sl   Jun02   0:00 /usr/libexec/gvfsd-fuse /run/user/945124510/gvfs -f
+ps949@d+ 1775988  0.0  0.0  19008  2708 ?        Ss   Jun02   0:00 SCREEN
+ps949@d+ 1775989  0.0  0.0  20388  4552 pts/126  Ss+  Jun02   0:00 /bin/bash
+ss5278   1817131  0.0  0.0  18612 10736 ?        Ss   Apr14   9:17 /lib/systemd/systemd --user
+ss5278   1817132  0.0  0.0 199620  3600 ?        S    Apr14   0:00 (sd-pam)
+ss5278   1817143  0.0  0.0  48528  6508 ?        Ssl  Apr14   0:00 /usr/bin/pipewire
+ss5278   1817144  0.0  0.0  32552  6700 ?        Ssl  Apr14   2:32 /usr/bin/pipewire-media-session
+ss5278   1817150  0.0  0.0   8268  4396 ?        Ss   Apr14   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ss5278   1817190  0.0  0.0 240636  6272 ?        Ssl  Apr14   0:00 /usr/libexec/gvfsd
+ss5278   1817195  0.0  0.0 380884  4412 ?        Sl   Apr14   0:00 /usr/libexec/gvfsd-fuse /run/user/21387/gvfs -f
+ss5278   1817700  0.0  0.0  20504  4236 pts/31   Ss+  Apr14   0:00 /bin/bash --init-file /home/ss5278/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+ss5278   1820045  0.0  0.0  34924 15444 pts/31   T    Apr14   0:00 python3 /home/ss5278/GradeScript/grade
+rc3252@+ 1820453  0.0  0.0  18588 10612 ?        Ss   Apr14   9:18 /lib/systemd/systemd --user
+rc3252@+ 1820454  0.0  0.0 199620  3320 ?        S    Apr14   0:00 (sd-pam)
+rc3252@+ 1820462  0.0  0.0  48524  6500 ?        Ssl  Apr14   0:00 /usr/bin/pipewire
+rc3252@+ 1820463  0.0  0.0  32552  6620 ?        Ssl  Apr14   2:49 /usr/bin/pipewire-media-session
+rc3252@+ 1820476  0.0  0.0  19568  4412 ?        Ss   Apr14   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+rc3252@+ 1820486  0.0  0.0 240636  6192 ?        Ssl  Apr14   0:00 /usr/libexec/gvfsd
+rc3252@+ 1820491  0.0  0.0 380884  4620 ?        Sl   Apr14   0:00 /usr/libexec/gvfsd-fuse /run/user/945144675/gvfs -f
+rc3252@+ 1822029  0.0  0.0  20516  4144 pts/42   Ss+  Apr14   0:00 /bin/bash --init-file /home/rc3252@drexel.edu/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+rc3252@+ 1822116  0.0  0.0  20384  4156 pts/43   Ss+  Apr14   0:00 /bin/bash --init-file /home/rc3252@drexel.edu/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+ss5278   1822617  0.0  0.0  34604 14880 pts/31   T    Apr14   0:00 python3 /home/ss5278/GradeScript/grade
+mom34@d+ 1837056  0.0  0.0  18612 10164 ?        Ss   Apr14   9:18 /lib/systemd/systemd --user
+mom34@d+ 1837057  0.0  0.0 199620  3532 ?        S    Apr14   0:00 (sd-pam)
+mom34@d+ 1837065  0.0  0.0  48528  6436 ?        Ssl  Apr14   0:00 /usr/bin/pipewire
+mom34@d+ 1837066  0.0  0.0  32552  6620 ?        Ssl  Apr14   2:54 /usr/bin/pipewire-media-session
+mom34@d+ 1837098  0.0  0.0   8268  4404 ?        Ss   Apr14   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+mom34@d+ 1837138  0.0  0.0 240632  6192 ?        Ssl  Apr14   0:00 /usr/libexec/gvfsd
+mom34@d+ 1837143  0.0  0.0 380884  5408 ?        Sl   Apr14   0:00 /usr/libexec/gvfsd-fuse /run/user/945086880/gvfs -f
+mom34@d+ 1837384  0.0  0.0  20516  4264 pts/32   Ss+  Apr14   0:00 /bin/bash --init-file /home/mom34@drexel.edu/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+ps949@d+ 1870171  0.0  0.0  19308  3108 ?        Ss   Jun03   0:00 SCREEN
+ps949@d+ 1870172  0.0  0.0  20468  4876 pts/125  Ss+  Jun03   0:00 /bin/bash
+vmc67    1882192  0.0  0.0  20512  6008 pts/541  Ss+  Aug23   0:00 -bash
+vmc67    1882212  0.0  0.0  20512  5944 pts/552  Ss+  Aug23   0:00 -bash
+oab34    1898915  0.0  0.0  18592 10036 ?        Ss   Jun03   6:55 /lib/systemd/systemd --user
+oab34    1898916  0.0  0.0 200748  8080 ?        S    Jun03   0:00 (sd-pam)
+oab34    1898923  0.0  0.0  48528  6816 ?        Ssl  Jun03   0:00 /usr/bin/pipewire
+oab34    1898924  0.0  0.0  32552  6840 ?        Ssl  Jun03   1:48 /usr/bin/pipewire-media-session
+oab34    1898939  0.0  0.0  28608  4572 ?        Ss   Jun03   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+oab34    1898946  0.0  0.0 240636  6328 ?        Ssl  Jun03   0:00 /usr/libexec/gvfsd
+oab34    1898951  0.0  0.0 380884  5096 ?        Sl   Jun03   0:00 /usr/libexec/gvfsd-fuse /run/user/17803/gvfs -f
+oab34    1899487  0.0  0.0  11384  3804 ?        Ss   Jun03   0:04 tmux
+oab34    1899488  0.0  0.0  20352  4420 pts/429  Ss   Jun03   0:00 -bash
+oab34    1899535  0.0  0.0  20352  4572 pts/435  Ss+  Jun03   0:00 -bash
+oab34    1899546  0.0  0.0  20352  4316 pts/436  Ss+  Jun03   0:00 -bash
+oab34    1899799  0.0  0.0  78224 19500 pts/429  S+   Jun03   0:00 vim -S session_4.vim
+vmc67    1900148  0.0  0.0  20604  5868 pts/495  Ss+  Aug23   0:00 -bash
+arm446   1928768  0.0  0.0  18592  9876 ?        Ss   Jun22   6:20 /lib/systemd/systemd --user
+arm446   1928769  0.0  0.0 201064  8228 ?        S    Jun22   0:00 (sd-pam)
+arm446   1928777  0.0  0.0  48660  6788 ?        Ssl  Jun22   0:00 /usr/bin/pipewire
+arm446   1928778  0.0  0.0  32552  6860 ?        Ssl  Jun22   1:25 /usr/bin/pipewire-media-session
+arm446   1929791  0.0  0.0 237112  2760 ?        Sl   Jun22   0:00 /usr/libexec/geoclue-2.0/demos/agent
+arm446   1931252  0.0  0.0 237112  2816 ?        Sl   Jun22   0:00 /usr/libexec/geoclue-2.0/demos/agent
+arm446   1936048  0.0  0.0  28524  3748 ?        Ss   Jun22   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+lhw38    1942770  0.0  0.0  18612  9916 ?        Ss   May07   8:24 /lib/systemd/systemd --user
+lhw38    1942771  0.0  0.0 200396  7556 ?        S    May07   0:00 (sd-pam)
+lhw38    1942779  0.0  0.0  48524  6548 ?        Ssl  May07   0:00 /usr/bin/pipewire
+lhw38    1942780  0.0  0.0  32552  6784 ?        Ssl  May07   2:25 /usr/bin/pipewire-media-session
+lhw38    1942817  0.0  0.0   8260  4404 ?        Ss   May07   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+lhw38    1942877  0.0  0.0 240640  6388 ?        Ssl  May07   0:00 /usr/libexec/gvfsd
+lhw38    1942886  0.0  0.0 380884  4436 ?        Sl   May07   0:00 /usr/libexec/gvfsd-fuse /run/user/17153/gvfs -f
+lhw38    1943049  0.0  0.0  19456  3160 pts/374  Ss+  May07   0:00 /bin/bash --init-file /home/lhw38/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+jb4457@+ 1984169  0.0  0.0  18368 10772 ?        Ss   Aug23   0:13 /lib/systemd/systemd --user
+jb4457@+ 1984170  0.0  0.0 202572  9200 ?        S    Aug23   0:00 (sd-pam)
+jb4457@+ 1984179  0.0  0.0  48528  6652 ?        Ssl  Aug23   0:00 /usr/bin/pipewire
+jb4457@+ 1984180  0.0  0.0  32552  6980 ?        Ssl  Aug23   0:03 /usr/bin/pipewire-media-session
+jb4457@+ 1984209  0.0  0.0  28508  4656 ?        Ss   Aug23   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+jb4457@+ 1984214  0.0  0.0 240640  7708 ?        Ssl  Aug23   0:00 /usr/libexec/gvfsd
+jb4457@+ 1984219  0.0  0.0 380888  6828 ?        Sl   Aug23   0:00 /usr/libexec/gvfsd-fuse /run/user/945147287/gvfs -f
+jb4457@+ 1988531  0.0  0.0  12372  5064 ?        Ss   Aug23   0:07 tmux
+jb4457@+ 1988532  0.0  0.0  20540  6124 pts/457  Ss   Aug23   0:00 -bash
+jb4457@+ 2007364  0.0  0.0  20540  5868 pts/476  Ss   Aug23   0:00 -bash
+jb4457@+ 2015872  0.0  0.0  73240 21936 pts/476  S+   Aug23   0:00 vim queue-ll.c
+jb4457@+ 2015913  0.0  0.0  73444 22048 pts/457  S+   Aug23   0:00 vim queue-arr.c
+ps949@d+ 2061023  0.0  0.0  19428  3248 ?        Ss   Jun04   0:00 SCREEN
+ps949@d+ 2061024  0.0  0.0  20520  4892 pts/274  Ss+  Jun04   0:00 /bin/bash
+ps949@d+ 2061043  0.0  0.0  20520  4772 pts/338  Ss+  Jun04   0:00 /bin/bash
+jah575   2067906  0.0  0.0  19456  3308 pts/45   Ss+  Apr17   0:00 /bin/bash --init-file /home/jah575/.vscode-server/bin/e344f1f539a80912a0e9357cec841f36ce97a4e2/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+bql23    2075387  0.0  0.0   2888   984 ?        S    Jun04   0:00 sh /home/bql23/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/bql23/.vscode-server/.74b1f979648cc44d385a2286793c226e611f59e7.token
+bql23    2075391  0.0  0.0 916592 46960 ?        Sl   Jun04  31:17 /home/bql23/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/node /home/bql23/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/bql23/.vscode-server/.74b1f979648cc44d385a2286793c226e611f59e7.token
+bql23    2075451  0.0  0.0 624752 27952 ?        Sl   Jun04   9:07 /home/bql23/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/node /home/bql23/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/bootstrap-fork --type=ptyHost --logsPath /home/bql23/.vscode-server/data/logs/20230604T222346
+wm359    2147526  0.0  0.0  18592 10524 ?        Ss   Apr17   9:17 /lib/systemd/systemd --user
+wm359    2147527  0.0  0.0 199620  3636 ?        S    Apr17   0:00 (sd-pam)
+wm359    2147535  0.0  0.0  48528  6500 ?        Ssl  Apr17   0:00 /usr/bin/pipewire
+wm359    2147536  0.0  0.0  32552  6700 ?        Ssl  Apr17   2:37 /usr/bin/pipewire-media-session
+wm359    2147542  0.0  0.0   8260  4356 ?        Ss   Apr17   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+wm359    2147574  0.0  0.0 240640  6384 ?        Ssl  Apr17   0:00 /usr/libexec/gvfsd
+wm359    2147580  0.0  0.0 380884  4604 ?        Sl   Apr17   0:00 /usr/libexec/gvfsd-fuse /run/user/21986/gvfs -f
+wm359    2147801  0.0  0.0  19456  3072 pts/54   Ss+  Apr17   0:00 /bin/bash --init-file /home/wm359/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+wm359    2148193  0.0  0.0   2888   960 pts/54   T    Apr17   0:00 sh run.sh random L D' R' F R D' 6 10
+wm359    2148194  0.0  0.0  20456  7700 pts/54   T    Apr17   0:24 python3 RubiksCube.py random L D' R' F R D' 6 10
+wm359    2148233  0.0  0.0   2888   940 pts/54   T    Apr17   0:00 sh run.sh random L D' R' F R D' 6 10
+wm359    2148234  0.0  0.0  20456  7684 pts/54   T    Apr17   0:01 python3 RubiksCube.py random L D' R' F R D' 6 10
+jah575   2151762  0.0  0.0  19456  3060 pts/61   Ss+  Apr17   0:00 /bin/bash --init-file /home/jah575/.vscode-server/bin/e344f1f539a80912a0e9357cec841f36ce97a4e2/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+wm359    2158678  0.0  0.0   2888   988 pts/54   T    Apr17   0:00 sh run.sh random L D' R' F R D' 6 10
+wm359    2158679  0.0  0.0  20456  7696 pts/54   T    Apr17   0:01 python3 RubiksCube.py random L D' R' F R D' 6 10
+wm359    2159194  0.0  0.0   2888   944 pts/54   T    Apr17   0:00 sh run.sh random L D' R' F R D' 6 10
+wm359    2159195  0.0  0.0  20456  7760 pts/54   T    Apr17   0:22 python3 RubiksCube.py random L D' R' F R D' 6 10
+bsh65    2168147  0.0  0.0  20652  5536 pts/534  Ss+  Aug09   0:00 /bin/bash --init-file /home/bsh65/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+yj395    2180632  0.0  0.0  18580 10556 ?        Ss   Apr17   9:16 /lib/systemd/systemd --user
+yj395    2180633  0.0  0.0 199620  3528 ?        S    Apr17   0:00 (sd-pam)
+yj395    2180641  0.0  0.0  48524  6488 ?        Ssl  Apr17   0:00 /usr/bin/pipewire
+yj395    2180642  0.0  0.0  32552  6628 ?        Ssl  Apr17   2:43 /usr/bin/pipewire-media-session
+yj395    2180650  0.0  0.0   8164  4356 ?        Ss   Apr17   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+yj395    2181694  0.0  0.0  19544  3252 pts/69   Ss+  Apr17   0:00 /bin/bash --init-file /home/yj395/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+jac677@+ 2197591  0.0  0.0  20648  5580 pts/550  Ss   Aug09   0:00 -bash
+jac677@+ 2197680  0.0  0.0  20648  5528 pts/551  Ss+  Aug09   0:00 -bash
+jac677@+ 2198452  0.0  0.0  73224 20528 pts/550  S+   Aug09   0:02 vim func1.c
+vmc67    2207105  0.0  0.0  18448 10784 ?        Ss   Aug09   1:31 /lib/systemd/systemd --user
+vmc67    2207106  0.0  0.0 202048  9364 ?        S    Aug09   0:00 (sd-pam)
+vmc67    2207115  0.0  0.0  48524  6708 ?        Ssl  Aug09   0:00 /usr/bin/pipewire
+vmc67    2207116  0.0  0.0  32552  6888 ?        Ssl  Aug09   0:24 /usr/bin/pipewire-media-session
+vmc67    2207131  0.0  0.0  28508  4520 ?        Ss   Aug09   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+vmc67    2207136  0.0  0.0 240640  7652 ?        Ssl  Aug09   0:00 /usr/libexec/gvfsd
+vmc67    2207141  0.0  0.0 380888  6652 ?        Sl   Aug09   0:00 /usr/libexec/gvfsd-fuse /run/user/17805/gvfs -f
+vmc67    2207236  0.0  0.0  13236  5484 ?        Ss   Aug09   0:37 tmux -2
+vmc67    2207237  0.0  0.0  20512  5360 pts/524  Ss   Aug09   0:00 -bash
+vmc67    2207274  0.0  0.0  20380  5168 pts/525  Ss   Aug09   0:00 -bash
+vmc67    2207342  0.0  0.0  73832 20896 pts/525  S+   Aug09   0:02 vim shell.c
+vmc67    2207506  0.0  0.0  20380  4964 pts/530  Ss+  Aug09   0:00 -bash
+vmc67    2218089  0.0  0.0  73212 20124 pts/524  S+   Aug09   0:00 vim forkdemo.c
+ihw23    2228910  0.0  0.0  20372  5008 pts/553  Ss   Aug09   0:00 -bash
+ihw23    2228937  0.0  0.0  20372  5104 pts/554  Ss+  Aug09   0:00 -bash
+ihw23    2228963  0.0  0.0  72968 20032 pts/553  S+   Aug09   0:00 vim x
+ss5278   2229094  0.0  0.0  20504  4232 pts/72   Ss+  Apr18   0:00 /bin/bash --init-file /home/ss5278/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+ss5278   2229986  0.0  0.0  34724 15364 pts/72   T    Apr18   0:00 python3 /home/ss5278/GradeScript/grade
+ss5278   2230051  0.0  0.0  35040 14988 pts/72   T    Apr18   0:00 python3 /home/ss5278/GradeScript/grade
+sms642   2235993  0.0  0.0  18576 10528 ?        Ss   Apr18   9:16 /lib/systemd/systemd --user
+sms642   2235994  0.0  0.0 199620  3944 ?        S    Apr18   0:00 (sd-pam)
+sms642   2236002  0.0  0.0  48524  6568 ?        Ssl  Apr18   0:00 /usr/bin/pipewire
+sms642   2236003  0.0  0.0  32552  6668 ?        Ssl  Apr18   3:21 /usr/bin/pipewire-media-session
+sms642   2236037  0.0  0.0   8164  4336 ?        Ss   Apr18   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+sms642   2236538  0.0  0.0  19456  3004 pts/80   Ss+  Apr18   0:00 /bin/bash --init-file /home/sms642/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+sms642   2250827  0.0  0.0  19456  3156 pts/91   Ss+  Apr18   0:00 /bin/bash --init-file /home/sms642/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+mom34@d+ 2259089  0.0  0.0  20516  4316 pts/87   Ss+  Apr18   0:00 /bin/bash --init-file /home/mom34@drexel.edu/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+dk989    2262021  0.0  0.0  18584 10108 ?        Ss   Apr18   9:17 /lib/systemd/systemd --user
+dk989    2262023  0.0  0.0 199620  3632 ?        S    Apr18   0:00 (sd-pam)
+dk989    2262033  0.0  0.0  48524  6556 ?        Ssl  Apr18   0:00 /usr/bin/pipewire
+dk989    2262034  0.0  0.0  32552  6684 ?        Ssl  Apr18   2:41 /usr/bin/pipewire-media-session
+dk989    2262046  0.0  0.0   8244  4404 ?        Ss   Apr18   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+dk989    2262082  0.0  0.0 240632  6120 ?        Ssl  Apr18   0:00 /usr/libexec/gvfsd
+dk989    2262096  0.0  0.0 380884  4568 ?        Sl   Apr18   0:00 /usr/libexec/gvfsd-fuse /run/user/22861/gvfs -f
+dk989    2262555  0.0  0.0  20516  4196 pts/98   Ss+  Apr18   0:00 /bin/bash --init-file /home/dk989/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+mg3789   2286944  0.0  0.0  18588 10192 ?        Ss   Jun06   6:51 /lib/systemd/systemd --user
+mg3789   2286945  0.0  0.0 200748  8088 ?        S    Jun06   0:00 (sd-pam)
+mg3789   2286952  0.0  0.0  48524  6644 ?        Ssl  Jun06   0:00 /usr/bin/pipewire
+mg3789   2286953  0.0  0.0  32552  6824 ?        Ssl  Jun06   1:46 /usr/bin/pipewire-media-session
+mg3789   2286971  0.0  0.0  28508  4440 ?        Ss   Jun06   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+mg3789   2286976  0.0  0.0 240636  6388 ?        Ssl  Jun06   0:00 /usr/libexec/gvfsd
+mg3789   2286981  0.0  0.0 380884  5408 ?        Sl   Jun06   0:00 /usr/libexec/gvfsd-fuse /run/user/21775/gvfs -f
+mg3789   2287376  0.0  0.0  11320  3948 ?        Ss   Jun06   0:01 tmux new -s 1
+mg3789   2287377  0.0  0.0  21052  4932 pts/339  Ss+  Jun06   0:00 -bash
+mg3789   2289165  0.0  0.0  20920  4524 pts/424  Ss+  Jun06   0:00 -bash
+bql23    2290895  0.0  0.0  18604 10456 ?        Ss   Apr18   9:17 /lib/systemd/systemd --user
+bql23    2290896  0.0  0.0 199620  3772 ?        S    Apr18   0:00 (sd-pam)
+bql23    2290904  0.0  0.0  48528  6524 ?        Ssl  Apr18   0:00 /usr/bin/pipewire
+bql23    2290905  0.0  0.0  32552  6704 ?        Ssl  Apr18   2:56 /usr/bin/pipewire-media-session
+bql23    2290917  0.0  0.0   8264  4360 ?        Ss   Apr18   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+bql23    2290953  0.0  0.0 240640  6152 ?        Ssl  Apr18   0:00 /usr/libexec/gvfsd
+bql23    2290958  0.0  0.0 380884  4688 ?        Sl   Apr18   0:00 /usr/libexec/gvfsd-fuse /run/user/22673/gvfs -f
+bql23    2290980  0.0  0.0   2888   888 ?        S    Apr18   0:00 sh /home/bql23/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/bql23/.vscode-server/.74b1f979648cc44d385a2286793c226e611f59e7.token
+bql23    2290990  0.0  0.0 916768 45980 ?        Sl   Apr18  47:49 /home/bql23/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/node /home/bql23/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/bql23/.vscode-server/.74b1f979648cc44d385a2286793c226e611f59e7.token
+bql23    2291130  0.0  0.0 624364 26700 ?        Sl   Apr18  13:56 /home/bql23/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/node /home/bql23/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/bootstrap-fork --type=ptyHost --logsPath /home/bql23/.vscode-server/data/logs/20230418T220247
+kmp444   2294968  0.0  0.0  18520  9704 ?        Ss   Jun06   6:52 /lib/systemd/systemd --user
+kmp444   2294969  0.0  0.0 200748  8088 ?        S    Jun06   0:00 (sd-pam)
+kmp444   2294980  0.0  0.0  48528  6776 ?        Ssl  Jun06   0:00 /usr/bin/pipewire
+kmp444   2294981  0.0  0.0  32552  6968 ?        Ssl  Jun06   1:54 /usr/bin/pipewire-media-session
+kmp444   2295076  0.0  0.0  28580  4592 ?        Ss   Jun06   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+kmp444   2295111  0.0  0.0 240632  6264 ?        Ssl  Jun06   0:00 /usr/libexec/gvfsd
+kmp444   2295122  0.0  0.0 380884  5112 ?        Sl   Jun06   0:00 /usr/libexec/gvfsd-fuse /run/user/20161/gvfs -f
+kmp444   2304341  0.0  0.0   2888  1060 ?        S    Jun06   0:00 sh /home/kmp444/.vscode-server/bin/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/kmp444/.vscode-server/.b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a.token
+kmp444   2304345  0.0  0.0 931912 41032 ?        Sl   Jun06  28:53 /home/kmp444/.vscode-server/bin/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/node /home/kmp444/.vscode-server/bin/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/kmp444/.vscode-server/.b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a.token
+kmp444   2304393  0.0  0.0 623496 21000 ?        Sl   Jun06   8:46 /home/kmp444/.vscode-server/bin/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/node /home/kmp444/.vscode-server/bin/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/out/bootstrap-fork --type=ptyHost --logsPath /home/kmp444/.vscode-server/data/logs/20230606T135328
+vmc67    2314939  0.0  0.0  20380  5132 pts/543  Ss+  Aug09   0:00 -bash
+vmc67    2315028  0.0  0.0  20512  5364 pts/544  Ss+  Aug09   0:00 -bash
+njm94    2342327  0.0  0.0  18600 10176 ?        Ss   Apr19   9:14 /lib/systemd/systemd --user
+njm94    2342328  0.0  0.0 199764  3400 ?        S    Apr19   0:00 (sd-pam)
+njm94    2342336  0.0  0.0  48524  6548 ?        Ssl  Apr19   0:00 /usr/bin/pipewire
+njm94    2342337  0.0  0.0  32552  6688 ?        Ssl  Apr19   2:33 /usr/bin/pipewire-media-session
+njm94    2342374  0.0  0.0   8276  4328 ?        Ss   Apr19   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+njm94    2342416  0.0  0.0 240636  6304 ?        Ssl  Apr19   0:00 /usr/libexec/gvfsd
+njm94    2342422  0.0  0.0 380884  4436 ?        Sl   Apr19   0:00 /usr/libexec/gvfsd-fuse /run/user/13000/gvfs -f
+njm94    2344360  0.0  0.0  19456  3076 pts/88   Ss+  Apr19   0:00 /bin/bash --init-file /home/njm94/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+im424@d+ 2380569  0.0  0.0  18600 10276 ?        Ss   Apr19   9:15 /lib/systemd/systemd --user
+im424@d+ 2380570  0.0  0.0 199764  3792 ?        S    Apr19   0:00 (sd-pam)
+im424@d+ 2380578  0.0  0.0  48524  6632 ?        Ssl  Apr19   0:00 /usr/bin/pipewire
+im424@d+ 2380579  0.0  0.0  32552  6744 ?        Ssl  Apr19   2:26 /usr/bin/pipewire-media-session
+im424@d+ 2380609  0.0  0.0  19548  4324 ?        Ss   Apr19   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+im424@d+ 2380623  0.0  0.0 240640  6336 ?        Ssl  Apr19   0:00 /usr/libexec/gvfsd
+im424@d+ 2380628  0.0  0.0 380884  5112 ?        Sl   Apr19   0:00 /usr/libexec/gvfsd-fuse /run/user/945130585/gvfs -f
+im424@d+ 2380901  0.0  0.0  20384  4204 pts/111  Ss+  Apr19   0:00 /bin/bash --init-file /home/im424@drexel.edu/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+lld63@d+ 2438694  0.0  0.0  18316 10872 ?        Ss   Aug24   0:06 /lib/systemd/systemd --user
+lld63@d+ 2438695  0.0  0.0 202572  9240 ?        S    Aug24   0:00 (sd-pam)
+lld63@d+ 2438704  0.0  0.0  48524  6768 ?        Ssl  Aug24   0:00 /usr/bin/pipewire
+lld63@d+ 2438705  0.0  0.0  32552  6908 ?        Ssl  Aug24   0:01 /usr/bin/pipewire-media-session
+lld63@d+ 2438852  0.0  0.0  28508  4648 ?        Ss   Aug24   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+lld63@d+ 2438881  0.0  0.0 240640  7908 ?        Ssl  Aug24   0:00 /usr/libexec/gvfsd
+lld63@d+ 2438886  0.0  0.0 380888  6532 ?        Sl   Aug24   0:00 /usr/libexec/gvfsd-fuse /run/user/945146488/gvfs -f
+root     2459455  0.0  0.0 343332 16804 ?        Ss   May10   0:41 /usr/sbin/sssd -i --logger=files
+root     2459456  0.0  0.0 337216 56124 ?        S    May10  33:11 /usr/libexec/sssd/sssd_be --domain cs.drexel.edu --uid 0 --gid 0 --logger=files
+root     2459457  0.0  0.0 225472 30124 ?        S    May10  20:01 /usr/libexec/sssd/sssd_be --domain drexel.edu --uid 0 --gid 0 --logger=files
+root     2459461  0.0  0.2 411708 139392 ?       S    May10  70:14 /usr/libexec/sssd/sssd_nss --uid 0 --gid 0 --logger=files
+root     2459462  0.0  0.1 365204 98012 ?        S    May10  19:02 /usr/libexec/sssd/sssd_pam --uid 0 --gid 0 --logger=files
+bsh65    2460742  0.0  0.0  20652  5940 pts/563  Ss+  Aug24   0:00 /bin/bash --init-file /home/bsh65/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+sms642   2486518  0.0  0.0  19456  3156 pts/102  Ss+  Apr20   0:00 /bin/bash --init-file /home/sms642/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+lld63@d+ 2490229  0.0  0.0   9208  2208 ?        S    Aug24   0:00 grep .txt
+lld63@d+ 2490323  0.0  0.0   9208  2304 ?        S    Aug24   0:00 grep .txt
+lld63@d+ 2490783  0.0  0.0   9208  2224 ?        S    Aug24   0:00 grep .txt
+ya45@dr+ 2491158  0.0  0.0  18612 10148 ?        Ss   May10   8:16 /lib/systemd/systemd --user
+ya45@dr+ 2491159  0.0  0.0 200396  7604 ?        S    May10   0:00 (sd-pam)
+ya45@dr+ 2491167  0.0  0.0  48660  6616 ?        Ssl  May10   0:01 /usr/bin/pipewire
+ya45@dr+ 2491168  0.0  0.0  32552  6780 ?        Ssl  May10   2:04 /usr/bin/pipewire-media-session
+ya45@dr+ 2492250  0.0  0.0 237108  4184 ?        Sl   May10   0:00 /usr/libexec/geoclue-2.0/demos/agent
+root     2509351  0.0  0.0 100892 15532 ?        Ss   00:00   0:00 /usr/sbin/cupsd -l
+lp       2509353  0.0  0.0  16284  5344 ?        S    00:00   0:00 /usr/lib/cups/notifier/dbus dbus://
+lp       2509354  0.0  0.0  16284  5340 ?        S    00:00   0:00 /usr/lib/cups/notifier/dbus dbus://
+lp       2509355  0.0  0.0  16284  5320 ?        S    00:00   0:00 /usr/lib/cups/notifier/dbus dbus://
+lp       2509356  0.0  0.0  16284  5320 ?        S    00:00   0:00 /usr/lib/cups/notifier/dbus dbus://
+root     2509357  0.0  0.0 172660 11388 ?        Ssl  00:00   0:00 /usr/sbin/cups-browsed
+db3544   2519316  0.0  0.0  18576 10628 ?        Ss   Apr20   9:13 /lib/systemd/systemd --user
+db3544   2519317  0.0  0.0 199764  3804 ?        S    Apr20   0:00 (sd-pam)
+db3544   2519324  0.0  0.0  48524  6476 ?        Ssl  Apr20   0:00 /usr/bin/pipewire
+db3544   2519325  0.0  0.0  32552  6692 ?        Ssl  Apr20   2:40 /usr/bin/pipewire-media-session
+db3544   2519357  0.0  0.0   8272  4224 ?        Ss   Apr20   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+db3544   2519377  0.0  0.0 240632  6264 ?        Ssl  Apr20   0:00 /usr/libexec/gvfsd
+db3544   2519382  0.0  0.0 380884  5376 ?        Sl   Apr20   0:00 /usr/libexec/gvfsd-fuse /run/user/22854/gvfs -f
+db3544   2519796  0.0  0.0  20516  4276 pts/116  Ss+  Apr20   0:00 /bin/bash --init-file /home/db3544/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+jv477    2561062  0.0  0.0  18592 10508 ?        Ss   Apr21   9:13 /lib/systemd/systemd --user
+jv477    2561064  0.0  0.0 199764  3716 ?        S    Apr21   0:00 (sd-pam)
+jv477    2561074  0.0  0.0  48528  6556 ?        Ssl  Apr21   0:00 /usr/bin/pipewire
+jv477    2561075  0.0  0.0  32552  6692 ?        Ssl  Apr21   2:39 /usr/bin/pipewire-media-session
+jv477    2561082  0.0  0.0   8276  4508 ?        Ss   Apr21   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+jv477    2561103  0.0  0.0 240636  6384 ?        Ssl  Apr21   0:00 /usr/libexec/gvfsd
+jv477    2561109  0.0  0.0 380884  5160 ?        Sl   Apr21   0:00 /usr/libexec/gvfsd-fuse /run/user/13127/gvfs -f
+jv477    2561370  0.0  0.0  19456  3048 pts/121  Ss+  Apr21   0:00 /bin/bash --init-file /home/jv477/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+lz435@d+ 2568519  0.0  0.0  20516  4556 pts/383  Ss+  May10   0:00 /bin/bash --init-file /home/lz435@drexel.edu/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+dk989    2591055  0.0  0.0  20516  4308 pts/127  Ss+  Apr21   0:00 /bin/bash --init-file /home/dk989/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+ya45@dr+ 2595368  0.0  0.0  28488  4456 ?        Ss   Jun08   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+mainland 2608877  0.0  0.0  18572 10104 ?        Ss   Jun08   6:45 /lib/systemd/systemd --user
+mainland 2608878  0.0  0.0 200748  8088 ?        S    Jun08   0:00 (sd-pam)
+mainland 2608889  0.0  0.0  48524  6596 ?        Ssl  Jun08   0:00 /usr/bin/pipewire
+mainland 2608890  0.0  0.0  32552  6832 ?        Ssl  Jun08   1:48 /usr/bin/pipewire-media-session
+mainland 2608939  0.0  0.0  28604  4556 ?        Ss   Jun08   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+mainland 2608945  0.0  0.0 240632  6672 ?        Ssl  Jun08   0:00 /usr/libexec/gvfsd
+mainland 2608950  0.0  0.0 380884  4756 ?        Sl   Jun08   0:00 /usr/libexec/gvfsd-fuse /run/user/10465/gvfs -f
+mainland 2609063  0.0  0.0   7968  1076 ?        Ss   Jun08   0:00 ssh-agent
+root     2614684  0.0  0.0      0     0 ?        I    14:03   0:02 [kworker/23:0-mm_percpu_wq]
+root     2620798  0.0  0.0      0     0 ?        I    14:37   0:01 [kworker/28:2-cgroup_destroy]
+root     2621659  0.0  0.0      0     0 ?        I    14:41   0:04 [kworker/10:2-events]
+root     2627810  0.0  0.0      0     0 ?        I    15:13   0:02 [kworker/15:2-rcu_par_gp]
+root     2630593  0.0  0.0      0     0 ?        I    15:30   0:01 [kworker/19:1-events]
+root     2631978  0.0  0.0      0     0 ?        I    15:41   0:01 [kworker/14:1-events]
+root     2631979  0.0  0.0      0     0 ?        I    15:41   0:08 [kworker/11:1-mm_percpu_wq]
+root     2637393  0.0  0.0      0     0 ?        I    16:20   0:01 [kworker/20:2-mm_percpu_wq]
+root     2639385  0.0  0.0      0     0 ?        I    16:36   0:02 [kworker/16:3-events]
+root     2640369  0.0  0.0      0     0 ?        I    16:45   0:01 [kworker/12:0-events]
+imb38    2641175  0.0  0.0  18256 10616 ?        Ss   16:51   0:01 /lib/systemd/systemd --user
+imb38    2641176  0.0  0.0 202572  9240 ?        S    16:51   0:00 (sd-pam)
+root     2641182  0.0  0.0      0     0 ?        I    16:51   0:02 [kworker/17:2-events]
+imb38    2641184  0.0  0.0  48524  6740 ?        Ssl  16:51   0:00 /usr/bin/pipewire
+imb38    2641185  0.0  0.0  32552  6968 ?        Ssl  16:51   0:00 /usr/bin/pipewire-media-session
+imb38    2641236  0.0  0.0   2888   956 ?        S    16:51   0:00 sh /home/imb38/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/imb38/.vscode-server/.6c3e3dba23e8fadc360aed75ce363ba185c49794.token
+imb38    2641246  0.2  0.0 943340 64336 ?        Sl   16:51   0:25 /home/imb38/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/node /home/imb38/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/imb38/.vscode-server/.6c3e3dba23e8fadc360aed75ce363ba185c49794.token
+imb38    2641331  0.0  0.0  28380  3896 ?        Ss   16:51   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+imb38    2641392  0.2  0.0 676064 35720 ?        Sl   16:51   0:24 /home/imb38/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/node /home/imb38/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/bootstrap-fork --type=ptyHost --logsPath /home/imb38/.vscode-server/data/logs/20230825T165110
+imb38    2641426  0.1  0.0 838288 33324 ?        Sl   16:51   0:16 /home/imb38/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/node /home/imb38/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/bootstrap-fork --type=fileWatcher
+root     2641479  0.0  0.0      0     0 ?        I    16:51   0:01 [kworker/31:0-events]
+imb38    2641480  0.0  0.0  20520  5768 pts/515  Ss+  16:51   0:00 /bin/bash --init-file /home/imb38/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+bs484    2642771  0.0  0.0  18576 10184 ?        Ss   Jun08   6:44 /lib/systemd/systemd --user
+bs484    2642772  0.0  0.0 200748  8088 ?        S    Jun08   0:00 (sd-pam)
+bs484    2642780  0.0  0.0  48524  6632 ?        Ssl  Jun08   0:00 /usr/bin/pipewire
+bs484    2642781  0.0  0.0  32552  7060 ?        Ssl  Jun08   1:43 /usr/bin/pipewire-media-session
+root     2642792  0.0  0.0      0     0 ?        I    16:58   0:01 [kworker/26:0-ceph-msgr]
+bs484    2642794  0.0  0.0  28608  4592 ?        Ss   Jun08   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+bs484    2642799  0.0  0.0 240636  6528 ?        Ssl  Jun08   0:00 /usr/libexec/gvfsd
+bs484    2642804  0.0  0.0 380884  5284 ?        Sl   Jun08   0:00 /usr/libexec/gvfsd-fuse /run/user/10869/gvfs -f
+root     2643217  0.0  0.0      0     0 ?        I    17:00   0:01 [kworker/24:1-ceph-msgr]
+root     2643508  0.0  0.0      0     0 ?        I    17:04   0:00 [kworker/10:0]
+root     2644494  0.0  0.0      0     0 ?        I    17:11   0:00 [kworker/20:0]
+root     2644499  0.0  0.0      0     0 ?        I    17:11   0:04 [kworker/8:0-events]
+root     2644774  0.0  0.0      0     0 ?        I    17:14   0:02 [kworker/2:2-ceph-msgr]
+root     2644781  0.0  0.0      0     0 ?        I    17:14   0:01 [kworker/13:2-events]
+root     2645447  0.0  0.0      0     0 ?        I    17:19   0:00 [kworker/6:2-cgroup_destroy]
+root     2645451  0.0  0.0      0     0 ?        I    17:19   0:00 [kworker/19:0]
+root     2645755  0.0  0.0      0     0 ?        I    17:20   0:01 [kworker/27:2-events]
+root     2647031  0.0  0.0      0     0 ?        I    17:31   0:01 [kworker/30:0-mm_percpu_wq]
+root     2647034  0.0  0.0      0     0 ?        I    17:31   0:01 [kworker/21:2-events]
+root     2648112  0.0  0.0      0     0 ?        I    17:40   0:00 [kworker/1:1-events]
+root     2648469  0.0  0.0      0     0 ?        I    17:44   0:03 [kworker/u64:0-events_unbound]
+root     2649638  0.0  0.0      0     0 ?        I    17:54   0:00 [kworker/5:0]
+root     2649639  0.0  0.0      0     0 ?        I    17:54   0:00 [kworker/7:1-events]
+root     2649995  0.0  0.0      0     0 ?        I    17:54   0:01 [kworker/4:1-events]
+bs484    2650903  0.0  0.0  19144  2936 ?        Ss   Jun08   0:00 SCREEN
+bs484    2650904  0.0  0.0  19324  3584 pts/427  Ss+  Jun08   0:00 /bin/bash
+bs484    2651578  0.0  0.0  19144  2848 ?        Ss   Jun08   0:00 SCREEN -S ab
+bs484    2651579  0.0  0.0  19324  3556 pts/437  Ss+  Jun08   0:00 /bin/bash
+bs484    2651786  0.0  0.0  19408  3200 ?        Ss   Jun08   0:00 SCREEN -S c
+bs484    2651787  0.0  0.0  19324  3584 pts/438  Ss+  Jun08   0:00 /bin/bash
+bs484    2651970  0.0  0.0  19324  3536 pts/441  Ss+  Jun08   0:00 /bin/bash
+root     2656067  0.0  0.0      0     0 ?        I    18:27   0:01 [kworker/24:2-events]
+root     2657200  0.0  0.0  44660 11744 ?        Ss   18:31   0:00 sshd: bjg84 [priv]
+bjg84    2657208  0.0  0.0  18240 10780 ?        Ss   18:31   0:00 /lib/systemd/systemd --user
+bjg84    2657209  0.0  0.0 202572  9240 ?        S    18:31   0:00 (sd-pam)
+bjg84    2657218  0.0  0.0  48528  6780 ?        Ssl  18:31   0:00 /usr/bin/pipewire
+bjg84    2657219  0.0  0.0  32552  6936 ?        Ssl  18:31   0:00 /usr/bin/pipewire-media-session
+bjg84    2657220  0.0  0.0 297644 23120 ?        Ssl  18:31   0:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+bjg84    2657223  0.0  0.0  44660  8564 ?        S    18:31   0:00 sshd: bjg84@pts/569
+bjg84    2657224  0.0  0.0  20576  6060 pts/569  Ss+  18:31   0:00 -bash
+bjg84    2657233  0.0  0.0  28508  4772 ?        Ss   18:31   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+bjg84    2657248  0.0  0.0 240640  7784 ?        Ssl  18:31   0:00 /usr/libexec/gvfsd
+bjg84    2657253  0.0  0.0 380888  6788 ?        Sl   18:31   0:00 /usr/libexec/gvfsd-fuse /run/user/22123/gvfs -f
+root     2660688  0.0  0.0      0     0 ?        I    18:50   0:00 [kworker/8:2-events]
+root     2661933  0.0  0.0      0     0 ?        I    18:55   0:00 [kworker/28:1-events]
+root     2661937  0.0  0.0      0     0 ?        I    18:55   0:00 [kworker/21:1]
+root     2663122  0.0  0.0      0     0 ?        I    19:00   0:00 [kworker/18:2-events]
+root     2663416  0.0  0.0  44660 11640 ?        Ss   19:02   0:00 sshd: aa4449 [priv]
+aa4449   2663424  0.0  0.0  18252 10724 ?        Ss   19:02   0:00 /lib/systemd/systemd --user
+aa4449   2663425  0.0  0.0 202572  9240 ?        S    19:02   0:00 (sd-pam)
+aa4449   2663433  0.0  0.0  48524  6828 ?        Ssl  19:02   0:00 /usr/bin/pipewire
+aa4449   2663434  0.0  0.0  32552  7036 ?        Ssl  19:02   0:00 /usr/bin/pipewire-media-session
+aa4449   2663435  0.0  0.0 297644 23172 ?        Ssl  19:02   0:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+aa4449   2663438  0.2  0.0  44960  9092 ?        S    19:02   0:08 sshd: aa4449@pts/523
+aa4449   2663439  0.0  0.0  20616  6192 pts/523  Ss   19:02   0:00 -bash
+aa4449   2663440  0.2  0.0   9968  3800 ?        Ss   19:02   0:09 bash -c while true; do sleep 1;head -v -n 8 /proc/meminfo; head -v -n 2 /proc/stat /proc/version /proc/uptime /proc/loadavg /proc/sys/fs/file-nr /proc/sys/kernel/hostname; tail -v -n 16 /proc/net/dev;echo '==> /proc/df <==';df -l;echo '==> /proc/end <==';echo '##Moba##'; done
+aa4449   2663454  0.0  0.0  28508  4756 ?        Ss   19:02   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+aa4449   2663473  0.0  0.0 240640  7592 ?        Ssl  19:02   0:00 /usr/libexec/gvfsd
+aa4449   2663478  0.0  0.0 455652  5684 ?        Sl   19:02   0:01 /usr/libexec/gvfsd-fuse /run/user/17203/gvfs -f
+root     2663516  0.0  0.0      0     0 ?        I    19:02   0:00 [kworker/12:2-events]
+bcg64    2666933  0.0  0.0  18588 10536 ?        Ss   Apr22   9:14 /lib/systemd/systemd --user
+bcg64    2666935  0.0  0.0 199764  4036 ?        S    Apr22   0:00 (sd-pam)
+bcg64    2666945  0.0  0.0  48524  6460 ?        Ssl  Apr22   0:00 /usr/bin/pipewire
+bcg64    2666946  0.0  0.0  32552  6812 ?        Ssl  Apr22   2:34 /usr/bin/pipewire-media-session
+bcg64    2666979  0.0  0.0   8256  4380 ?        Ss   Apr22   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+bcg64    2667014  0.0  0.0 240640  6392 ?        Ssl  Apr22   0:00 /usr/libexec/gvfsd
+bcg64    2667019  0.0  0.0 380884  4668 ?        Sl   Apr22   0:00 /usr/libexec/gvfsd-fuse /run/user/20624/gvfs -f
+bcg64    2668486  0.0  0.0  20516  4124 pts/133  Ss+  Apr22   0:00 /bin/bash --init-file /home/bcg64/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+root     2670457  0.0  0.0      0     0 ?        I    19:16   0:00 [kworker/26:2-events]
+root     2670590  0.0  0.0      0     0 ?        I    19:17   0:00 [kworker/18:0-events]
+root     2670592  0.0  0.0      0     0 ?        I    19:17   0:00 [kworker/27:3-events]
+root     2672629  0.0  0.0   3208  1024 ?        S    19:21   0:00 sleep 3600
+rs3738   2673691  0.0  0.0  18628 10224 ?        Ss   May11   8:09 /lib/systemd/systemd --user
+rs3738   2673692  0.0  0.0 200396  7688 ?        S    May11   0:00 (sd-pam)
+rs3738   2673700  0.0  0.0  48660  6676 ?        Ssl  May11   0:00 /usr/bin/pipewire
+rs3738   2673701  0.0  0.0  32552  6808 ?        Ssl  May11   2:11 /usr/bin/pipewire-media-session
+root     2674590  0.0  0.0      0     0 ?        I    19:25   0:00 [kworker/23:2-events]
+rs3738   2674752  0.0  0.0 237108  4356 ?        Sl   May11   0:00 /usr/libexec/geoclue-2.0/demos/agent
+root     2676564  0.0  0.0      0     0 ?        I    19:30   0:01 [kworker/0:2-events]
+root     2676734  0.0  0.0      0     0 ?        I    19:30   0:00 [kworker/14:0]
+root     2676763  0.0  0.0      0     0 ?        I    19:30   0:00 [kworker/16:0]
+root     2676764  0.0  0.0      0     0 ?        I    19:30   0:00 [kworker/31:2]
+root     2676766  0.0  0.0      0     0 ?        I    19:30   0:00 [kworker/3:2-events]
+root     2676769  0.0  0.0      0     0 ?        I    19:30   0:00 [kworker/29:2-events]
+root     2676770  0.0  0.0      0     0 ?        I    19:30   0:00 [kworker/7:3-cgroup_destroy]
+root     2677111  0.0  0.0      0     0 ?        I    19:31   0:01 [kworker/u64:3-flush-253:0]
+root     2678822  0.0  0.0  44664 12524 ?        Ss   19:35   0:00 sshd: elv32@drexel.edu [priv]
+elv32@d+ 2678948  0.0  0.0  18204 10972 ?        Ss   19:35   0:00 /lib/systemd/systemd --user
+elv32@d+ 2678949  0.0  0.0 202572  9240 ?        S    19:35   0:00 (sd-pam)
+elv32@d+ 2678956  0.0  0.0  48524  6840 ?        Ssl  19:35   0:00 /usr/bin/pipewire
+elv32@d+ 2678957  0.0  0.0  32552  7044 ?        Ssl  19:35   0:00 /usr/bin/pipewire-media-session
+elv32@d+ 2678958  0.0  0.0 297636 23116 ?        Ssl  19:35   0:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+elv32@d+ 2678961  0.0  0.0  44664  9476 ?        S    19:35   0:00 sshd: elv32@drexel.edu@pts/468
+elv32@d+ 2678968  0.0  0.0  20620  5916 pts/468  Ss   19:35   0:00 -bash
+elv32@d+ 2678982  0.0  0.0  28508  4728 ?        Ss   19:35   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+elv32@d+ 2678987  0.0  0.0 240640  7736 ?        Ssl  19:35   0:00 /usr/libexec/gvfsd
+elv32@d+ 2678992  0.0  0.0 380888  6672 ?        Sl   19:35   0:00 /usr/libexec/gvfsd-fuse /run/user/945157177/gvfs -f
+root     2680649  0.0  0.0  44664 12612 ?        Ss   19:39   0:00 sshd: tb3297@drexel.edu [priv]
+root     2680679  0.0  0.0      0     0 ?        I    19:39   0:00 [kworker/22:2-events]
+tb3297@+ 2680681  0.0  0.0  18212 10660 ?        Ss   19:39   0:00 /lib/systemd/systemd --user
+tb3297@+ 2680682  0.0  0.0 202572  9240 ?        S    19:39   0:00 (sd-pam)
+tb3297@+ 2680691  0.0  0.0  48524  6804 ?        Ssl  19:39   0:00 /usr/bin/pipewire
+tb3297@+ 2680692  0.0  0.0  32552  6920 ?        Ssl  19:39   0:00 /usr/bin/pipewire-media-session
+tb3297@+ 2680693  0.0  0.0 297652 23084 ?        Ssl  19:39   0:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+tb3297@+ 2680696  0.0  0.0  44664  9684 ?        S    19:39   0:00 sshd: tb3297@drexel.edu@pts/469
+tb3297@+ 2680697  0.0  0.0  20508  5828 pts/469  Ss+  19:39   0:00 -bash
+tb3297@+ 2680717  0.0  0.0  28508  4676 ?        Ss   19:40   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+tb3297@+ 2680737  0.0  0.0 240640  7744 ?        Ssl  19:40   0:00 /usr/libexec/gvfsd
+tb3297@+ 2680742  0.0  0.0 380888  6568 ?        Sl   19:40   0:00 /usr/libexec/gvfsd-fuse /run/user/945166066/gvfs -f
+rs3738   2680770  0.0  0.0  28500  4424 ?        Ss   May11   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+postfix  2683714  0.0  0.0  68420  6288 ?        S    19:46   0:00 pickup -l -t unix -u -c
+ovh23    2684245  0.0  0.0  18592  9856 ?        Ss   Jun09   6:43 /lib/systemd/systemd --user
+ovh23    2684246  0.0  0.0 200748  8088 ?        S    Jun09   0:00 (sd-pam)
+ovh23    2684253  0.0  0.0  48524  6632 ?        Ssl  Jun09   0:00 /usr/bin/pipewire
+ovh23    2684254  0.0  0.0  32700  7032 ?        Ssl  Jun09   1:43 /usr/bin/pipewire-media-session
+ovh23    2684272  0.0  0.0  28508  4396 ?        Ss   Jun09   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ovh23    2684278  0.0  0.0 240640  6344 ?        Ssl  Jun09   0:00 /usr/libexec/gvfsd
+ovh23    2684283  0.0  0.0 380884  4676 ?        Sl   Jun09   0:00 /usr/libexec/gvfsd-fuse /run/user/22335/gvfs -f
+ovh23    2684367  0.0  0.0  11368  3964 ?        Ss   Jun09 106:29 tmux
+ovh23    2684368  0.0  0.0  20648  4848 pts/377  Ss   Jun09   0:00 -bash
+ovh23    2684422  0.1  0.0  95264  9800 pts/377  Sl+  Jun09 219:18 python3 binclock_curses.py
+ovh23    2684634  0.0  0.0  20648  4892 pts/428  Ss   Jun09   0:00 -bash
+ovh23    2684664  0.0  0.0  95264  8020 pts/428  S+   Jun09   0:07 python3 binclock_curses.py
+root     2686122  0.0  0.0      0     0 ?        I    19:52   0:00 [kworker/9:0]
+root     2686123  0.0  0.0      0     0 ?        I    19:52   0:00 [kworker/30:2-cgroup_destroy]
+root     2686164  0.0  0.0      0     0 ?        I    19:52   0:00 [kworker/u64:6-flush-253:0]
+root     2686199  0.0  0.0      0     0 ?        I    19:52   0:00 [kworker/17:0]
+root     2686202  0.0  0.0      0     0 ?        I    19:52   0:00 [kworker/15:1-mm_percpu_wq]
+root     2686203  0.0  0.0      0     0 ?        I    19:52   0:00 [kworker/6:0-events]
+root     2686207  0.0  0.0      0     0 ?        I    19:52   0:00 [kworker/11:0]
+root     2686386  0.0  0.0      0     0 ?        I    19:52   0:00 [kworker/25:0-events]
+root     2686387  0.0  0.0      0     0 ?        I    19:52   0:00 [kworker/5:2-events]
+root     2686459  0.0  0.0      0     0 ?        I    19:52   0:00 [kworker/1:0-events]
+root     2688468  0.0  0.0  46460  6276 ?        S    Jun26   0:00 /usr/sbin/xrdp-sesman
+bjb344@+ 2688470  0.0  0.0  18808 10136 ?        Ss   Jun26   6:14 /lib/systemd/systemd --user
+bjb344@+ 2688471  0.0  0.0 201064  8236 ?        S    Jun26   0:00 (sd-pam)
+bjb344@+ 2688480  0.0  0.0  48660  6676 ?        Ssl  Jun26   0:03 /usr/bin/pipewire
+bjb344@+ 2688481  0.0  0.0  32552  6732 ?        Ssl  Jun26   1:23 /usr/bin/pipewire-media-session
+bjb344@+ 2688482  0.0  0.0 1346984 20044 ?       Ssl  Jun26   0:09 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+bjb344@+ 2688484  0.0  0.0   9968  2756 ?        S    Jun26   0:00 /bin/bash /home/bjb344@drexel.edu/.xsession
+bjb344@+ 2688485 11.7  0.2 501020 143588 ?       Sl   Jun26 10220:46 /usr/lib/xorg/Xorg :11 -auth .Xauthority -config xrdp/xorg.conf -noreset -nolisten tcp -logfile .xorgxrdp.%s.log
+bjb344@+ 2688493  0.0  0.0  91196  2508 ?        Sl   Jun26   0:00 /usr/sbin/xrdp-chansrv
+bjb344@+ 2688494  0.0  0.0  29276  5304 ?        Ss   Jun26   0:53 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+bjb344@+ 2688542  0.0  0.0 240744  6436 ?        Ssl  Jun26   0:10 /usr/libexec/gvfsd
+bjb344@+ 2688547  0.0  0.0 380888  3632 ?        Sl   Jun26   0:00 /usr/libexec/gvfsd-fuse /run/user/1151798767/gvfs -f
+bjb344@+ 2688654  0.0  0.0   7968    80 ?        Ss   Jun26   0:40 /usr/bin/ssh-agent /usr/bin/im-launch /bin/bash /home/bjb344@drexel.edu/.xsession
+bjb344@+ 2688725  0.0  0.0 505640 40784 ?        Sl   Jun26   1:14 mate-session
+bjb344@+ 2688730  0.0  0.0 309640  5120 ?        Ssl  Jun26   0:00 /usr/libexec/at-spi-bus-launcher
+bjb344@+ 2688736  0.0  0.0  34972 10616 ?        S    Jun26   0:28 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1151798767/at-spi/bus_11.0
+bjb344@+ 2688815  0.0  0.0 156964  3452 ?        Ssl  Jun26   0:00 /usr/libexec/dconf-service
+bjb344@+ 2688819  0.0  0.0 240944  4484 ?        Sl   Jun26   0:11 gnome-keyring-daemon --start
+bjb344@+ 2688824  0.0  0.0 1081500 30920 ?       Sl   Jun26  25:57 /usr/bin/mate-settings-daemon
+bjb344@+ 2688826  0.0  0.0 162752  5200 ?        Sl   Jun26   0:08 /usr/libexec/at-spi2-registryd --use-gnome-session
+root     2688908  0.0  0.0  44656 11644 ?        Ss   19:57   0:00 sshd: dcc333 [priv]
+bjb344@+ 2688935  1.7  0.0 897592 41004 ?        Sl   Jun26 1492:49 marco
+bjb344@+ 2688940  0.0  0.0 511824 29180 ?        Sl   Jun26   0:08 mate-panel
+root     2688944  0.0  0.0      0     0 ?        I    19:57   0:00 [kworker/3:0]
+dcc333   2688945  0.0  0.0  18208 10752 ?        Ss   19:57   0:00 /lib/systemd/systemd --user
+dcc333   2688946  0.0  0.0 202572  9240 ?        S    19:57   0:00 (sd-pam)
+root     2688953  0.0  0.0      0     0 ?        I    19:57   0:00 [kworker/13:0-events]
+dcc333   2688955  0.0  0.0  48528  6700 ?        Ssl  19:57   0:00 /usr/bin/pipewire
+dcc333   2688956  0.0  0.0  32552  7168 ?        Ssl  19:57   0:00 /usr/bin/pipewire-media-session
+dcc333   2688957  0.0  0.0 297644 23204 ?        Ssl  19:57   0:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+bjb344@+ 2688960  0.0  0.1 1061596 101456 ?      Sl   Jun26   9:33 /usr/bin/caja
+dcc333   2688961  0.0  0.0  44908  8952 ?        S    19:57   0:00 sshd: dcc333@notty
+bjb344@+ 2688964  0.0  0.0 572028 29352 ?        Sl   Jun26   0:06 /usr/lib/mate-panel/wnck-applet
+bjb344@+ 2688966  0.0  0.0 569372 23712 ?        Sl   Jun26   0:06 /usr/lib/mate-applets/trashapplet
+bjb344@+ 2688968  0.0  0.2 713160 132408 ?       Sl   Jun26   1:41 /usr/lib/x86_64-linux-gnu/brisk-menu/brisk-menu
+bjb344@+ 2688970  0.2  0.7 1078008 520132 ?      Sl   Jun26 207:22 /usr/lib/mate-indicator-applet/mate-indicator-applet-complete
+dcc333   2688971  0.0  0.0  10232  3760 ?        Ss   19:57   0:00 bash
+bjb344@+ 2688972  0.0  0.0 569236 24432 ?        Sl   Jun26   0:06 /usr/lib/mate-panel/notification-area-applet
+bjb344@+ 2688992  0.0  0.0 399256 10080 ?        Ssl  Jun26  29:42 /usr/libexec/gvfs-udisks2-volume-monitor
+bjb344@+ 2688999  0.0  0.0 358452 20128 ?        Sl   Jun26   0:05 /usr/libexec/ayatana-indicator-printers/ayatana-indicator-printers-service
+bjb344@+ 2689004  0.0  0.0 381964 43240 ?        Sl   Jun26   0:49 /usr/bin/python3 /usr/bin/blueman-applet
+bjb344@+ 2689006  0.0  0.0 425628 25096 ?        Sl   Jun26   1:06 nm-applet --indicator
+bjb344@+ 2689011  0.0  0.0 417132 32056 ?        Sl   Jun26   5:06 mate-screensaver
+bjb344@+ 2689018  0.0  0.0 315116  6204 ?        Sl   Jun26   2:54 /usr/libexec/gvfsd-trash --spawner :1.5 /org/gtk/gvfs/exec_spaw/0
+bjb344@+ 2689026  0.0  0.0 880660 45396 ?        Sl   Jun26   0:19 /usr/libexec/evolution-data-server/evolution-alarm-notify
+bjb344@+ 2689032  0.0  0.0 422212 23208 ?        Sl   Jun26   2:59 update-notifier
+bjb344@+ 2689037  0.0  0.0 384012  3132 ?        Sl   Jun26   0:00 /usr/libexec/ayatana-indicator-notifications/ayatana-indicator-notifications-service
+bjb344@+ 2689039  0.0  0.0 877552 18412 ?        Sl   Jun26   1:27 /usr/libexec/ayatana-indicator-datetime/ayatana-indicator-datetime-service
+bjb344@+ 2689041  0.0  0.0 236452  3944 ?        Ssl  Jun26   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+bjb344@+ 2689052  0.0  0.0 255048  9344 ?        Sl   Jun26   0:04 /usr/libexec/ayatana-indicator-application/ayatana-indicator-application-service
+bjb344@+ 2689054  0.0  0.0 237112  2872 ?        Sl   Jun26   0:00 /usr/libexec/geoclue-2.0/demos/agent
+dcc333   2689066  0.0  0.0   2888   992 ?        S    19:57   0:00 sh /home/dcc333/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/dcc333/.vscode-server/.6c3e3dba23e8fadc360aed75ce363ba185c49794.token
+bjb344@+ 2689068  0.0  0.0 315196  4592 ?        Ssl  Jun26   4:41 /usr/libexec/gvfs-afc-volume-monitor
+bjb344@+ 2689070  0.0  0.0 1002580 9248 ?        Sl   Jun26   0:05 /usr/libexec/ayatana-indicator-sound/ayatana-indicator-sound-service
+dcc333   2689085  1.0  0.0 942520 63812 ?        Sl   19:57   0:11 /home/dcc333/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/node /home/dcc333/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/dcc333/.vscode-server/.6c3e3dba23e8fadc360aed75ce363ba185c49794.token
+bjb344@+ 2689090  0.0  0.0 236628  4044 ?        Ssl  Jun26   0:00 /usr/libexec/gvfs-goa-volume-monitor
+bjb344@+ 2689093  0.0  0.0 926716 11176 ?        Sl   Jun26  16:47 /usr/libexec/ayatana-indicator-session/ayatana-indicator-session-service
+bjb344@+ 2689123  0.0  0.0 237408  4492 ?        Ssl  Jun26   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+bjb344@+ 2689124  0.0  0.0 340640 18020 ?        Sl   Jun26   1:00 /usr/lib/x86_64-linux-gnu/polkit-mate/polkit-mate-authentication-agent-1
+bjb344@+ 2689126  0.0  0.0 323292  5184 ?        Sl   Jun26   0:00 /usr/libexec/ayatana-indicator-messages/ayatana-indicator-messages-service
+bjb344@+ 2689136  0.0  0.0 385124  4240 ?        Sl   Jun26   0:00 /usr/libexec/ayatana-indicator-power/ayatana-indicator-power-service
+bjb344@+ 2689181  0.0  0.0 822936 11420 ?        Ssl  Jun26   0:44 /usr/libexec/xdg-desktop-portal
+bjb344@+ 2689197  0.0  0.0 163012  3940 ?        Ssl  Jun26   0:00 /usr/libexec/gvfsd-metadata
+bjb344@+ 2689199  0.0  0.0 611664  4716 ?        Ssl  Jun26   0:16 /usr/libexec/xdg-document-portal
+bjb344@+ 2689208  0.0  0.0 236148  2592 ?        Ssl  Jun26   0:00 /usr/libexec/xdg-permission-store
+dcc333   2689214  0.0  0.0  28508  4800 ?        Ss   19:57   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root     2689219  0.0  0.0  11884  1940 ?        Ss   Jun26   0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1151798767/doc
+bjb344@+ 2689233  0.0  0.0 346136 18504 ?        Ssl  Jun26   0:18 /usr/libexec/xdg-desktop-portal-gtk
+bjb344@+ 2689243  0.0  0.0 1146860 21644 ?       Ssl  Jun26   0:01 /usr/libexec/evolution-source-registry
+dcc333   2689281  0.0  0.0 240640  7768 ?        Ssl  19:57   0:00 /usr/libexec/gvfsd
+dcc333   2689287  0.0  0.0 380888  6568 ?        Sl   19:57   0:00 /usr/libexec/gvfsd-fuse /run/user/15641/gvfs -f
+dcc333   2689313  0.3  0.0 684248 35168 ?        Sl   19:57   0:03 /home/dcc333/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/node /home/dcc333/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/bootstrap-fork --type=ptyHost --logsPath /home/dcc333/.vscode-server/data/logs/20230825T195745
+bjb344@+ 2689320  0.0  0.0 849692 24432 ?        Ssl  Jun26   0:21 /usr/libexec/evolution-calendar-factory
+bjb344@+ 2689334  0.0  0.0 672244 22020 ?        Ssl  Jun26   0:20 /usr/libexec/evolution-addressbook-factory
+root     2689336  0.7  0.0      0     0 ?        I    19:57   0:08 [kworker/9:1-ceph-msgr]
+dcc333   2689347  1.1  0.1 1010620 128496 ?      Sl   19:57   0:12 /home/dcc333/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/node /home/dcc333/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+bjb344@+ 2689369  0.0  0.0  46948  4348 ?        Ss   Jun26   0:00 /usr/lib/bluetooth/obexd
+dcc333   2689372  0.1  0.0 837896 26188 ?        Sl   19:57   0:01 /home/dcc333/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/node /home/dcc333/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/bootstrap-fork --type=fileWatcher
+dcc333   2689533  0.4  0.0 145508 62708 ?        Sl   19:57   0:05 /home/dcc333/.vscode-server/extensions/ms-vscode.cpptools-1.17.4-linux-x64/bin/cpptools
+dcc333   2689584  0.0  0.0  20528  5708 pts/564  Ss+  19:57   0:00 /bin/bash --init-file /home/dcc333/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+bjb344@+ 2689689  0.0  0.0 331660  9512 ?        Sl   Jun26   0:00 /home/bjb344@drexel.edu/ApacheDirectoryStudio/ApacheDirectoryStudio
+bjb344@+ 2689714  0.3  1.3 23707532 866328 ?     Sl   Jun26 342:32 /usr/bin/java -Dosgi.requiredJavaVersion=1.8 -jar /home/bjb344@drexel.edu/ApacheDirectoryStudio//plugins/org.eclipse.equinox.launcher_1.5.0.v20180512-1130.jar -os linux -ws gtk -arch x86_64 -showsplash -launcher /home/bjb344@drexel.edu/ApacheDirectoryStudio/ApacheDirectoryStudio -name ApacheDirectoryStudio --launcher.library /home/bjb344@drexel.edu/ApacheDirectoryStudio//plugins/org.eclipse.equinox.launcher.gtk.linux.x86_64_1.1.700.v20180518-1200/eclipse_1705.so -startup /home/bjb344@drexel.edu/ApacheDirectoryStudio//plugins/org.eclipse.equinox.launcher_1.5.0.v20180512-1130.jar --launcher.overrideVmargs -exitdata 879001e /studio-rcp/resources/icons/linux/studio.xpm -vm /usr/bin/java -vmargs -Dosgi.requiredJavaVersion=1.8 -jar /home/bjb344@drexel.edu/ApacheDirectoryStudio//plugins/org.eclipse.equinox.launcher_1.5.0.v20180512-1130.jar
+root     2689896  0.0  0.0      0     0 ?        I    19:58   0:00 [kworker/22:0-rcu_par_gp]
+root     2689899  0.0  0.0      0     0 ?        I    19:58   0:00 [kworker/0:1-rcu_gp]
+root     2689903  0.0  0.0      0     0 ?        I    19:58   0:00 [kworker/25:2-rcu_par_gp]
+root     2689908  0.0  0.0      0     0 ?        I    19:58   0:00 [kworker/29:0-mm_percpu_wq]
+root     2689909  0.0  0.0      0     0 ?        I    19:58   0:00 [kworker/4:2-events]
+dcc333   2690122  0.0  0.0 4285960 10004 ?       Sl   19:58   0:00 /home/dcc333/.vscode-server/extensions/ms-vscode.cpptools-1.17.4-linux-x64/bin/cpptools-srv 2689533 {A4C453E3-4047-413A-ABDA-289AAFBE17F9}
+elv32@d+ 2691543  0.0  0.0  19620  5048 pts/468  S+   20:01   0:00 nano queue-arr.c
+root     2693072  0.0  0.0      0     0 ?        I    20:05   0:00 [kworker/u64:1-events_unbound]
+root     2693180  0.0  0.0      0     0 ?        I    20:05   0:00 [kworker/2:0-events]
+bc963@d+ 2695090  2.5  0.0 245900 39916 ?        Sl   20:10   0:07 /usr/lib/mate-screensaver/mate-screensaver/floaters /usr/share/pixmaps/mate-logo-white.svg
+eah356   2695535  2.3  0.0 246136 40176 ?        Sl   20:11   0:06 /usr/lib/mate-screensaver/mate-screensaver/floaters /usr/share/pixmaps/mate-logo-white.svg
+root     2695562  0.0  0.0      0     0 ?        I    20:11   0:00 [kworker/u64:2-ext4-rsv-conversion]
+bjb344@+ 2695984  2.4  0.0 245260 39396 ?        Sl   20:12   0:04 /usr/lib/mate-screensaver/mate-screensaver/floaters /usr/share/pixmaps/mate-logo-white.svg
+dcc333   2696065  0.0  0.0   8368  1016 ?        S    20:12   0:00 sleep 180
+aa4449   2696953  0.0  0.0   2776   980 pts/523  S+   20:15   0:00 /home/aa4449/CS283/aysh/aysh
+root     2697165  0.0  0.0      0     0 ?        I    20:15   0:00 [kworker/u64:4]
+root     2697186  0.0  0.0   8788  1016 ?        S    20:15   0:00 sleep 60
+root     2697344  0.0  0.0      0     0 ?        I    20:15   0:00 [kworker/30:1-events]
+aa4449   2697362  0.0  0.0   8368  1040 ?        S    20:15   0:00 sleep 1
+aa4449   2697363  0.0  0.0  21760  3556 pts/523  R+   20:15   0:00 ps aux
+mg3789   2724101  0.0  0.0   3740   104 ?        S    Jun09   1:41 /home/mg3789/test/erts-12.2.1/bin/epmd -daemon
+root     2728512  0.0  0.0   2888    96 ?        Ss   Jul14   0:00 /bin/sh /snap/cups/980/scripts/run-cups-browsed
+root     2728520  0.0  0.0   2888   132 ?        Ss   Jul14   0:00 /bin/sh /snap/cups/980/scripts/run-cupsd
+root     2728648  0.0  0.0  69192  6892 ?        S    Jul14   0:00 cupsd -f -s /var/snap/cups/common/etc/cups/cups-files.conf -c /var/snap/cups/common/etc/cups/cupsd.conf
+root     2728649  0.0  0.0 241604  5672 ?        Sl   Jul14   0:22 cups-proxyd /var/snap/cups/common/run/cups.sock /run/cups/cups.sock -l --logdir /var/snap/cups/980/var/log
+root     2728661  0.0  0.0   2888   116 ?        S    Jul14   0:00 /bin/sh /snap/cups/980/scripts/run-cups-browsed
+db3544   2766228  0.0  0.0  20516  4324 pts/138  Ss+  Apr23   0:00 /bin/bash --init-file /home/db3544/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+bc963@d+ 2778633  0.0  0.0 2859592 12464 ?       Ssl  May12   6:20 /usr/bin/snap userd --agent
+bc963@d+ 2779192  0.0  0.0 618580 32260 ?        Sl   May12   0:12 /usr/lib/mate-notification-daemon/mate-notification-daemon
+lz435@d+ 2812430  0.0  0.0  18592 10688 ?        Ss   Apr23   9:11 /lib/systemd/systemd --user
+lz435@d+ 2812431  0.0  0.0 200076  4228 ?        S    Apr23   0:00 (sd-pam)
+lz435@d+ 2812440  0.0  0.0  48524  6496 ?        Ssl  Apr23   0:00 /usr/bin/pipewire
+lz435@d+ 2812441  0.0  0.0  32700  6868 ?        Ssl  Apr23   2:32 /usr/bin/pipewire-media-session
+lz435@d+ 2812473  0.0  0.0  19576  4432 ?        Ss   Apr23   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+lz435@d+ 2812513  0.0  0.0 240632  6384 ?        Ssl  Apr23   0:00 /usr/libexec/gvfsd
+lz435@d+ 2812518  0.0  0.0 380884  5108 ?        Sl   Apr23   0:00 /usr/libexec/gvfsd-fuse /run/user/945107243/gvfs -f
+lz435@d+ 2812742  0.0  0.0  20516  4180 pts/146  Ss   Apr23   0:00 /bin/bash --init-file /home/lz435@drexel.edu/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+lz435@d+ 2813953  0.0  0.0 2452148 21180 pts/146 Sl+  Apr23   0:00 gdb etox.c
+lz435@d+ 2814230  0.0  0.0  20496  4204 pts/148  Ss+  Apr23   0:00 /bin/bash
+na828    2820129  0.0  0.0  18588 10416 ?        Ss   Apr23   9:11 /lib/systemd/systemd --user
+na828    2820130  0.0  0.0 200076  4112 ?        S    Apr23   0:00 (sd-pam)
+na828    2820138  0.0  0.0  48524  6484 ?        Ssl  Apr23   0:00 /usr/bin/pipewire
+na828    2820139  0.0  0.0  32552  6728 ?        Ssl  Apr23   2:33 /usr/bin/pipewire-media-session
+na828    2820171  0.0  0.0   8168  4276 ?        Ss   Apr23   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+na828    2820189  0.0  0.0 240632  6388 ?        Ssl  Apr23   0:00 /usr/libexec/gvfsd
+na828    2820196  0.0  0.0 380884  4504 ?        Sl   Apr23   0:00 /usr/libexec/gvfsd-fuse /run/user/21324/gvfs -f
+na828    2820411  0.0  0.0  19456  3044 pts/158  Ss+  Apr23   0:00 /bin/bash --init-file /home/na828/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+na828    2822375  0.0  0.0  19324  3000 pts/159  Ss+  Apr23   0:00 /bin/bash
+bcg64    2825357  0.0  0.0  20648  4488 pts/165  Ss+  Apr23   0:00 /bin/bash --init-file /home/bcg64/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+oae24    2833461  0.0  0.0  18592 10272 ?        Ss   Apr23   9:11 /lib/systemd/systemd --user
+oae24    2833463  0.0  0.0 200076  3924 ?        S    Apr23   0:00 (sd-pam)
+oae24    2833473  0.0  0.0  48524  6468 ?        Ssl  Apr23   0:00 /usr/bin/pipewire
+oae24    2833474  0.0  0.0  32552  6684 ?        Ssl  Apr23   2:36 /usr/bin/pipewire-media-session
+oae24    2833480  0.0  0.0   8164  4360 ?        Ss   Apr23   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+oae24    2834021  0.0  0.0  19456  3048 pts/170  Ss+  Apr23   0:00 /bin/bash --init-file /home/oae24/.vscode-server/bin/e344f1f539a80912a0e9357cec841f36ce97a4e2/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+mom34@d+ 2855230  0.0  0.0  20516  4200 pts/178  Ss+  Apr23   0:00 /bin/bash --init-file /home/mom34@drexel.edu/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+su83     2879387  0.0  0.0  18596 10092 ?        Ss   Apr24   9:09 /lib/systemd/systemd --user
+su83     2879388  0.0  0.0 200076  3788 ?        S    Apr24   0:00 (sd-pam)
+su83     2879397  0.0  0.0  48528  6548 ?        Ssl  Apr24   0:00 /usr/bin/pipewire
+su83     2879398  0.0  0.0  32552  6736 ?        Ssl  Apr24   2:38 /usr/bin/pipewire-media-session
+su83     2879411  0.0  0.0   8252  4256 ?        Ss   Apr24   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+su83     2879418  0.0  0.0 240632  6468 ?        Ssl  Apr24   0:00 /usr/libexec/gvfsd
+su83     2879423  0.0  0.0 380884  4472 ?        Sl   Apr24   0:00 /usr/libexec/gvfsd-fuse /run/user/20860/gvfs -f
+su83     2879675  0.0  0.0  20520  4240 pts/184  Ss+  Apr24   0:00 /bin/bash --init-file /home/su83/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+na828    2890121  0.0  0.0  19456  3044 pts/187  Ss+  Apr24   0:00 /bin/bash --init-file /home/na828/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+na828    2891290  0.0  0.0  19324  3044 pts/188  Ss+  Apr24   0:00 /bin/bash
+na828    2935247  0.0  0.0  19456  2972 pts/196  Ss+  Apr24   0:00 /bin/bash --init-file /home/na828/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+na828    2935466  0.0  0.0  19324  2932 pts/197  Ss+  Apr24   0:00 /bin/bash
+na828    2938377  0.0  0.0  19456  3104 pts/181  Ss+  Apr24   0:00 /bin/bash --init-file /home/na828/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+jm4646   2939535  0.0  0.0 2908148 47588 ?       Sl   Aug12   2:12 /home/jm4646/.vscode-server/extensions/ms-vscode.cpptools-1.16.3-linux-x64/bin/cpptools
+jm4646   2939668  0.0  0.0 7020112 17008 ?       Sl   Aug12   3:23 /home/jm4646/.vscode-server/extensions/ms-vscode.cpptools-1.16.3-linux-x64/bin/cpptools-srv 2939535 {6B5A7F11-2120-49A0-AF8A-DF74BF8305C7}
+jm4646   2940123  0.0  0.0 7020244 11272 ?       Sl   Aug12   3:17 /home/jm4646/.vscode-server/extensions/ms-vscode.cpptools-1.16.3-linux-x64/bin/cpptools-srv 2939535 {2F206466-C701-40AA-AD72-06D4682ED289}
+cpn33    2941178  0.0  0.0  18588 10292 ?        Ss   Apr24   9:07 /lib/systemd/systemd --user
+cpn33    2941179  0.0  0.0 200100  3912 ?        S    Apr24   0:00 (sd-pam)
+cpn33    2941187  0.0  0.0  48524  6540 ?        Ssl  Apr24   0:00 /usr/bin/pipewire
+cpn33    2941188  0.0  0.0  32552  6700 ?        Ssl  Apr24   2:45 /usr/bin/pipewire-media-session
+cpn33    2941226  0.0  0.0   8268  4460 ?        Ss   Apr24   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+cpn33    2941463  0.0  0.0  19456  3036 pts/204  Ss+  Apr24   0:00 /bin/bash --init-file /home/cpn33/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+bsh65    2980325  0.0  0.0  20652  5056 pts/531  Ss+  Jul29   0:00 /bin/bash --init-file /home/bsh65/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+bb3244   2996214  0.0  0.0  18540 10976 ?        Ss   Aug12   1:09 /lib/systemd/systemd --user
+bb3244   2996215  0.0  0.0 202048  9384 ?        S    Aug12   0:00 (sd-pam)
+bb3244   2996222  0.0  0.0  48528  6644 ?        Ssl  Aug12   0:00 /usr/bin/pipewire
+bb3244   2996223  0.0  0.0  32552  6924 ?        Ssl  Aug12   0:19 /usr/bin/pipewire-media-session
+bb3244   2996272  0.0  0.0   2888   956 ?        S    Aug12   0:00 sh /home/bb3244/.vscode-server/bin/f80445acd5a3dadef24aa209168452a3d97cc326/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/bb3244/.vscode-server/.f80445acd5a3dadef24aa209168452a3d97cc326.token
+bb3244   2996275  0.0  0.0 904964 44092 ?        Sl   Aug12   4:38 /home/bb3244/.vscode-server/bin/f80445acd5a3dadef24aa209168452a3d97cc326/node /home/bb3244/.vscode-server/bin/f80445acd5a3dadef24aa209168452a3d97cc326/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/bb3244/.vscode-server/.f80445acd5a3dadef24aa209168452a3d97cc326.token
+bb3244   2996290  0.0  0.0  28508  4660 ?        Ss   Aug12   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+bb3244   2996385  0.0  0.0 240640  7464 ?        Ssl  Aug12   0:00 /usr/libexec/gvfsd
+bb3244   2996390  0.0  0.0 380888  6416 ?        Sl   Aug12   0:00 /usr/libexec/gvfsd-fuse /run/user/20544/gvfs -f
+bb3244   2996401  0.0  0.0 614204 25392 ?        Sl   Aug12   1:26 /home/bb3244/.vscode-server/bin/f80445acd5a3dadef24aa209168452a3d97cc326/node /home/bb3244/.vscode-server/bin/f80445acd5a3dadef24aa209168452a3d97cc326/out/bootstrap-fork --type=ptyHost
+na828    2998963  0.0  0.0  19324  3000 pts/200  Ss+  Apr24   0:00 /bin/bash
+na828    3007884  0.0  0.0  19456  3092 pts/214  Ss+  Apr25   0:00 /bin/bash --init-file /home/na828/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+na828    3008120  0.0  0.0  19324  3036 pts/215  Ss+  Apr25   0:00 /bin/bash
+jm4646   3021886  0.0  0.0 2907748 37708 ?       Sl   Aug12   1:58 /home/jm4646/.vscode-server/extensions/ms-vscode.cpptools-1.16.3-linux-x64/bin/cpptools
+jm4646   3021936  0.0  0.0 7020112 15744 ?       Sl   Aug12   3:12 /home/jm4646/.vscode-server/extensions/ms-vscode.cpptools-1.16.3-linux-x64/bin/cpptools-srv 3021886 {1B5DDC37-E6B9-4F4A-82D3-F37342497769}
+bsh65    3090660  0.0  0.0  20652  4788 pts/506  Ss+  Jul15   0:00 /bin/bash --init-file /home/bsh65/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+bsh65    3122815  0.0  0.0  20652  4964 pts/556  Ss   Jul29   0:00 /bin/bash --init-file /home/bsh65/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+bsh65    3138072  0.0  0.0  11404  3940 pts/556  S+   Jul29   0:00 man execve
+bsh65    3138080  0.0  0.0   8752  2568 pts/556  S+   Jul29   0:00 pager
+arr349   3167627  0.0  0.0  18584 10288 ?        Ss   Apr26   9:00 /lib/systemd/systemd --user
+arr349   3167628  0.0  0.0 200100  3984 ?        S    Apr26   0:00 (sd-pam)
+arr349   3167636  0.0  0.0  48524  6572 ?        Ssl  Apr26   0:00 /usr/bin/pipewire
+arr349   3167637  0.0  0.0  32552  6660 ?        Ssl  Apr26   2:29 /usr/bin/pipewire-media-session
+arr349   3167667  0.0  0.0   8164  4356 ?        Ss   Apr26   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+arr349   3167950  0.0  0.0  19456  2708 pts/222  Ss+  Apr26   0:00 /bin/bash --init-file /home/arr349/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+arr349   3173230  0.0  0.0   2888   900 pts/222  T    Apr26   0:00 sh run.sh bfs L D' R' F R D'
+arr349   3173231  0.0  0.5 749936 367396 pts/222 T    Apr26   3:34 python3 RubiksCube.py bfs L D' R' F R D'
+arr349   3173431  0.0  0.0   2888   956 pts/222  T    Apr26   0:00 sh run.sh bfs L D'
+arr349   3173432  0.0  0.0  48036 32732 pts/222  T    Apr26   0:00 python3 RubiksCube.py bfs L D'
+arr349   3173628  0.0  0.0   2888   996 pts/222  T    Apr26   0:00 sh run.sh bfs L
+arr349   3173629  0.0  0.0  52544 34360 pts/222  T    Apr26   0:00 python3 RubiksCube.py bfs L
+arr349   3173921  0.0  0.0   2888   948 pts/222  T    Apr26   0:00 sh run.sh bfs L
+arr349   3173922  0.0  0.2 184660 155004 pts/222 T    Apr26   0:06 python3 RubiksCube.py bfs L
+arr349   3174223  0.0  0.0   2888  1036 pts/222  T    Apr26   0:00 sh run.sh bfs L
+arr349   3174224  0.0  0.0  22220  9124 pts/222  T    Apr26   0:00 python3 RubiksCube.py bfs L
+arr349   3174748  0.0  0.0   2888   984 pts/222  T    Apr26   0:00 sh run.sh bfs L
+arr349   3174749  0.0  0.0  77220 56952 pts/222  T    Apr26   0:01 python3 RubiksCube.py bfs L
+arr349   3175333  0.0  0.0   2888   928 pts/222  T    Apr26   0:00 sh run.sh bfs L
+arr349   3175334  0.0  0.1 137988 97792 pts/222  T    Apr26   0:04 python3 RubiksCube.py bfs L
+arr349   3175538  0.0  0.0   2888   976 pts/222  T    Apr26   0:00 sh run.sh bfs L
+arr349   3175539  0.0  0.1 107624 66212 pts/222  T    Apr26   0:02 python3 RubiksCube.py bfs L
+arr349   3176004  0.0  0.0   2888   944 pts/222  T    Apr26   0:00 sh run.sh bfs L D' R' F R D'
+arr349   3176005  0.0  0.5 441728 394920 pts/222 T    Apr26   0:46 python3 RubiksCube.py bfs L D' R' F R D'
+arr349   3176739  0.0  0.0   2888   988 pts/222  T    Apr26   0:00 sh run.sh bfs L D' R' F R D'
+arr349   3176740  0.0  0.9 681276 609120 pts/222 T    Apr26   3:24 python3 RubiksCube.py bfs L D' R' F R D'
+arr349   3177978  0.0  0.0   2888   948 pts/222  T    Apr26   0:00 sh run.sh bfs L D' R' F R D'
+arr349   3177979  0.0  0.3 280872 244064 pts/222 T    Apr26   0:15 python3 RubiksCube.py bfs L D' R' F R D'
+na828    3183214  0.0  0.0  19456  3040 pts/225  Ss+  Apr26   0:00 /bin/bash --init-file /home/na828/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+arr349   3186315  0.0  0.0  19456  2328 pts/228  Ss   Apr26   0:00 /bin/bash --init-file /home/arr349/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+arr349   3186539  0.0  0.0   2888   900 pts/228  S+   Apr26   0:00 sh run.sh bfs L D' R' F R D'
+arr349   3186540  0.0  0.3 338784 263064 pts/228 S+   Apr26   0:22 python3 RubiksCube.py bfs L D' R' F R D'
+ofs28@d+ 3188676  0.0  0.0  18564 10000 ?        Ss   Jun28   6:05 /lib/systemd/systemd --user
+ofs28@d+ 3188677  0.0  0.0 201396  8356 ?        S    Jun28   0:00 (sd-pam)
+ofs28@d+ 3188686  0.0  0.0  48524  6616 ?        Ssl  Jun28   0:00 /usr/bin/pipewire
+ofs28@d+ 3188687  0.0  0.0  32552  6868 ?        Ssl  Jun28   1:23 /usr/bin/pipewire-media-session
+ofs28@d+ 3188780  0.0  0.0  28608  4624 ?        Ss   Jun28   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ofs28@d+ 3188826  0.0  0.0 240640  4976 ?        Ssl  Jun28   0:00 /usr/libexec/gvfsd
+ofs28@d+ 3188831  0.0  0.0 380888  3928 ?        Sl   Jun28   0:00 /usr/libexec/gvfsd-fuse /run/user/945132845/gvfs -f
+ofs28@d+ 3191168  0.0  0.0  20496  4764 pts/16   Ss+  Jun28   0:00 /bin/bash
+lz435@d+ 3199296  0.0  0.0  20644  4396 pts/241  Ss   Apr26   0:00 /bin/bash --init-file /home/lz435@drexel.edu/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+im453    3204446  0.0  0.0 240636  6352 ?        Ssl  May15   0:00 /usr/libexec/gvfsd
+im453    3204453  0.0  0.0 380884  4468 ?        Sl   May15   0:00 /usr/libexec/gvfsd-fuse /run/user/22426/gvfs -f
+im453    3204469  0.0  0.0 463164  6236 ?        Ssl  May15   0:00 /usr/libexec/xdg-document-portal
+im453    3204472  0.0  0.0 236144  4276 ?        Ssl  May15   0:00 /usr/libexec/xdg-permission-store
+root     3204478  0.0  0.0  11884  2044 ?        Ss   May15   0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/22426/doc
+lz435@d+ 3206784  0.0  0.0  20572  4148 pts/229  Ss+  Apr26   0:00 /bin/bash
+lz435@d+ 3208503  0.0  0.0 2452148 20940 pts/241 Sl+  Apr26   0:00 gdb b 12
+bsh65    3251823  0.0  0.0  18568 10184 ?        Ss   Jun28   6:03 /lib/systemd/systemd --user
+bsh65    3251824  0.0  0.0 201396  8388 ?        S    Jun28   0:00 (sd-pam)
+bsh65    3251832  0.0  0.0  48524  6604 ?        Ssl  Jun28   0:00 /usr/bin/pipewire
+bsh65    3251833  0.0  0.0  32552  6768 ?        Ssl  Jun28   1:34 /usr/bin/pipewire-media-session
+bsh65    3251985  0.0  0.0  28628  4580 ?        Ss   Jun28   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+bsh65    3252032  0.0  0.0 240640  4996 ?        Ssl  Jun28   0:00 /usr/libexec/gvfsd
+bsh65    3252037  0.0  0.0 380888  4024 ?        Sl   Jun28   0:00 /usr/libexec/gvfsd-fuse /run/user/20583/gvfs -f
+bsh65    3253076  0.0  0.0  20652  5060 pts/456  Ss+  Jun28   0:00 /bin/bash --init-file /home/bsh65/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+bql23    3268763  0.0  0.0   2888   956 ?        S    Jul16   0:00 sh /home/bql23/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/bql23/.vscode-server/.74b1f979648cc44d385a2286793c226e611f59e7.token
+bql23    3268767  0.0  0.0 916636 47820 ?        Sl   Jul16  16:21 /home/bql23/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/node /home/bql23/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /home/bql23/.vscode-server/.74b1f979648cc44d385a2286793c226e611f59e7.token
+bql23    3268815  0.0  0.0 624620 28020 ?        Sl   Jul16   4:35 /home/bql23/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/node /home/bql23/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/bootstrap-fork --type=ptyHost --logsPath /home/bql23/.vscode-server/data/logs/20230716T125552
+arr349   3273777  0.0  0.0  19456  3164 pts/233  Ss+  Apr27   0:00 /bin/bash --init-file /home/arr349/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+im453    3278147  0.0  0.0  18736  9932 ?        Ss   Apr27   8:55 /lib/systemd/systemd --user
+im453    3278149  0.0  0.0 200336  3840 ?        S    Apr27   0:00 (sd-pam)
+im453    3278158  0.0  0.0  48528  6432 ?        Ssl  Apr27   0:00 /usr/bin/pipewire
+im453    3278159  0.0  0.0  32552  6672 ?        Ssl  Apr27   2:30 /usr/bin/pipewire-media-session
+im453    3278167  0.0  0.0   8252  4480 ?        Ss   Apr27   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+im453    3278444  0.0  0.0  21280  4876 pts/242  Ss+  Apr27   0:00 /bin/bash --init-file /home/im453/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+na828    3308069  0.0  0.0  19456  3264 pts/247  Ss+  Apr27   0:00 /bin/bash --init-file /home/na828/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+root     3325939  0.0  0.2 345708 133216 ?       Ssl  Jun29  64:48 /usr/libexec/accounts-daemon
+jah575   3493274  0.0  0.0  19876  3544 pts/254  Ss+  Apr29   0:00 /bin/bash --init-file /home/jah575/.vscode-server/bin/e344f1f539a80912a0e9357cec841f36ce97a4e2/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+jah575   3505502  0.0  0.0  19456  3176 pts/261  Ss+  Apr29   0:00 /bin/bash --init-file /home/jah575/.vscode-server/bin/e344f1f539a80912a0e9357cec841f36ce97a4e2/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+bmitche+ 3565364  0.0  0.0  18588  9552 ?        Ss   Apr30   8:46 /lib/systemd/systemd --user
+bmitche+ 3565365  0.0  0.0 200160  3972 ?        S    Apr30   0:00 (sd-pam)
+bmitche+ 3565376  0.0  0.0  48524  6492 ?        Ssl  Apr30   0:00 /usr/bin/pipewire
+bmitche+ 3565377  0.0  0.0  32552  6700 ?        Ssl  Apr30   2:27 /usr/bin/pipewire-media-session
+bmitche+ 3565416  0.0  0.0   8276  4292 ?        Ss   Apr30   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+bmitche+ 3565438  0.0  0.0 240632  6096 ?        Ssl  Apr30   0:00 /usr/libexec/gvfsd
+bmitche+ 3565443  0.0  0.0 380884  4420 ?        Sl   Apr30   0:00 /usr/libexec/gvfsd-fuse /run/user/1701/gvfs -f
+bmitche+ 3565692  0.0  0.0  19456  3112 pts/262  Ss+  Apr30   0:00 /bin/bash --init-file /home/bmitchell/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+bsh65    3581532  0.0  0.0  20520  4844 pts/446  Ss+  Jun29   0:00 /bin/bash --init-file /home/bsh65/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+bsh65    3704432  0.0  0.0  20652  5000 pts/451  Ss+  Jun30   0:00 /bin/bash --init-file /home/bsh65/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+wm359    3721888  0.0  0.0  19456  3200 pts/266  Ss+  May02   0:00 /bin/bash --init-file /home/wm359/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+dk989    3724246  0.0  0.0  20516  4144 pts/269  Ss+  May02   0:00 /bin/bash --init-file /home/dk989/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+im453    3756355  0.0  0.0  21280  4964 pts/278  Ss+  May02   0:00 /bin/bash --init-file /home/im453/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+im453    3757087  0.0  0.0  21280  4820 pts/279  Ss   May02   0:00 /bin/bash --init-file /home/im453/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+im453    3758327  0.0  0.0  21260  4884 pts/280  Ss+  May02   0:00 /bin/bash
+im453    3760378  0.0  0.0  21260  4888 pts/281  Ss+  May02   0:00 /bin/bash
+im453    3761616  0.0  0.0  24420  7616 pts/279  S+   May02   0:00 /usr/bin/python3 /home/im453/CS-172/Homework/03/main.py
+bsh65    3763908  0.0  0.0  20828  5164 pts/467  Ss+  Jun30   0:00 /bin/bash --init-file /home/bsh65/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+mom34@d+ 3767402  0.0  0.0  20516  4780 pts/375  Ss+  May19   0:00 /bin/bash --init-file /home/mom34@drexel.edu/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+cpn33    3780450  0.0  0.0  19456  3052 pts/287  Ss+  May02   0:00 /bin/bash --init-file /home/cpn33/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+ma3965   3795280  0.0  0.0  18520  9876 ?        Ss   Jun13   6:30 /lib/systemd/systemd --user
+ma3965   3795283  0.0  0.0 201064  8180 ?        S    Jun13   0:00 (sd-pam)
+ma3965   3795293  0.0  0.0  48664  6816 ?        Ssl  Jun13   0:00 /usr/bin/pipewire
+ma3965   3795294  0.0  0.0  32552  6984 ?        Ssl  Jun13   1:40 /usr/bin/pipewire-media-session
+ma3965   3795872  0.0  0.0 237108  4328 ?        Sl   Jun13   0:00 /usr/libexec/geoclue-2.0/demos/agent
+lx77@dr+ 3810411  0.0  0.0  18756 10116 ?        Ss   May02   8:35 /lib/systemd/systemd --user
+lx77@dr+ 3810412  0.0  0.0 200396  7076 ?        S    May02   0:00 (sd-pam)
+lx77@dr+ 3810420  0.0  0.0  48660  6552 ?        Ssl  May02   0:00 /usr/bin/pipewire
+lx77@dr+ 3810421  0.0  0.0  32552  6816 ?        Ssl  May02   2:30 /usr/bin/pipewire-media-session
+lx77@dr+ 3811466  0.0  0.0 237108  4348 ?        Sl   May02   0:00 /usr/libexec/geoclue-2.0/demos/agent
+kc3653   3815412  0.0  0.0  18480 11024 ?        Ss   Aug15   0:55 /lib/systemd/systemd --user
+kc3653   3815413  0.0  0.0 202564  9424 ?        S    Aug15   0:00 (sd-pam)
+kc3653   3815421  0.0  0.0  48524  6656 ?        Ssl  Aug15   0:00 /usr/bin/pipewire
+kc3653   3815422  0.0  0.0  32552  6872 ?        Ssl  Aug15   0:15 /usr/bin/pipewire-media-session
+kc3653   3815552  0.0  0.0  28508  4568 ?        Ss   Aug15   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+kc3653   3815581  0.0  0.0 240640  7564 ?        Ssl  Aug15   0:00 /usr/libexec/gvfsd
+kc3653   3815586  0.0  0.0 380888  6748 ?        Sl   Aug15   0:00 /usr/libexec/gvfsd-fuse /run/user/20839/gvfs -f
+lx77@dr+ 3816465  0.0  0.0   8160  4344 ?        Ss   May02   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+kc3653   3822072  0.0  0.0 3507764 40984 ?       Sl   Aug15   0:07 /home/kc3653/.vscode-server/extensions/ms-vscode.cpptools-1.17.2-linux-x64/debugAdapters/bin/OpenDebugAD7
+dk989    3831053  0.0  0.0  20516  4304 pts/298  Ss+  May03   0:00 /bin/bash --init-file /home/dk989/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+jac677@+ 3868048  0.0  0.0  20628  5508 pts/503  Ss+  Aug15   0:00 -bash
+jac677@+ 3868180  0.0  0.0  73492 20656 pts/503  T    Aug15   0:11 vim structs_ll.c
+sv663    3874097  0.0  0.0  18580 10100 ?        Ss   May03   8:32 /lib/systemd/systemd --user
+sv663    3874098  0.0  0.0 200396  7544 ?        S    May03   0:00 (sd-pam)
+sv663    3874106  0.0  0.0  48528  6544 ?        Ssl  May03   0:00 /usr/bin/pipewire
+sv663    3874107  0.0  0.0  32552  6744 ?        Ssl  May03   2:15 /usr/bin/pipewire-media-session
+sv663    3874113  0.0  0.0   8164  4356 ?        Ss   May03   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+sv663    3874366  0.0  0.0  19456  3140 pts/308  Ss+  May03   0:00 /bin/bash --init-file /home/sv663/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+mom34@d+ 3896150  0.0  0.0  20384  4220 pts/302  Ss+  May03   0:00 /bin/bash --init-file /home/mom34@drexel.edu/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+jac677@+ 3898428  0.0  0.0  73180 20180 pts/503  T    Aug16   0:01 vim structs_ll.c
+lz435@d+ 3915641  0.0  0.0  20384  4468 pts/399  Ss+  May20   0:00 /bin/bash --init-file /home/lz435@drexel.edu/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+dk989    3916058  0.0  0.0  20516  4304 pts/291  Ss+  May03   0:00 /bin/bash --init-file /home/dk989/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+mwd46    3917270  0.0  0.0  18588 10056 ?        Ss   May03   8:33 /lib/systemd/systemd --user
+mwd46    3917271  0.0  0.0 200396  7548 ?        S    May03   0:00 (sd-pam)
+mwd46    3917279  0.0  0.0  48524  6548 ?        Ssl  May03   0:00 /usr/bin/pipewire
+mwd46    3917280  0.0  0.0  32552  6624 ?        Ssl  May03   2:20 /usr/bin/pipewire-media-session
+mwd46    3917291  0.0  0.0   8268  4408 ?        Ss   May03   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+mwd46    3917296  0.0  0.0 240640  6344 ?        Ssl  May03   0:00 /usr/libexec/gvfsd
+mwd46    3917301  0.0  0.0 380884  5344 ?        Sl   May03   0:00 /usr/libexec/gvfsd-fuse /run/user/12864/gvfs -f
+mwd46    3919861  0.0  0.0  19456  3084 pts/311  Ss+  May03   0:00 /bin/bash --init-file /home/mwd46/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+mwd46    3923415  0.0  0.0  19456  3072 pts/314  Ss+  May03   0:00 /bin/bash --init-file /home/mwd46/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+db3544   3925740  0.0  0.0  20516  4208 pts/321  Ss+  May03   0:00 /bin/bash --init-file /home/db3544/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+jah575   3928214  0.0  0.0  19456  3736 pts/411  Ss+  May20   0:00 /bin/bash --init-file /home/jah575/.vscode-server/bin/e344f1f539a80912a0e9357cec841f36ce97a4e2/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+so537    3939218  0.0  0.0  18596  9876 ?        Ss   Jun13   6:28 /lib/systemd/systemd --user
+so537    3939219  0.0  0.0 201064  8180 ?        S    Jun13   0:00 (sd-pam)
+so537    3939230  0.0  0.0  48524  6636 ?        Ssl  Jun13   0:00 /usr/bin/pipewire
+so537    3939231  0.0  0.0  32552  6844 ?        Ssl  Jun13   1:39 /usr/bin/pipewire-media-session
+so537    3939277  0.0  0.0  28584  4468 ?        Ss   Jun13   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+so537    3939282  0.0  0.0 240640  6508 ?        Ssl  Jun13   0:00 /usr/libexec/gvfsd
+so537    3939287  0.0  0.0 380884  5264 ?        Sl   Jun13   0:00 /usr/libexec/gvfsd-fuse /run/user/20818/gvfs -f
+lz435@d+ 3940081  0.0  0.0  20384  4156 pts/327  Ss+  May03   0:00 /bin/bash --init-file /home/lz435@drexel.edu/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+so537    3940824  0.0  0.0  20500  4624 pts/444  Ss+  Jun13   0:00 /bin/bash
+bsh65    3956841  0.0  0.0  20652  5476 pts/494  Ss+  Aug16   0:00 /bin/bash --init-file /home/bsh65/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+bsh65    3973807  0.0  0.0  20652  5320 pts/549  Ss   Aug16   0:00 /bin/bash --init-file /home/bsh65/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+ma3965   3973924  0.0  0.0  28524  3796 ?        Ss   Jun14   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+bsh65    3991196  0.0  0.0   2772   940 pts/549  S+   Aug16   0:00 ./shell
+tp663    4098375  0.0  0.0  18532 11100 ?        Ss   Jul31   2:28 /lib/systemd/systemd --user
+tp663    4098376  0.0  0.0 202132  9176 ?        S    Jul31   0:00 (sd-pam)
+tp663    4098384  0.0  0.0  48524  6708 ?        Ssl  Jul31   0:00 /usr/bin/pipewire
+tp663    4098385  0.0  0.0  32552  7028 ?        Ssl  Jul31   0:37 /usr/bin/pipewire-media-session
+tp663    4098400  0.0  0.0  28608  4884 ?        Ss   Jul31   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+tp663    4098414  0.0  0.0 240640  7592 ?        Ssl  Jul31   0:00 /usr/libexec/gvfsd
+tp663    4098419  0.0  0.0 380888  6548 ?        Sl   Jul31   0:00 /usr/libexec/gvfsd-fuse /run/user/17773/gvfs -f
+tp663    4098438  0.0  0.0  12548  5140 ?        Ss   Jul31   0:11 tmux
+tp663    4098439  0.0  0.0  20512  5360 pts/490  Ss+  Jul31   0:00 -bash
+tp663    4098472  0.0  0.0  20512  5504 pts/491  Ss+  Jul31   0:00 -bash
+tp663    4099849  0.0  0.0  20512  5320 pts/493  Ss   Jul31   0:00 -bash
+tp663    4106735  0.0  0.0  20512  5280 pts/496  Ss+  Jul31   0:00 -bash
+tp663    4114216  0.0  0.0  20512  5380 pts/478  Ss   Jul31   0:00 -bash
+tp663    4121239 99.9  0.0      0     0 pts/478  Zl+  Jul31 36344:09 [o.emu-g] <defunct>
+tp663    4122560  0.0  0.0  73360 16092 pts/493  S+   Jul31   0:00 vi dis.c
+vmc67    4182792  0.0  0.0  20512  5480 pts/567  Ss+  Aug16   0:00 -bash
+vmc67    4182824  0.0  0.0  20512  5488 pts/568  Ss+  Aug16   0:00 -bash

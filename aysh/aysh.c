@@ -13,21 +13,29 @@ Purpose: contains additional functions used to manage the shell
 #include <fcntl.h>
 #include "aysh.h"
 
-void runcmd(char * cmd[],int * redir){
+void runcmd(char * cmd[],int * redir,int toclose[][2],int ccnt){
     /* FUNCTION THAT RUNS ANY COMMAND THAT IS NOT THE CD COMMAND*/
-    int n;
+    int n,a,i;
     
     if (redir[0] >= 0){
-                //printf("dir: in:%d out:%d\n",redir[0],redir[1]);
+                if (n < 0){
+                    perror("stdin");
+                }
                 dup2(redir[0],0);
-                close(redir[0]);
     }
     if (redir[1] >=0){
         /*for situations where stdin and stdout need to be changes for redirection*/
-                //printf("dir: in:%d out:%d\n",redir[0],redir[1]);
-                dup2(redir[1],1);
-                close(redir[1]);
+                n  = dup2(redir[1],1);
+                if (n < 0){
+                    perror("stdout");
+                }
     }
+    //close all other fds to allow for proper functioning of pipes
+    if (toclose != NULL){
+                for( i = 0; i< ccnt; i++){
+                    close_fd(toclose[i]); 
+                }
+            }
     n = execvp(cmd[0],cmd);
     
     if (n < 0){
@@ -52,10 +60,11 @@ int tokenize(char * s,char * tok[],char* sep){
     return i;
 }
 
-void run(char * toks[],int * redir,int* toclose,int ccnt){
+void run(char * toks[],int * redir,int toclose[][2],int ccnt){
     /*deal with each different style of line in the parsed input and set*/
     int childpid;
     int n,i,a ;
+
     if (toks[0] == NULL){
         return;
     }
@@ -72,19 +81,12 @@ void run(char * toks[],int * redir,int* toclose,int ccnt){
     }else{
         childpid = fork();
         if (childpid == 0){
-            if (toclose != NULL){
-                for( i = 0; i< ccnt; i++){
-                    a = close(toclose[i]);
-                    //perror("close");
-                    //printf("tok: %s, %d; closing: %d\n",toks[0],a,toclose[i]);
-                    
-                    
-                }
-            }
-            runcmd(toks,redir);
+            runcmd(toks,redir,toclose,ccnt);
             exit(0);
+        }else if (childpid == -1){
+            perror("fork");
+            exit(1);
         }else{
-
             wait(NULL);
         }
     }
@@ -92,13 +94,15 @@ void run(char * toks[],int * redir,int* toclose,int ccnt){
 
 char *  cleanStr(char* str){
     /*function to remove spaces from start and end of filename before creating or using in append/redirection*/
-    char final[BUFSIZE];
     char * p;
     int n;
+
+    //remove newline chars from the names
     p = strchr(str,'\n');
     if (p != NULL){
         *p = '\0';
     }
+    //remove spaces too
     while (*str == ' '){
         str++;
     }
